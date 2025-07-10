@@ -22,28 +22,50 @@ app.get('/', (req, res) => {
     const now = DateTime.now().setZone('America/Denver');
     const grouped = {};
 
+    // Group stops by ship
     data.forEach((entry) => {
       const ship = entry.Ship;
-
-      let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
-      let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
-
-      if (!arrival.isValid || !departure.isValid) return;
-
-      arrival = arrival.setZone('America/Denver');
-      departure = departure.setZone('America/Denver');
-
       if (!grouped[ship]) grouped[ship] = [];
-      grouped[ship].push({ ...entry, arrival, departure });
+      grouped[ship].push(entry);
     });
 
-    const statuses = Object.entries(grouped).map(([ship, stops]) => {
-      stops.sort((a, b) => a.arrival - b.arrival);
+    const statuses = Object.entries(grouped).map(([ship, rawStops]) => {
+      // Sort by schedule date first
+      rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
 
+      // Fill in arrival/departure values
+      const stops = rawStops.map((entry, idx, arr) => {
+        let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
+        let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
+
+        // If arrival is missing, use previous departure
+        if (!arrival.isValid && idx > 0) {
+          const prev = DateTime.fromISO(arr[idx - 1].DEPARTURE || '', { setZone: true });
+          if (prev.isValid) arrival = prev;
+        }
+
+        // If departure is missing, use next arrival
+        if (!departure.isValid && idx < arr.length - 1) {
+          const next = DateTime.fromISO(arr[idx + 1].ARRIVAL || '', { setZone: true });
+          if (next.isValid) departure = next;
+        }
+
+        // Fallback for missing both
+        if (!arrival.isValid) arrival = DateTime.fromISO(entry.DATE || '', { setZone: true });
+        if (!departure.isValid) departure = arrival.plus({ hours: 12 });
+
+        return {
+          ...entry,
+          arrival: arrival.setZone('America/Denver'),
+          departure: departure.setZone('America/Denver'),
+        };
+      });
+
+      // Determine current ship status
       let currentStatus = 'Unknown';
       let currentPort = '', previousPort = '', nextPorts = [];
 
-      let atPortIndex = stops.findIndex(
+      const atPortIndex = stops.findIndex(
         stop => stop.arrival <= now && now <= stop.departure
       );
 
@@ -53,7 +75,7 @@ app.get('/', (req, res) => {
         previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
         nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
       } else {
-        let nextIndex = stops.findIndex(stop => stop.arrival > now);
+        const nextIndex = stops.findIndex(stop => stop.arrival > now);
         if (nextIndex !== -1) {
           currentStatus = 'In Transit';
           previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
