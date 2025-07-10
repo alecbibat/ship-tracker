@@ -7,6 +7,18 @@
 <body>
   <h1>Ship Status Dashboard</h1>
   <p>Updated: <%= now %></p>
+
+  <% 
+    const shipLinks = {
+      'STAR PRIDE': 'https://www.windstarcruises.com/ships/star-pride/',
+      'WIND SURF': 'https://www.windstarcruises.com/ships/wind-surf/',
+      'WIND STAR': 'https://www.windstarcruises.com/ships/wind-star/',
+      'WIND SPIRIT': 'https://www.windstarcruises.com/ships/wind-spirit/',
+      'STAR LEGEND': 'https://www.windstarcruises.com/ships/star-legend/',
+      'STAR BREEZE': 'https://www.windstarcruises.com/ships/star-breeze/'
+    };
+  %>
+
   <table>
     <thead>
       <tr>
@@ -21,34 +33,36 @@
       <% statuses.forEach(s => { %>
         <tr>
           <td style="display: flex; align-items: center;">
-  <img src="/ships/<%= s.ship.toLowerCase().replace(/ /g, '_') %>.jpg"
-       alt="<%= s.ship %>" style="height: 40px; margin-right: 10px; border-radius: 4px;" />
-  <%= s.ship %>
-</td>
+            <img src="/ships/<%= s.ship.toLowerCase().replace(/ /g, '_') %>.jpg"
+                 alt="<%= s.ship %>" style="height: 40px; margin-right: 10px; border-radius: 4px;" />
+            <a href="<%= shipLinks[s.ship] %>" target="_blank" style="text-decoration: none; font-weight: bold;">
+              <%= s.ship %>
+            </a>
+          </td>
 
           <td><%= s.currentStatus %></td>
+
           <td>
-  <% if (s.currentPort) { %>
-    <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.currentPort) %>" target="_blank">
-      <%= s.currentPort %>
-    </a>
-  <% } %>
-</td>
+            <% if (s.currentPort) { %>
+              <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.currentPort) %>" target="_blank">
+                <%= s.currentPort %>
+              </a>
+            <% } %>
+          </td>
 
-<td>
-  <% if (s.previousPort) { %>
-    <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.previousPort) %>" target="_blank">
-      <%= s.previousPort %>
-    </a>
-  <% } %>
-</td>
+          <td>
+            <% if (s.previousPort) { %>
+              <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.previousPort) %>" target="_blank">
+                <%= s.previousPort %>
+              </a>
+            <% } %>
+          </td>
 
-<td>
-  <% s.nextPorts.forEach((p, i) => { %>
-    <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(p) %>" target="_blank"><%= p %></a><%= i < s.nextPorts.length - 1 ? ', ' : '' %>
-  <% }) %>
-</td>
-
+          <td>
+            <% s.nextPorts.forEach((p, i) => { %>
+              <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(p) %>" target="_blank"><%= p %></a><%= i < s.nextPorts.length - 1 ? ', ' : '' %>
+            <% }) %>
+          </td>
         </tr>
       <% }) %>
     </tbody>
