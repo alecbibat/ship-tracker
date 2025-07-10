@@ -36,20 +36,30 @@ app.get('/', (req, res) => {
     const statuses = Object.entries(grouped).map(([ship, stops]) => {
       stops.sort((a, b) => new Date(a.arrival) - new Date(b.arrival));
       let currentStatus = 'Unknown';
-      let currentPort = '', previousPort = '', nextPorts = [];
-      let lastStopIndex = -1;
+let currentPort = '', previousPort = '', nextPorts = [];
 
-      stops.forEach((stop, i) => {
-        if (stop.arrival <= now && now <= stop.departure) {
-          currentStatus = 'At Port';
-          currentPort = stop.PORT;
-          lastStopIndex = i;
-        } else if (now < stop.arrival && lastStopIndex === -1) {
-          currentStatus = 'In Transit';
-          currentPort = i > 0 ? `${stops[i - 1].PORT} ➜ ${stop.PORT}` : `En Route to ${stop.PORT}`;
-          lastStopIndex = i - 1;
-        }
-      });
+let atPortIndex = stops.findIndex(
+  stop => stop.arrival <= now && now <= stop.departure
+);
+
+if (atPortIndex !== -1) {
+  currentStatus = 'At Port';
+  currentPort = stops[atPortIndex].PORT;
+  previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
+  nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
+} else {
+  let nextIndex = stops.findIndex(stop => stop.arrival > now);
+  if (nextIndex !== -1) {
+    currentStatus = 'In Transit';
+    previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
+    currentPort = `${previousPort} ➜ ${stops[nextIndex].PORT}`;
+    nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
+  } else {
+    currentStatus = 'Completed';
+    previousPort = stops[stops.length - 1]?.PORT || '';
+  }
+}
+
 
       if (lastStopIndex >= 0) previousPort = stops[lastStopIndex].PORT;
       nextPorts = stops.slice(lastStopIndex + 1, lastStopIndex + 4).map(s => s.PORT);
