@@ -25,8 +25,9 @@ app.get('/', (req, res) => {
     data.forEach((entry) => {
       const ship = entry.Ship;
       const date = DateTime.fromISO(entry.DATE, { zone: 'UTC' });
-      const arrival = DateTime.fromISO(entry.ARRIVAL, { zone: 'UTC' });
-      const departure = DateTime.fromISO(entry.DEPARTURE, { zone: 'UTC' });
+      const arrival = DateTime.fromISO(entry.ARRIVAL).setZone('America/Denver');
+      const departure = DateTime.fromISO(entry.DEPARTURE).setZone('America/Denver');
+
 
       if (!grouped[ship]) grouped[ship] = [];
       grouped[ship].push({ ...entry, arrival, departure });
