@@ -20,7 +20,12 @@
     <tbody>
       <% statuses.forEach(s => { %>
         <tr>
-          <td><%= s.ship %></td>
+          <td style="display: flex; align-items: center;">
+  <img src="/ships/<%= s.ship.toLowerCase().replace(/ /g, '_') %>.jpg"
+       alt="<%= s.ship %>" style="height: 40px; margin-right: 10px; border-radius: 4px;" />
+  <%= s.ship %>
+</td>
+
           <td><%= s.currentStatus %></td>
           <td>
   <% if (s.currentPort) { %>
