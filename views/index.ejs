@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ship Status Dashboard</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <h1>Ship Status Dashboard</h1>
+  <p>Updated: <%= now %></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Ship</th>
+        <th>Status</th>
+        <th>Current Location</th>
+        <th>Previous Port</th>
+        <th>Next Ports</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% statuses.forEach(s => { %>
+        <tr>
+          <td><%= s.ship %></td>
+          <td><%= s.currentStatus %></td>
+          <td><%= s.currentPort %></td>
+          <td><%= s.previousPort %></td>
+          <td><%= s.nextPorts.join(", ") %></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>
