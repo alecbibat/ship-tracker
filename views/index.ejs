@@ -22,9 +22,28 @@
         <tr>
           <td><%= s.ship %></td>
           <td><%= s.currentStatus %></td>
-          <td><%= s.currentPort %></td>
-          <td><%= s.previousPort %></td>
-          <td><%= s.nextPorts.join(", ") %></td>
+          <td>
+  <% if (s.currentPort) { %>
+    <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.currentPort) %>" target="_blank">
+      <%= s.currentPort %>
+    </a>
+  <% } %>
+</td>
+
+<td>
+  <% if (s.previousPort) { %>
+    <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.previousPort) %>" target="_blank">
+      <%= s.previousPort %>
+    </a>
+  <% } %>
+</td>
+
+<td>
+  <% s.nextPorts.forEach((p, i) => { %>
+    <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(p) %>" target="_blank"><%= p %></a><%= i < s.nextPorts.length - 1 ? ', ' : '' %>
+  <% }) %>
+</td>
+
         </tr>
       <% }) %>
     </tbody>
