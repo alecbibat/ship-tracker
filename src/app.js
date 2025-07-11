@@ -9,95 +9,6 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '..', 'views'));
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-// Map port names to local time zones
-const portTimeZones = {
-  'aalborg': 'Europe/Copenhagen',
-  'agios nikolaus, crete': 'Europe/Athens',
-  'akureyri': 'Atlantic/Reykjavik',
-  'alesund': 'Europe/Oslo',
-  'almeria': 'Europe/Madrid',
-  'amsterdam': 'Europe/Amsterdam',
-  'antigua': 'America/Antigua',
-  'argostoli': 'Europe/Athens',
-  'arrecife': 'Atlantic/Canary',
-  'athens': 'Europe/Athens',
-  'barcelona': 'Europe/Madrid',
-  'bergen': 'Europe/Oslo',
-  'bodo': 'Europe/Oslo',
-  'bordeaux': 'Europe/Paris',
-  'bridgetown': 'America/Barbados',
-  'cadiz': 'Europe/Madrid',
-  'cannes': 'Europe/Paris',
-  'cartagena': 'Europe/Madrid',
-  'casablanca': 'Africa/Casablanca',
-  'catania': 'Europe/Rome',
-  'civitavecchia': 'Europe/Rome',
-  'colon': 'America/Panama',
-  'colombo': 'Asia/Colombo',
-  'corfu': 'Europe/Athens',
-  'copenhagen': 'Europe/Copenhagen',
-  'crete': 'Europe/Athens',
-  'cuxhaven': 'Europe/Berlin',
-  'dubrovnik': 'Europe/Zagreb',
-  'dover': 'Europe/London',
-  'el ferrol': 'Europe/Madrid',
-  'funchal': 'Atlantic/Madeira',
-  'gdansk': 'Europe/Warsaw',
-  'gibraltar': 'Europe/Gibraltar',
-  'gothenburg': 'Europe/Stockholm',
-  'grenada': 'America/Grenada',
-  'gudvangen': 'Europe/Oslo',
-  'hamburg': 'Europe/Berlin',
-  'harlingen': 'Europe/Amsterdam',
-  'honfleur': 'Europe/Paris',
-  'husavik': 'Atlantic/Reykjavik',
-  'istanbul': 'Europe/Istanbul',
-  'kalamata': 'Europe/Athens',
-  'katakolon': 'Europe/Athens',
-  'kotor': 'Europe/Podgorica',
-  'kristiansand': 'Europe/Oslo',
-  'kristiansund': 'Europe/Oslo',
-  'kuşadasi': 'Europe/Istanbul',
-  'las palmas': 'Atlantic/Canary',
-  'la spezia': 'Europe/Rome',
-  'le lavandou': 'Europe/Paris',
-  'leixoes': 'Europe/Lisbon',
-  'lisbon': 'Europe/Lisbon',
-  'livorno': 'Europe/Rome',
-  'longyearbyen': 'Arctic/Longyearbyen',
-  'malaga': 'Europe/Madrid',
-  'monte carlo': 'Europe/Monaco',
-  'naples': 'Europe/Rome',
-  'nice': 'Europe/Paris',
-  'oslo': 'Europe/Oslo',
-  'palermo': 'Europe/Rome',
-  'palma de mallorca': 'Europe/Madrid',
-  'panama city': 'America/Panama',
-  'porto': 'Europe/Lisbon',
-  'portsmouth': 'Europe/London',
-  'reykjavik': 'Atlantic/Reykjavik',
-  'rhodes': 'Europe/Athens',
-  'rome': 'Europe/Rome',
-  'santa cruz': 'Atlantic/Canary',
-  'santorini': 'Europe/Athens',
-  'seville': 'Europe/Madrid',
-  'seyðisfjörður': 'Atlantic/Reykjavik',
-  'sibenik': 'Europe/Zagreb',
-  'sicily': 'Europe/Rome',
-  'split': 'Europe/Zagreb',
-  'stockholm': 'Europe/Stockholm',
-  'tenerife': 'Atlantic/Canary',
-  'valletta': 'Europe/Malta',
-  'venice': 'Europe/Rome',
-  'willemstad': 'America/Curacao',
-  'zeebrugge': 'Europe/Brussels'
-
-};
-
-function normalizePortName(name) {
-  return name?.toLowerCase().replace(/[^\w\s]/g, '').trim() || '';
-}
-
 function parseCSV(callback) {
   const results = [];
   fs.createReadStream(path.join(__dirname, '..', 'data', 'schedules.csv'))
@@ -111,6 +22,7 @@ app.get('/', (req, res) => {
     const now = DateTime.now().setZone('America/Denver');
     const grouped = {};
 
+    // Group stops by ship
     data.forEach((entry) => {
       const ship = entry.Ship;
       if (!grouped[ship]) grouped[ship] = [];
@@ -118,30 +30,29 @@ app.get('/', (req, res) => {
     });
 
     const statuses = Object.entries(grouped).map(([ship, rawStops]) => {
+      // Sort by schedule date first
       rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
 
+      // Fill in arrival/departure values
       const stops = rawStops.map((entry, idx, arr) => {
-        const port = entry.PORT || '';
-        const cleanPort = normalizePortName(port);
-        const zone = portTimeZones[cleanPort] || 'UTC';
+        let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
+        let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
 
-        let arrival = entry.ARRIVAL
-          ? DateTime.fromISO(entry.ARRIVAL, { zone })
-          : null;
-        let departure = entry.DEPARTURE
-          ? DateTime.fromISO(entry.DEPARTURE, { zone })
-          : null;
-
-        // Fallbacks for missing arrival/departure
-        if (!arrival && idx > 0 && arr[idx - 1].DEPARTURE) {
-          arrival = DateTime.fromISO(arr[idx - 1].DEPARTURE, { zone });
-        }
-        if (!departure && idx < arr.length - 1 && arr[idx + 1].ARRIVAL) {
-          departure = DateTime.fromISO(arr[idx + 1].ARRIVAL, { zone });
+        // If arrival is missing, use previous departure
+        if (!arrival.isValid && idx > 0) {
+          const prev = DateTime.fromISO(arr[idx - 1].DEPARTURE || '', { setZone: true });
+          if (prev.isValid) arrival = prev;
         }
 
-        if (!arrival) arrival = DateTime.fromISO(entry.DATE, { zone });
-        if (!departure) departure = arrival.plus({ hours: 12 });
+        // If departure is missing, use next arrival
+        if (!departure.isValid && idx < arr.length - 1) {
+          const next = DateTime.fromISO(arr[idx + 1].ARRIVAL || '', { setZone: true });
+          if (next.isValid) departure = next;
+        }
+
+        // Fallback for missing both
+        if (!arrival.isValid) arrival = DateTime.fromISO(entry.DATE || '', { setZone: true });
+        if (!departure.isValid) departure = arrival.plus({ hours: 12 });
 
         return {
           ...entry,
@@ -150,6 +61,7 @@ app.get('/', (req, res) => {
         };
       });
 
+      // Determine current ship status
       let currentStatus = 'Unknown';
       let currentPort = '', previousPort = '', nextPorts = [];
 
@@ -158,24 +70,16 @@ app.get('/', (req, res) => {
       );
 
       if (atPortIndex !== -1) {
-        // Ship is currently at port
         currentStatus = 'At Port';
         currentPort = stops[atPortIndex].PORT;
         previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
         nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
       } else {
-        // Ship is not at port — find last stop it completed
-        const lastStopIndex = [...stops].reverse().findIndex(stop => stop.departure < now);
-        const lastAbsoluteIndex = lastStopIndex !== -1 ? stops.length - 1 - lastStopIndex : -1;
-
-        const lastStop = lastAbsoluteIndex !== -1 ? stops[lastAbsoluteIndex] : null;
-        const nextStop = stops.find(stop => stop.arrival > now);
-
-        if (lastStop && nextStop) {
+        const nextIndex = stops.findIndex(stop => stop.arrival > now);
+        if (nextIndex !== -1) {
           currentStatus = 'In Transit';
-          previousPort = lastStop.PORT;
-          currentPort = `${lastStop.PORT} ➜ ${nextStop.PORT}`;
-          const nextIndex = stops.findIndex(stop => stop === nextStop);
+          previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
+          currentPort = `${previousPort} ➜ ${stops[nextIndex].PORT}`;
           nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
         } else {
           currentStatus = 'Completed';
