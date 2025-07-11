@@ -9,6 +9,96 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '..', 'views'));
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
+const portTimeZones = {
+  'aalborg': 'Europe/Copenhagen',
+  'agios nikolaus, crete': 'Europe/Athens',
+  'akureyri': 'Atlantic/Reykjavik',
+  'alesund': 'Europe/Oslo',
+  'almeria': 'Europe/Madrid',
+  'amsterdam': 'Europe/Amsterdam',
+  'antigua': 'America/Antigua',
+  'argostoli': 'Europe/Athens',
+  'arrecife': 'Atlantic/Canary',
+  'athens': 'Europe/Athens',
+  'barcelona': 'Europe/Madrid',
+  'bergen': 'Europe/Oslo',
+  'bodo': 'Europe/Oslo',
+  'bordeaux': 'Europe/Paris',
+  'bridgetown': 'America/Barbados',
+  'cadiz': 'Europe/Madrid',
+  'cannes': 'Europe/Paris',
+  'cartagena': 'Europe/Madrid',
+  'casablanca': 'Africa/Casablanca',
+  'catania': 'Europe/Rome',
+  'civitavecchia': 'Europe/Rome',
+  'colon': 'America/Panama',
+  'colombo': 'Asia/Colombo',
+  'corfu': 'Europe/Athens',
+  'copenhagen': 'Europe/Copenhagen',
+  'crete': 'Europe/Athens',
+  'cuxhaven': 'Europe/Berlin',
+  'dubrovnik': 'Europe/Zagreb',
+  'dover': 'Europe/London',
+  'el ferrol': 'Europe/Madrid',
+  'funchal': 'Atlantic/Madeira',
+  'gdansk': 'Europe/Warsaw',
+  'gibraltar': 'Europe/Gibraltar',
+  'gothenburg': 'Europe/Stockholm',
+  'grenada': 'America/Grenada',
+  'gudvangen': 'Europe/Oslo',
+  'hamburg': 'Europe/Berlin',
+  'harlingen': 'Europe/Amsterdam',
+  'honfleur': 'Europe/Paris',
+  'husavik': 'Atlantic/Reykjavik',
+  'istanbul': 'Europe/Istanbul',
+  'kalamata': 'Europe/Athens',
+  'katakolon': 'Europe/Athens',
+  'kotor': 'Europe/Podgorica',
+  'kristiansand': 'Europe/Oslo',
+  'kristiansund': 'Europe/Oslo',
+  'kuşadasi': 'Europe/Istanbul',
+  'las palmas': 'Atlantic/Canary',
+  'la spezia': 'Europe/Rome',
+  'le lavandou': 'Europe/Paris',
+  'leixoes': 'Europe/Lisbon',
+  'lisbon': 'Europe/Lisbon',
+  'livorno': 'Europe/Rome',
+  'longyearbyen': 'Arctic/Longyearbyen',
+  'malaga': 'Europe/Madrid',
+  'monte carlo': 'Europe/Monaco',
+  'naples': 'Europe/Rome',
+  'nice': 'Europe/Paris',
+  'oslo': 'Europe/Oslo',
+  'palermo': 'Europe/Rome',
+  'palma de mallorca': 'Europe/Madrid',
+  'panama city': 'America/Panama',
+  'porto': 'Europe/Lisbon',
+  'portsmouth': 'Europe/London',
+  'reykjavik': 'Atlantic/Reykjavik',
+  'rhodes': 'Europe/Athens',
+  'rome': 'Europe/Rome',
+  'santa cruz': 'Atlantic/Canary',
+  'santorini': 'Europe/Athens',
+  'seville': 'Europe/Madrid',
+  'seyðisfjörður': 'Atlantic/Reykjavik',
+  'sibenik': 'Europe/Zagreb',
+  'sicily': 'Europe/Rome',
+  'split': 'Europe/Zagreb',
+  'stockholm': 'Europe/Stockholm',
+  'tenerife': 'Atlantic/Canary',
+  'valletta': 'Europe/Malta',
+  'venice': 'Europe/Rome',
+  'willemstad': 'America/Curacao',
+  'zeebrugge': 'Europe/Brussels'
+};
+
+function normalizePortName(portName) {
+  return portName
+    .toLowerCase()
+    .split(/[-/,(]/)[0]
+    .trim();
+}
+
 function parseCSV(callback) {
   const results = [];
   fs.createReadStream(path.join(__dirname, '..', 'data', 'schedules.csv'))
@@ -22,50 +112,25 @@ app.get('/', (req, res) => {
     const now = DateTime.now().setZone('America/Denver');
     const grouped = {};
 
-    // Group stops by ship
     data.forEach((entry) => {
       const ship = entry.Ship;
+      const rawPort = entry.PORT || '';
+      const cleanPort = normalizePortName(rawPort);
+      const portZone = portTimeZones[cleanPort] || 'UTC';
+
+      const arrival = DateTime.fromISO(entry.ARRIVAL, { zone: portZone }).setZone('America/Denver');
+      const departure = DateTime.fromISO(entry.DEPARTURE, { zone: portZone }).setZone('America/Denver');
+
       if (!grouped[ship]) grouped[ship] = [];
-      grouped[ship].push(entry);
+      grouped[ship].push({ ...entry, arrival, departure });
     });
 
-    const statuses = Object.entries(grouped).map(([ship, rawStops]) => {
-      // Sort by schedule date first
-      rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
-
-      // Fill in arrival/departure values
-      const stops = rawStops.map((entry, idx, arr) => {
-        let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
-        let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
-
-        // If arrival is missing, use previous departure
-        if (!arrival.isValid && idx > 0) {
-          const prev = DateTime.fromISO(arr[idx - 1].DEPARTURE || '', { setZone: true });
-          if (prev.isValid) arrival = prev;
-        }
-
-        // If departure is missing, use next arrival
-        if (!departure.isValid && idx < arr.length - 1) {
-          const next = DateTime.fromISO(arr[idx + 1].ARRIVAL || '', { setZone: true });
-          if (next.isValid) departure = next;
-        }
-
-        // Fallback for missing both
-        if (!arrival.isValid) arrival = DateTime.fromISO(entry.DATE || '', { setZone: true });
-        if (!departure.isValid) departure = arrival.plus({ hours: 12 });
-
-        return {
-          ...entry,
-          arrival: arrival.setZone('America/Denver'),
-          departure: departure.setZone('America/Denver'),
-        };
-      });
-
-      // Determine current ship status
+    const statuses = Object.entries(grouped).map(([ship, stops]) => {
+      stops.sort((a, b) => a.arrival - b.arrival);
       let currentStatus = 'Unknown';
       let currentPort = '', previousPort = '', nextPorts = [];
 
-      const atPortIndex = stops.findIndex(
+      let atPortIndex = stops.findIndex(
         stop => stop.arrival <= now && now <= stop.departure
       );
 
@@ -75,7 +140,7 @@ app.get('/', (req, res) => {
         previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
         nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
       } else {
-        const nextIndex = stops.findIndex(stop => stop.arrival > now);
+        let nextIndex = stops.findIndex(stop => stop.arrival > now);
         if (nextIndex !== -1) {
           currentStatus = 'In Transit';
           previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
