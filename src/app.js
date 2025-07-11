@@ -168,22 +168,34 @@ app.get('/', (req, res) => {
         previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
         nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
 } else {
-  // Find last stop that departed before now
-  const lastIndex = [...stops].reverse().findIndex(stop => stop.departure < now);
-  const lastPort = lastIndex !== -1 ? stops[stops.length - 1 - lastIndex].PORT : '';
+  // Find latest stop where ship has arrived (even if not yet departed)
+  const lastIndex = [...stops].reverse().findIndex(stop => stop.arrival <= now);
+  const lastAbsoluteIndex = lastIndex !== -1 ? stops.length - 1 - lastIndex : -1;
 
-  // Find next stop the ship is heading to
-  const nextIndex = stops.findIndex(stop => stop.arrival > now);
-  if (nextIndex !== -1) {
+  // Get last port and potential next one
+  const lastStop = lastAbsoluteIndex !== -1 ? stops[lastAbsoluteIndex] : null;
+  const nextStop = stops.find(stop => stop.arrival > now);
+
+  if (lastStop && lastStop.departure > now) {
+    // Ship has arrived but not departed: still at port
+    currentStatus = 'At Port';
+    currentPort = lastStop.PORT;
+    previousPort = lastAbsoluteIndex > 0 ? stops[lastAbsoluteIndex - 1].PORT : '';
+    nextPorts = stops.slice(lastAbsoluteIndex + 1, lastAbsoluteIndex + 4).map(s => s.PORT);
+  } else if (lastStop && nextStop) {
+    // Ship departed last stop, en route to next
     currentStatus = 'In Transit';
-    previousPort = lastPort;
-    currentPort = `${lastPort} ➜ ${stops[nextIndex].PORT}`;
+    previousPort = lastStop.PORT;
+    currentPort = `${lastStop.PORT} ➜ ${nextStop.PORT}`;
+    const nextIndex = stops.findIndex(stop => stop === nextStop);
     nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
   } else {
+    // Finished route
     currentStatus = 'Completed';
     previousPort = stops[stops.length - 1]?.PORT || '';
   }
 }
+
 
 
       return { ship, currentStatus, currentPort, previousPort, nextPorts };
