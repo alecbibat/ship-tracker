@@ -118,20 +118,40 @@ app.get('/', (req, res) => {
       const cleanPort = normalizePortName(rawPort);
       const portZone = portTimeZones[cleanPort] || 'UTC';
 
-      const arrival = DateTime.fromISO(entry.ARRIVAL, { zone: portZone }).setZone('America/Denver');
-      const departure = DateTime.fromISO(entry.DEPARTURE, { zone: portZone }).setZone('America/Denver');
+      let arrival = null, departure = null;
+
+      try {
+        if (entry.ARRIVAL) {
+          arrival = DateTime.fromISO(entry.ARRIVAL, { zone: portZone }).setZone('America/Denver');
+        }
+      } catch {}
+
+      try {
+        if (entry.DEPARTURE) {
+          departure = DateTime.fromISO(entry.DEPARTURE, { zone: portZone }).setZone('America/Denver');
+        }
+      } catch {}
 
       if (!grouped[ship]) grouped[ship] = [];
       grouped[ship].push({ ...entry, arrival, departure });
     });
 
     const statuses = Object.entries(grouped).map(([ship, stops]) => {
-      stops.sort((a, b) => a.arrival - b.arrival);
+      // Sort only those with valid arrival
+      stops.sort((a, b) => {
+        if (!a.arrival) return 1;
+        if (!b.arrival) return -1;
+        return a.arrival - b.arrival;
+      });
+
       let currentStatus = 'Unknown';
       let currentPort = '', previousPort = '', nextPorts = [];
 
-      let atPortIndex = stops.findIndex(
-        stop => stop.arrival <= now && now <= stop.departure
+      const now = DateTime.now().setZone('America/Denver');
+
+      let atPortIndex = stops.findIndex(stop =>
+        stop.arrival && stop.departure &&
+        stop.arrival <= now && now <= stop.departure
       );
 
       if (atPortIndex !== -1) {
@@ -140,7 +160,7 @@ app.get('/', (req, res) => {
         previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
         nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
       } else {
-        let nextIndex = stops.findIndex(stop => stop.arrival > now);
+        let nextIndex = stops.findIndex(stop => stop.arrival && stop.arrival > now);
         if (nextIndex !== -1) {
           currentStatus = 'In Transit';
           previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
