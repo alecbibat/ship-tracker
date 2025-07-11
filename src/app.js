@@ -9,6 +9,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '..', 'views'));
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
+// Port-specific time zone mapping
 const portTimeZones = {
   'aalborg': 'Europe/Copenhagen',
   'agios nikolaus, crete': 'Europe/Athens',
@@ -93,10 +94,7 @@ const portTimeZones = {
 };
 
 function normalizePortName(portName) {
-  return portName
-    .toLowerCase()
-    .split(/[-/,(]/)[0]
-    .trim();
+  return portName.toLowerCase().split(/[-/,()]/)[0].trim();
 }
 
 function parseCSV(callback) {
@@ -112,46 +110,56 @@ app.get('/', (req, res) => {
     const now = DateTime.now().setZone('America/Denver');
     const grouped = {};
 
+    // Group entries by ship
     data.forEach((entry) => {
       const ship = entry.Ship;
-      const rawPort = entry.PORT || '';
-      const cleanPort = normalizePortName(rawPort);
-      const portZone = portTimeZones[cleanPort] || 'UTC';
-
-      let arrival = null, departure = null;
-
-      try {
-        if (entry.ARRIVAL) {
-          arrival = DateTime.fromISO(entry.ARRIVAL, { zone: portZone }).setZone('America/Denver');
-        }
-      } catch {}
-
-      try {
-        if (entry.DEPARTURE) {
-          departure = DateTime.fromISO(entry.DEPARTURE, { zone: portZone }).setZone('America/Denver');
-        }
-      } catch {}
-
       if (!grouped[ship]) grouped[ship] = [];
-      grouped[ship].push({ ...entry, arrival, departure });
+      grouped[ship].push(entry);
     });
 
-    const statuses = Object.entries(grouped).map(([ship, stops]) => {
-      // Sort only those with valid arrival
-      stops.sort((a, b) => {
-        if (!a.arrival) return 1;
-        if (!b.arrival) return -1;
-        return a.arrival - b.arrival;
+    const statuses = Object.entries(grouped).map(([ship, rawStops]) => {
+      rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
+
+      const stops = rawStops.map((entry, idx, arr) => {
+        const port = entry.PORT || '';
+        const zone = portTimeZones[normalizePortName(port)] || 'UTC';
+
+        let arrival = entry.ARRIVAL
+          ? DateTime.fromISO(entry.ARRIVAL, { zone })
+          : null;
+
+        let departure = entry.DEPARTURE
+          ? DateTime.fromISO(entry.DEPARTURE, { zone })
+          : null;
+
+        if (!arrival && idx > 0 && arr[idx - 1].DEPARTURE) {
+          arrival = DateTime.fromISO(arr[idx - 1].DEPARTURE, { zone });
+        }
+
+        if (!departure && idx < arr.length - 1 && arr[idx + 1].ARRIVAL) {
+          departure = DateTime.fromISO(arr[idx + 1].ARRIVAL, { zone });
+        }
+
+        if (!arrival) {
+          arrival = DateTime.fromISO(entry.DATE, { zone });
+        }
+        if (!departure) {
+          departure = arrival.plus({ hours: 12 });
+        }
+
+        return {
+          ...entry,
+          arrival: arrival.setZone('America/Denver'),
+          departure: departure.setZone('America/Denver'),
+        };
       });
 
+      // Status calculation
       let currentStatus = 'Unknown';
       let currentPort = '', previousPort = '', nextPorts = [];
 
-      const now = DateTime.now().setZone('America/Denver');
-
-      let atPortIndex = stops.findIndex(stop =>
-        stop.arrival && stop.departure &&
-        stop.arrival <= now && now <= stop.departure
+      const atPortIndex = stops.findIndex(
+        stop => stop.arrival <= now && now <= stop.departure
       );
 
       if (atPortIndex !== -1) {
@@ -160,7 +168,7 @@ app.get('/', (req, res) => {
         previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
         nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
       } else {
-        let nextIndex = stops.findIndex(stop => stop.arrival && stop.arrival > now);
+        const nextIndex = stops.findIndex(stop => stop.arrival > now);
         if (nextIndex !== -1) {
           currentStatus = 'In Transit';
           previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
