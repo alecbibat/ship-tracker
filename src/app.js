@@ -1,3 +1,4 @@
+
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
@@ -8,35 +9,6 @@ const app = express();
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '..', 'views'));
 app.use(express.static(path.join(__dirname, '..', 'public')));
-
-const portTimeZones = {
-  'akureyri': 'Atlantic/Reykjavik',
-  'isafjordur': 'Atlantic/Reykjavik',
-  'reykjavik': 'Atlantic/Reykjavik',
-  'seyðisfjörður': 'Atlantic/Reykjavik',
-  'seydisfjordur': 'Atlantic/Reykjavik',
-  'balboa': 'America/Panama',
-  'panama city': 'America/Panama',
-  'colon': 'America/Panama',
-  'colón': 'America/Panama',
-  'puerto caldera': 'America/Costa_Rica',
-  'puntarenas': 'America/Costa_Rica',
-  'cartagena': 'America/Bogota',
-  'oranjestad': 'America/Aruba',
-  'willemstad': 'America/Curacao',
-  'bridgetown': 'America/Barbados',
-  'castries': 'America/St_Lucia',
-  'fort-de-france': 'America/Martinique',
-  'st johns': 'America/Antigua',
-  'charlotte amalie': 'America/St_Thomas',
-  'la romana': 'America/Santo_Domingo',
-  'san juan': 'America/Puerto_Rico',
-  'nassau': 'America/Nassau',
-  'puerto vallarta': 'America/Mazatlan',
-  'cabo san lucas': 'America/Mazatlan',
-  'piraeus': 'Europe/Athens',
-  'civitavecchia': 'Europe/Rome'
-};
 
 function parseCSV(callback) {
   const results = [];
@@ -59,33 +31,38 @@ app.get('/', (req, res) => {
     });
 
     const statuses = Object.entries(grouped).map(([ship, rawStops]) => {
-      // Sort by schedule date
+      // Sort by schedule date first
       rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
 
+      // Fill in arrival/departure values
       const stops = rawStops.map((entry, idx, arr) => {
         let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
         let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
 
+        // If arrival is missing, use previous departure
         if (!arrival.isValid && idx > 0) {
           const prev = DateTime.fromISO(arr[idx - 1].DEPARTURE || '', { setZone: true });
           if (prev.isValid) arrival = prev;
         }
 
+        // If departure is missing, use next arrival
         if (!departure.isValid && idx < arr.length - 1) {
           const next = DateTime.fromISO(arr[idx + 1].ARRIVAL || '', { setZone: true });
           if (next.isValid) departure = next;
         }
 
+        // Fallback for missing both
         if (!arrival.isValid) arrival = DateTime.fromISO(entry.DATE || '', { setZone: true });
         if (!departure.isValid) departure = arrival.plus({ hours: 12 });
 
         return {
           ...entry,
           arrival: arrival.setZone('America/Denver'),
-          departure: departure.setZone('America/Denver')
+          departure: departure.setZone('America/Denver'),
         };
       });
 
+      // Determine current ship status
       let currentStatus = 'Unknown';
       let currentPort = '', previousPort = '', nextPorts = [];
 
@@ -111,22 +88,7 @@ app.get('/', (req, res) => {
         }
       }
 
-      // Determine local time based on destination port (or fallback)
-      const zoneLookupPort = currentPort.includes('➜')
-        ? currentPort.split('➜')[1].trim()
-        : currentPort;
-      const cleanKey = zoneLookupPort.toLowerCase().replace(/[^\w\s]/g, '').trim();
-      const localZone = portTimeZones[cleanKey] || 'UTC';
-      const localTime = now.setZone(localZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
-
-      return {
-        ship,
-        currentStatus,
-        currentPort,
-        previousPort,
-        nextPorts,
-        localTime
-      };
+      return { ship, currentStatus, currentPort, previousPort, nextPorts };
     });
 
     res.render('index', { statuses, now: now.toFormat("ffff") });
