@@ -114,12 +114,22 @@ app.get('/', (req, res) => {
       }
 
       // Lookup zone and compute local time
-      const zoneLookupPort = currentPort.includes('➜')
-        ? currentPort.split('➜')[1].trim()
-        : currentPort;
-      const cleanKey = zoneLookupPort.toLowerCase().replace(/[^\w\s]/g, '').trim();
-      const localZone = portTimeZones[cleanKey] || 'UTC';
-      const localTime = now.setZone(localZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
+      // Determine zone by looking up the destination port on the right
+let zoneLookupPort = currentPort.includes('➜')
+  ? currentPort.split('➜')[1].trim()
+  : currentPort;
+
+// Normalize port name
+let cleanKey = zoneLookupPort
+  .toLowerCase()
+  .normalize("NFD")              // remove accents
+  .replace(/[\u0300-\u036f]/g, '') // strip accent chars
+  .replace(/[^a-z\s]/g, '')      // remove non-letter chars
+  .trim();
+
+const localZone = portTimeZones[cleanKey] || 'UTC';
+const localTime = now.setZone(localZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
+
 
       return {
         ship,
