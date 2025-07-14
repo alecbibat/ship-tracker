@@ -141,12 +141,17 @@ const stops = rawStops.map((entry, idx, arr) => {
         nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
       } else {
         const nextIndex = stops.findIndex(stop => stop.arrival > now);
-        if (nextIndex !== -1) {
-          currentStatus = 'In Transit';
-          previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
-          currentPort = `${previousPort} ➜ ${stops[nextIndex].PORT}`;
-          nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
-        } else {
+if (nextIndex !== -1) {
+  const lastIndex = nextIndex - 1;
+  const lastStop = lastIndex >= 0 ? stops[lastIndex] : null;
+  const nextStop = stops[nextIndex];
+
+  currentStatus = 'In Transit';
+  previousPort = lastStop?.PORT || 'At Sea';
+  currentPort = `${previousPort} ➜ ${nextStop.PORT}`;
+  nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
+}
+ else {
           currentStatus = 'Completed';
           previousPort = stops[stops.length - 1]?.PORT || '';
         }
