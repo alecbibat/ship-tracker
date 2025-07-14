@@ -22,83 +22,49 @@ app.get('/', (req, res) => {
     const now = DateTime.now().setZone('America/Denver');
     const grouped = {};
 
-    // Group stops by ship
     data.forEach((entry) => {
       const ship = entry.Ship;
+      const arrival = DateTime.fromISO(entry.ARRIVAL, { zone: 'UTC' });
+      const departure = DateTime.fromISO(entry.DEPARTURE, { zone: 'UTC' });
+
       if (!grouped[ship]) grouped[ship] = [];
-      grouped[ship].push(entry);
+      grouped[ship].push({ ...entry, arrival, departure });
     });
 
-    const statuses = Object.entries(grouped).map(([ship, rawStops]) => {
-      // Sort by schedule date first
-      rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
-
-      // Fill in arrival/departure values with timezone from CSV
-      const stops = rawStops.map((entry, idx, arr) => {
-        let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
-        let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
-
-        if (!arrival.isValid && idx > 0) {
-          const prev = DateTime.fromISO(arr[idx - 1].DEPARTURE || '', { setZone: true });
-          if (prev.isValid) arrival = prev;
-        }
-
-        if (!departure.isValid && idx < arr.length - 1) {
-          const next = DateTime.fromISO(arr[idx + 1].ARRIVAL || '', { setZone: true });
-          if (next.isValid) departure = next;
-        }
-
-        if (!arrival.isValid) arrival = DateTime.fromISO(entry.DATE || '', { setZone: true });
-        if (!departure.isValid) departure = arrival.plus({ hours: 12 });
-
-        const timeZone = entry.TIMEZONE || 'UTC';
-
-        return {
-          ...entry,
-          arrival: arrival.setZone(timeZone),
-          departure: departure.setZone(timeZone),
-          timeZone
-        };
-      });
-
-      // Determine current ship status
+    const statuses = Object.entries(grouped).map(([ship, stops]) => {
+      stops.sort((a, b) => new Date(a.arrival) - new Date(b.arrival));
       let currentStatus = 'Unknown';
       let currentPort = '', previousPort = '', nextPorts = [];
+      let localTime = '', lastStopIndex = -1;
 
-      const atPortIndex = stops.findIndex(
-        stop => stop.arrival <= now && now <= stop.departure
-      );
-
-      if (atPortIndex !== -1) {
-        currentStatus = 'At Port';
-        currentPort = stops[atPortIndex].PORT;
-        previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
-        nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
-      } else {
-        const nextIndex = stops.findIndex(stop => stop.arrival > now);
-        if (nextIndex !== -1) {
+      stops.forEach((stop, i) => {
+        if (stop.arrival <= now && now <= stop.departure) {
+          currentStatus = 'At Port';
+          currentPort = stop.PORT;
+          lastStopIndex = i;
+        } else if (now < stop.arrival && lastStopIndex === -1) {
           currentStatus = 'In Transit';
-          previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
-          currentPort = `${previousPort} ➜ ${stops[nextIndex].PORT}`;
-          nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
-        } else {
-          currentStatus = 'Completed';
-          previousPort = stops[stops.length - 1]?.PORT || '';
+          currentPort = i > 0 ? `${stops[i - 1].PORT} ➜ ${stop.PORT}` : `En Route to ${stop.PORT}`;
+          lastStopIndex = i - 1;
         }
+      });
+
+      if (lastStopIndex >= 0) previousPort = stops[lastStopIndex].PORT;
+      nextPorts = stops.slice(lastStopIndex + 1, lastStopIndex + 4).map(s => s.PORT);
+
+      // Determine local time using the timezone field from the appropriate stop
+      let zone = 'UTC';
+      if (currentStatus === 'At Port') {
+        zone = stops[lastStopIndex]?.timezone || 'UTC';
+      } else if (currentStatus === 'In Transit') {
+        zone = stops[lastStopIndex + 1]?.timezone || 'UTC';
+      } else {
+        zone = stops[stops.length - 1]?.timezone || 'UTC';
       }
 
-      // Determine local time from the first matching timezone in stops
-      const localTimeZone = stops.find(s => s.timeZone)?.timeZone || 'UTC';
-      const localTime = now.setZone(localTimeZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
+      localTime = DateTime.now().setZone(zone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
 
-      return {
-        ship,
-        currentStatus,
-        currentPort,
-        previousPort,
-        nextPorts,
-        localTime
-      };
+      return { ship, currentStatus, currentPort, previousPort, nextPorts, localTime };
     });
 
     res.render('index', { statuses, now: now.toFormat("ffff") });
