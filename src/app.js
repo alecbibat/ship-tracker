@@ -35,24 +35,26 @@ app.get('/', (req, res) => {
 
       // Fill in arrival/departure values
 const stops = rawStops.map((entry, idx, arr) => {
-  let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
-  let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
+  const port = entry.PORT || '';
+  const cleanPort = port.toLowerCase().replace(/[^\w\s]/g, '').trim();
+  const portZone = portTimeZones[cleanPort] || 'UTC';
 
-  // If arrival is missing, use previous departure
-  if (!arrival.isValid && idx > 0) {
-    const prev = DateTime.fromISO(arr[idx - 1].DEPARTURE || '', { setZone: true });
-    if (prev.isValid) arrival = prev;
+  let arrival = entry.ARRIVAL
+    ? DateTime.fromISO(entry.ARRIVAL, { zone: portZone })
+    : null;
+  let departure = entry.DEPARTURE
+    ? DateTime.fromISO(entry.DEPARTURE, { zone: portZone })
+    : null;
+
+  if (!arrival && idx > 0 && arr[idx - 1].DEPARTURE) {
+    arrival = DateTime.fromISO(arr[idx - 1].DEPARTURE, { zone: portZone });
+  }
+  if (!departure && idx < arr.length - 1 && arr[idx + 1].ARRIVAL) {
+    departure = DateTime.fromISO(arr[idx + 1].ARRIVAL, { zone: portZone });
   }
 
-  // If departure is missing, use next arrival
-  if (!departure.isValid && idx < arr.length - 1) {
-    const next = DateTime.fromISO(arr[idx + 1].ARRIVAL || '', { setZone: true });
-    if (next.isValid) departure = next;
-  }
-
-  // Fallback for missing both
-  if (!arrival.isValid) arrival = DateTime.fromISO(entry.DATE || '', { setZone: true });
-  if (!departure.isValid) departure = arrival.plus({ hours: 12 });
+  if (!arrival) arrival = DateTime.fromISO(entry.DATE || '', { zone: portZone });
+  if (!departure) departure = arrival.plus({ hours: 12 });
 
   return {
     ...entry,
@@ -60,6 +62,7 @@ const stops = rawStops.map((entry, idx, arr) => {
     departure: departure.setZone('America/Denver'),
   };
 });
+
 
 
       // Determine current ship status
