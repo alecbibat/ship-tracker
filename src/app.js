@@ -9,35 +9,6 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '..', 'views'));
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-const portTimeZones = {
-  'akureyri': 'Atlantic/Reykjavik',
-  'isafjordur': 'Atlantic/Reykjavik',
-  'reykjavik': 'Atlantic/Reykjavik',
-  'seyðisfjörður': 'Atlantic/Reykjavik',
-  'seydisfjordur': 'Atlantic/Reykjavik',
-  'balboa': 'America/Panama',
-  'panama city': 'America/Panama',
-  'colon': 'America/Panama',
-  'colón': 'America/Panama',
-  'puerto caldera': 'America/Costa_Rica',
-  'puntarenas': 'America/Costa_Rica',
-  'cartagena': 'America/Bogota',
-  'oranjestad': 'America/Aruba',
-  'willemstad': 'America/Curacao',
-  'bridgetown': 'America/Barbados',
-  'castries': 'America/St_Lucia',
-  'fort-de-france': 'America/Martinique',
-  'st johns': 'America/Antigua',
-  'charlotte amalie': 'America/St_Thomas',
-  'la romana': 'America/Santo_Domingo',
-  'san juan': 'America/Puerto_Rico',
-  'nassau': 'America/Nassau',
-  'puerto vallarta': 'America/Mazatlan',
-  'cabo san lucas': 'America/Mazatlan',
-  'piraeus': 'Europe/Athens',
-  'civitavecchia': 'Europe/Rome'
-};
-
 function parseCSV(callback) {
   const results = [];
   fs.createReadStream(path.join(__dirname, '..', 'data', 'schedules.csv'))
@@ -62,7 +33,7 @@ app.get('/', (req, res) => {
       // Sort by schedule date first
       rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
 
-      // Fill in arrival/departure values
+      // Fill in arrival/departure values with timezone from CSV
       const stops = rawStops.map((entry, idx, arr) => {
         let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
         let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
@@ -80,10 +51,13 @@ app.get('/', (req, res) => {
         if (!arrival.isValid) arrival = DateTime.fromISO(entry.DATE || '', { setZone: true });
         if (!departure.isValid) departure = arrival.plus({ hours: 12 });
 
+        const timeZone = entry.TIMEZONE || 'UTC';
+
         return {
           ...entry,
-          arrival: arrival.setZone('America/Denver'),
-          departure: departure.setZone('America/Denver'),
+          arrival: arrival.setZone(timeZone),
+          departure: departure.setZone(timeZone),
+          timeZone
         };
       });
 
@@ -113,23 +87,9 @@ app.get('/', (req, res) => {
         }
       }
 
-      // Lookup zone and compute local time
-      // Determine zone by looking up the destination port on the right
-let zoneLookupPort = currentPort.includes('➜')
-  ? currentPort.split('➜')[1].trim()
-  : currentPort;
-
-// Normalize port name
-let cleanKey = zoneLookupPort
-  .toLowerCase()
-  .normalize("NFD")              // remove accents
-  .replace(/[\u0300-\u036f]/g, '') // strip accent chars
-  .replace(/[^a-z\s]/g, '')      // remove non-letter chars
-  .trim();
-
-const localZone = portTimeZones[cleanKey] || 'UTC';
-const localTime = now.setZone(localZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
-
+      // Determine local time from the first matching timezone in stops
+      const localTimeZone = stops.find(s => s.timeZone)?.timeZone || 'UTC';
+      const localTime = now.setZone(localTimeZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
 
       return {
         ship,
