@@ -1,0 +1,2400 @@
+Ship,DATE,PORT,ARRIVAL,DEPARTURE,COUNTRY,TIMEZONE
+WIND SPIRIT,1/4/2025,BRIDGETOWN,1/4/2025 7:00,1/4/2025 18:00,Barbados,America/Barbados
+WIND SPIRIT,1/5/2025,Pigeon Island,1/5/2025 8:00,,St. Lucia,America/St_Lucia
+WIND SPIRIT,1/6/2025,Pigeon Island,,1/6/2025 6:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,1/6/2025,Castries,1/6/2025 8:00,1/6/2025 15:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,1/6/2025,Sunset Cruising Pitons,1/6/2025 17:30,1/6/2025 18:30,St. Lucia,America/St_Lucia
+WIND SPIRIT,1/7/2025,Kingstown,1/7/2025 8:00,1/7/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,1/8/2025,Mayreau,1/8/2025 8:00,1/8/2025 18:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,1/9/2025,"St. George's, Grenada",1/9/2025 8:00,1/9/2025 22:00,Grenada,America/Grenada
+WIND SPIRIT,1/10/2025,Bequia,1/10/2025 8:00,1/10/2025 14:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,1/11/2025,BRIDGETOWN,1/11/2025 5:00,1/11/2025 17:00,Barbados,America/Barbados
+WIND SPIRIT,1/12/2025,At Sea,,,nan,UTC
+WIND SPIRIT,1/13/2025,Basseterre,1/13/2025 9:00,1/13/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SPIRIT,1/14/2025,Les Saintes,1/14/2025 9:00,1/14/2025 22:00,Guadeloupe,America/Guadeloupe
+WIND SPIRIT,1/15/2025,Roseau,1/15/2025 8:00,1/15/2025 18:00,Dominica,America/Dominica
+WIND SPIRIT,1/16/2025,Anse Mitan,1/16/2025 8:00,1/16/2025 23:00,Martinique,America/Martinique
+WIND SPIRIT,1/17/2025,Pigeon Island,1/17/2025 8:00,1/17/2025 16:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,1/18/2025,BRIDGETOWN,1/18/2025 7:00,1/18/2025 18:00,Barbados,America/Barbados
+WIND SPIRIT,1/19/2025,Pigeon Island,1/19/2025 8:00,,St. Lucia,America/St_Lucia
+WIND SPIRIT,1/20/2025,Pigeon Island,,1/20/2025 6:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,1/20/2025,Castries,1/20/2025 8:00,1/20/2025 15:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,1/20/2025,Sunset Cruising Pitons,1/20/2025 17:30,1/20/2025 18:30,St. Lucia,America/St_Lucia
+WIND SPIRIT,1/21/2025,Kingstown,1/21/2025 8:00,1/21/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,1/22/2025,Mayreau,1/22/2025 8:00,1/22/2025 18:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,1/23/2025,"St. George's, Grenada",1/23/2025 8:00,1/23/2025 22:00,Grenada,America/Grenada
+WIND SPIRIT,1/24/2025,Bequia,1/24/2025 8:00,1/24/2025 14:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,1/25/2025,BRIDGETOWN,1/25/2025 5:00,1/25/2025 17:00,Barbados,America/Barbados
+WIND SPIRIT,1/26/2025,At Sea,,,nan,UTC
+WIND SPIRIT,1/27/2025,St. John's,1/27/2025 8:00,1/27/2025 16:00,Antigua & Barbuda,America/Antigua
+WIND SPIRIT,1/28/2025,Roseau,1/28/2025 9:00,1/28/2025 22:00,Dominica,America/Dominica
+WIND SPIRIT,1/29/2025,Les Saintes,1/29/2025 8:00,1/29/2025 17:00,Guadeloupe,America/Guadeloupe
+WIND SPIRIT,1/30/2025,Anse Mitan,1/30/2025 8:00,1/30/2025 23:00,Martinique,America/Martinique
+WIND SPIRIT,1/31/2025,Pigeon Island,1/31/2025 8:00,1/31/2025 16:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/1/2025,BRIDGETOWN,2/1/2025 7:00,2/1/2025 18:00,Barbados,America/Barbados
+WIND SPIRIT,2/2/2025,Pigeon Island,2/2/2025 8:00,,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/3/2025,Pigeon Island,,2/3/2025 6:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/3/2025,Castries,2/3/2025 8:00,2/3/2025 15:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/3/2025,Sunset Cruising Pitons,2/3/2025 17:30,2/3/2025 18:30,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/4/2025,Kingstown,2/4/2025 8:00,2/4/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,2/5/2025,Mayreau,2/5/2025 8:00,2/5/2025 18:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,2/6/2025,"St. George's, Grenada",2/6/2025 8:00,2/6/2025 22:00,Grenada,America/Grenada
+WIND SPIRIT,2/7/2025,Bequia,2/7/2025 8:00,2/7/2025 14:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,2/8/2025,BRIDGETOWN,2/8/2025 5:00,2/8/2025 17:00,Barbados,America/Barbados
+WIND SPIRIT,2/9/2025,At Sea,,,nan,UTC
+WIND SPIRIT,2/10/2025,Basseterre,2/10/2025 9:00,2/10/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SPIRIT,2/11/2025,Les Saintes,2/11/2025 9:00,2/11/2025 22:00,Guadeloupe,America/Guadeloupe
+WIND SPIRIT,2/12/2025,Roseau,2/12/2025 8:00,2/12/2025 18:00,Dominica,America/Dominica
+WIND SPIRIT,2/13/2025,Anse Mitan,2/13/2025 8:00,2/13/2025 23:00,Martinique,America/Martinique
+WIND SPIRIT,2/14/2025,Pigeon Island,2/14/2025 8:00,2/14/2025 16:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/15/2025,BRIDGETOWN,2/15/2025 7:00,2/15/2025 18:00,Barbados,America/Barbados
+WIND SPIRIT,2/16/2025,Pigeon Island,2/16/2025 8:00,,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/17/2025,Pigeon Island,,2/17/2025 6:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/17/2025,Castries,2/17/2025 8:00,2/17/2025 15:00,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/17/2025,Sunset Cruising Pitons,2/17/2025 17:30,2/17/2025 18:30,St. Lucia,America/St_Lucia
+WIND SPIRIT,2/18/2025,Kingstown,2/18/2025 8:00,2/18/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,2/19/2025,Mayreau,2/19/2025 8:00,2/19/2025 18:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,2/20/2025,"St. George's, Grenada",2/20/2025 8:00,2/20/2025 22:00,Grenada,America/Grenada
+WIND SPIRIT,2/21/2025,Bequia,2/21/2025 8:00,2/21/2025 14:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,2/22/2025,BRIDGETOWN,2/22/2025 5:00,2/22/2025 15:00,Barbados,America/Barbados
+WIND SPIRIT,2/23/2025,At Sea,,,nan,UTC
+WIND SPIRIT,2/24/2025,At Sea,,,nan,UTC
+WIND SPIRIT,2/25/2025,At Sea,,,nan,UTC
+WIND SPIRIT,2/26/2025,At Sea,,,nan,UTC
+WIND SPIRIT,2/27/2025,At Sea,,,nan,UTC
+WIND SPIRIT,2/28/2025,At Sea,,,nan,UTC
+WIND SPIRIT,3/1/2025,At Sea,,,nan,UTC
+WIND SPIRIT,3/2/2025,At Sea,,,nan,UTC
+WIND SPIRIT,3/3/2025,At Sea,,,nan,UTC
+WIND SPIRIT,3/4/2025,At Sea,,,nan,UTC
+WIND SPIRIT,3/5/2025,At Sea,,,nan,UTC
+WIND SPIRIT,3/6/2025,At Sea,,,nan,UTC
+WIND SPIRIT,3/7/2025,At Sea,,,nan,UTC
+WIND SPIRIT,3/8/2025,At Sea,,,nan,UTC
+WIND SPIRIT,3/9/2025,LISBON,3/9/2025 7:00,3/9/2025 11:00,Portugal,Europe/Lisbon
+WIND SPIRIT,3/10/2025,Dry Dock - Cadiz,3/10/2025 23:00,,Spain,Europe/Madrid
+WIND SPIRIT,3/11/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/12/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/13/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/14/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/15/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/16/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/17/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/18/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/19/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/20/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/21/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/22/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/23/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/24/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/25/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/26/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/27/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/28/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/29/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/30/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,3/31/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,4/1/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,4/2/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,4/3/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,4/4/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+WIND SPIRIT,4/5/2025,Dry Dock - Cadiz,,4/5/2025 0:01,nan,Europe/Madrid
+WIND SPIRIT,4/6/2025,LISBON,4/6/2025 8:00,4/6/2025 17:00,Portugal,Europe/Lisbon
+WIND SPIRIT,4/7/2025,At Sea,,,nan,UTC
+WIND SPIRIT,4/8/2025,Tangier,4/8/2025 8:00,4/8/2025 18:00,Morocco,Africa/Casablanca
+WIND SPIRIT,4/9/2025,Malaga,4/9/2025 8:00,4/9/2025 22:00,Spain,Europe/Madrid
+WIND SPIRIT,4/10/2025,At Sea,,,nan,UTC
+WIND SPIRIT,4/11/2025,"Cartagena, Spain",4/11/2025 7:00,4/11/2025 14:00,Spain,Europe/Madrid
+WIND SPIRIT,4/12/2025,Valencia,4/12/2025 10:00,4/12/2025 17:00,Spain,Europe/Madrid
+WIND SPIRIT,4/13/2025,Palma de Mallorca,4/13/2025 10:00,4/13/2025 17:00,Spain,Europe/Madrid
+WIND SPIRIT,4/14/2025,Tarragona,4/14/2025 9:00,4/14/2025 21:00,Spain,Europe/Madrid
+WIND SPIRIT,4/15/2025,BARCELONA,4/15/2025 6:00,4/15/2025 15:00,Spain,Europe/Madrid
+WIND SPIRIT,4/16/2025,Port Vendres,4/16/2025 8:00,4/16/2025 18:00,France,Europe/Paris
+WIND SPIRIT,4/17/2025,Marseille,4/17/2025 8:00,4/17/2025 16:00,France,Europe/Paris
+WIND SPIRIT,4/18/2025,Nice,4/18/2025 8:00,4/18/2025 12:30,France,Europe/Paris
+WIND SPIRIT,4/18/2025,Monte Carlo,4/18/2025 15:00,4/18/2025 21:00,Monaco,Europe/Monaco
+WIND SPIRIT,4/19/2025,Genova,4/19/2025 8:00,4/19/2025 13:00,Italy,Europe/Rome
+WIND SPIRIT,4/19/2025,Portofino,4/19/2025 17:30,4/19/2025 22:00,Italy,Europe/Rome
+WIND SPIRIT,4/20/2025,Portovenere,4/20/2025 7:00,4/20/2025 18:00,Italy,Europe/Rome
+WIND SPIRIT,4/21/2025,Portoferraio,4/21/2025 8:00,4/21/2025 15:00,Italy,Europe/Rome
+WIND SPIRIT,4/22/2025,"Bonifacio, Corsica",4/22/2025 7:00,4/22/2025 12:30,France,Europe/Paris
+WIND SPIRIT,4/23/2025,Rome / CIVITAVECCHIA,4/23/2025 6:00,4/23/2025 17:00,Italy,Europe/Rome
+WIND SPIRIT,4/24/2025,Sorrento,4/24/2025 13:00,,Italy,Europe/Rome
+WIND SPIRIT,4/25/2025,Sorrento,,4/25/2025 17:00,Italy,Europe/Rome
+WIND SPIRIT,4/26/2025,"Messina, Sicily",4/26/2025 12:00,4/26/2025 18:30,Italy,Europe/Rome
+WIND SPIRIT,4/27/2025,At Sea,,,nan,UTC
+WIND SPIRIT,4/28/2025,Gythion,4/28/2025 13:00,4/28/2025 22:00,Greece,Europe/Athens
+WIND SPIRIT,4/29/2025,Monemvasia,4/29/2025 8:00,4/29/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,4/30/2025,Athens / PIRAEUS,4/30/2025 7:00,4/30/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,5/1/2025,Nafplio,5/1/2025 8:00,5/1/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,5/2/2025,Mykonos,5/2/2025 8:00,,Greece,Europe/Athens
+WIND SPIRIT,5/3/2025,Mykonos,,5/3/2025 7:00,Greece,Europe/Athens
+WIND SPIRIT,5/3/2025,"Ermoupoli, Syros",5/3/2025 10:00,5/3/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,5/4/2025,Kusadasi,5/4/2025 7:00,5/4/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,5/5/2025,Patmos,5/5/2025 8:00,5/5/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/6/2025,Rhodes,5/6/2025 8:00,5/6/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,5/7/2025,"Agios Nikolaus, Crete",5/7/2025 10:00,5/7/2025 22:00,Greece,Europe/Athens
+WIND SPIRIT,5/8/2025,Santorini,5/8/2025 9:00,5/8/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,5/9/2025,Monemvasia,5/9/2025 12:00,5/9/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/10/2025,Athens / PIRAEUS,5/10/2025 7:00,5/10/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/11/2025,Delos,5/11/2025 6:00,5/11/2025 11:30,Greece,Europe/Athens
+WIND SPIRIT,5/11/2025,Mykonos,5/11/2025 14:00,5/11/2025 19:00,Greece,Europe/Athens
+WIND SPIRIT,5/12/2025,Kusadasi,5/12/2025 8:00,5/12/2025 19:00,Turkey,Europe/Istanbul
+WIND SPIRIT,5/13/2025,Patmos,5/13/2025 9:00,5/13/2025 19:30,Greece,Europe/Athens
+WIND SPIRIT,5/14/2025,Rhodes,5/14/2025 9:00,5/14/2025 16:30,Greece,Europe/Athens
+WIND SPIRIT,5/15/2025,Santorini,5/15/2025 9:00,5/15/2025 21:30,Greece,Europe/Athens
+WIND SPIRIT,5/16/2025,Milos,5/16/2025 8:00,5/16/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/17/2025,Athens / PIRAEUS,5/17/2025 5:30,5/17/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,5/18/2025,Mykonos,5/18/2025 8:00,5/18/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/19/2025,Kusadasi,5/19/2025 7:00,5/19/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,5/20/2025,Patmos,5/20/2025 8:00,5/20/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/21/2025,Santorini,5/21/2025 8:00,5/21/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,5/22/2025,Milos,5/22/2025 8:00,5/22/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/23/2025,Monemvasia,5/23/2025 8:00,5/23/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,5/24/2025,Athens / PIRAEUS,5/24/2025 7:00,5/24/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,5/25/2025,Mykonos,5/25/2025 8:00,5/25/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/26/2025,Kusadasi,5/26/2025 7:00,5/26/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,5/27/2025,Patmos,5/27/2025 8:00,5/27/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/28/2025,Santorini,5/28/2025 8:00,5/28/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,5/29/2025,Milos,5/29/2025 8:00,5/29/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,5/30/2025,Monemvasia,5/30/2025 8:00,5/30/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,5/31/2025,Athens / PIRAEUS,5/31/2025 7:00,5/31/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,6/1/2025,Mykonos,6/1/2025 8:00,6/1/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/2/2025,Kusadasi,6/2/2025 7:00,6/2/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,6/3/2025,Patmos,6/3/2025 8:00,6/3/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/4/2025,Santorini,6/4/2025 8:00,6/4/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,6/5/2025,Milos,6/5/2025 8:00,6/5/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/6/2025,Monemvasia,6/6/2025 8:00,6/6/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,6/7/2025,Athens / PIRAEUS,6/7/2025 7:00,6/7/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,6/8/2025,Mykonos,6/8/2025 8:00,6/8/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/9/2025,Kusadasi,6/9/2025 7:00,6/9/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,6/10/2025,Patmos,6/10/2025 8:00,6/10/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/11/2025,Santorini,6/11/2025 8:00,6/11/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,6/12/2025,Milos,6/12/2025 8:00,6/12/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/13/2025,Monemvasia,6/13/2025 8:00,6/13/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,6/14/2025,Athens / PIRAEUS,6/14/2025 7:00,6/14/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,6/15/2025,Mykonos,6/15/2025 8:00,6/15/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/16/2025,Kusadasi,6/16/2025 7:00,6/16/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,6/17/2025,Patmos,6/17/2025 8:00,6/17/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/18/2025,Santorini,6/18/2025 8:00,6/18/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,6/19/2025,Milos,6/19/2025 8:00,6/19/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/20/2025,Monemvasia,6/20/2025 8:00,6/20/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,6/21/2025,Athens / PIRAEUS,6/21/2025 7:00,6/21/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,6/22/2025,Mykonos,6/22/2025 8:00,6/22/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/23/2025,Kusadasi,6/23/2025 7:00,6/23/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,6/24/2025,Patmos,6/24/2025 8:00,6/24/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/25/2025,Santorini,6/25/2025 8:00,6/25/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,6/26/2025,Milos,6/26/2025 8:00,6/26/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,6/27/2025,Monemvasia,6/27/2025 8:00,6/27/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,6/28/2025,Athens / PIRAEUS,6/28/2025 7:00,6/28/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,6/29/2025,Monemvasia,6/29/2025 7:00,6/29/2025 13:00,Greece,Europe/Athens
+WIND SPIRIT,6/30/2025,Katakolon,6/30/2025 8:00,6/30/2025 15:00,Greece,Europe/Athens
+WIND SPIRIT,7/1/2025,"Kerkyra, Corfu",7/1/2025 10:00,7/1/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,7/2/2025,Kotor,7/2/2025 17:00,,Montenegro,Europe/Podgorica
+WIND SPIRIT,7/3/2025,Kotor,,7/3/2025 23:00,Montenegro,Europe/Podgorica
+WIND SPIRIT,7/4/2025,Dubrovnik,7/4/2025 8:00,7/4/2025 18:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/5/2025,Hvar,7/5/2025 9:00,7/5/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/6/2025,Zadar,7/6/2025 8:00,7/6/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/7/2025,Rovinj,7/7/2025 7:00,7/7/2025 18:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/8/2025,VENICE,7/8/2025 7:00,7/8/2025 18:00,Italy,Europe/Rome
+WIND SPIRIT,7/9/2025,Rovinj,7/9/2025 7:00,7/9/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/10/2025,Zadar,7/10/2025 8:00,7/10/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/11/2025,Hvar,7/11/2025 8:00,7/11/2025 22:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/12/2025,Dubrovnik,7/12/2025 12:01,,Croatia,Europe/Zagreb
+WIND SPIRIT,7/13/2025,Dubrovnik,,7/13/2025 22:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/14/2025,Kotor,7/14/2025 8:00,7/14/2025 17:00,Montenegro,Europe/Podgorica
+WIND SPIRIT,7/15/2025,At Sea,,,nan,UTC
+WIND SPIRIT,7/16/2025,Piran,7/16/2025 10:00,7/16/2025 20:00,Slovenia,Europe/Ljubljana
+WIND SPIRIT,7/17/2025,VENICE,7/17/2025 7:00,7/17/2025 18:00,Italy,Europe/Rome
+WIND SPIRIT,7/18/2025,Rovinj,7/18/2025 7:00,7/18/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/19/2025,Zadar,7/19/2025 8:00,7/19/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/20/2025,Hvar,7/20/2025 8:00,7/20/2025 22:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/21/2025,Dubrovnik,7/21/2025 12:01,,Croatia,Europe/Zagreb
+WIND SPIRIT,7/22/2025,Dubrovnik,,7/22/2025 22:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/23/2025,Kotor,7/23/2025 8:00,7/23/2025 17:00,Montenegro,Europe/Podgorica
+WIND SPIRIT,7/24/2025,At Sea,,,nan,UTC
+WIND SPIRIT,7/25/2025,Piran,7/25/2025 10:00,7/25/2025 20:00,Slovenia,Europe/Ljubljana
+WIND SPIRIT,7/26/2025,VENICE,7/26/2025 7:00,7/26/2025 18:00,Italy,Europe/Rome
+WIND SPIRIT,7/27/2025,Rovinj,7/27/2025 7:00,7/27/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/28/2025,Zadar,7/28/2025 8:00,7/28/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/29/2025,Hvar,7/29/2025 8:00,7/29/2025 22:00,Croatia,Europe/Zagreb
+WIND SPIRIT,7/30/2025,Dubrovnik,7/30/2025 12:01,,Croatia,Europe/Zagreb
+WIND SPIRIT,7/31/2025,Dubrovnik,,7/31/2025 22:00,Croatia,Europe/Zagreb
+WIND SPIRIT,8/1/2025,Kotor,8/1/2025 8:00,8/1/2025 17:00,Montenegro,Europe/Podgorica
+WIND SPIRIT,8/2/2025,At Sea,,,nan,UTC
+WIND SPIRIT,8/3/2025,Piran,8/3/2025 10:00,8/3/2025 20:00,Slovenia,Europe/Ljubljana
+WIND SPIRIT,8/4/2025,VENICE,8/4/2025 7:00,8/4/2025 18:00,Italy,Europe/Rome
+WIND SPIRIT,8/5/2025,Rovinj,8/5/2025 7:00,8/5/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,8/6/2025,Zadar,8/6/2025 8:00,8/6/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,8/7/2025,Hvar,8/7/2025 8:00,8/7/2025 22:00,Croatia,Europe/Zagreb
+WIND SPIRIT,8/8/2025,Dubrovnik,8/8/2025 12:01,,Croatia,Europe/Zagreb
+WIND SPIRIT,8/9/2025,Dubrovnik,,8/9/2025 22:00,Croatia,Europe/Zagreb
+WIND SPIRIT,8/10/2025,Kotor,8/10/2025 8:00,8/10/2025 17:00,Montenegro,Europe/Podgorica
+WIND SPIRIT,8/11/2025,At Sea,,,nan,UTC
+WIND SPIRIT,8/12/2025,Piran,8/12/2025 10:00,8/12/2025 20:00,Slovenia,Europe/Ljubljana
+WIND SPIRIT,8/13/2025,VENICE,8/13/2025 7:00,8/13/2025 18:00,Italy,Europe/Rome
+WIND SPIRIT,8/14/2025,Rovinj,8/14/2025 7:00,8/14/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,8/15/2025,Zadar,8/15/2025 8:00,8/15/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,8/16/2025,Hvar,8/16/2025 8:00,8/16/2025 17:00,Croatia,Europe/Zagreb
+WIND SPIRIT,8/17/2025,Dubrovnik,8/17/2025 8:00,8/17/2025 23:00,Croatia,Europe/Zagreb
+WIND SPIRIT,8/18/2025,Kotor,8/18/2025 7:00,8/18/2025 23:00,Montenegro,Europe/Podgorica
+WIND SPIRIT,8/19/2025,At Sea,,,nan,UTC
+WIND SPIRIT,8/20/2025,"Kerkyra, Corfu",8/20/2025 7:00,8/20/2025 13:00,Greece,Europe/Athens
+WIND SPIRIT,8/21/2025,Katakolon,8/21/2025 9:00,8/21/2025 16:00,Greece,Europe/Athens
+WIND SPIRIT,8/22/2025,Monemvasia,8/22/2025 11:00,8/22/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,8/23/2025,Athens / PIRAEUS,8/23/2025 7:00,8/23/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,8/24/2025,Mykonos,8/24/2025 8:00,8/24/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,8/25/2025,Kusadasi,8/25/2025 7:00,8/25/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,8/26/2025,Patmos,8/26/2025 8:00,8/26/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,8/27/2025,Santorini,8/27/2025 8:00,8/27/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,8/28/2025,Monemvasia,8/28/2025 12:00,8/28/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,8/29/2025,Nafplio,8/29/2025 7:00,8/29/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,8/30/2025,Athens / PIRAEUS,8/30/2025 7:00,8/30/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,8/31/2025,Delos,8/31/2025 6:00,8/31/2025 23:30,Greece,Europe/Athens
+WIND SPIRIT,8/31/2025,Mykonos,8/31/2025 14:00,8/31/2025 19:00,Greece,Europe/Athens
+WIND SPIRIT,9/1/2025,Kusadasi,9/1/2025 8:00,9/1/2025 19:00,Turkey,Europe/Istanbul
+WIND SPIRIT,9/2/2025,Patmos,9/2/2025 9:00,9/2/2025 19:30,Greece,Europe/Athens
+WIND SPIRIT,9/3/2025,Rhodes,9/3/2025 8:00,9/3/2025 16:30,Greece,Europe/Athens
+WIND SPIRIT,9/4/2025,Santorini,9/4/2025 9:00,9/4/2025 21:30,Greece,Europe/Athens
+WIND SPIRIT,9/5/2025,Milos,9/5/2025 8:00,9/5/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/6/2025,Athens / PIRAEUS,9/6/2025 5:30,9/6/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,9/7/2025,Mykonos,9/7/2025 8:00,9/7/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/8/2025,Kusadasi,9/8/2025 7:00,9/8/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,9/9/2025,Patmos,9/9/2025 8:00,9/9/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/10/2025,Santorini,9/10/2025 8:00,9/10/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,9/11/2025,Milos,9/11/2025 8:00,9/11/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/12/2025,Monemvasia,9/12/2025 8:00,9/12/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,9/13/2025,Athens / PIRAEUS,9/13/2025 7:00,9/13/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,9/14/2025,Mykonos,9/14/2025 8:00,9/14/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/15/2025,Kusadasi,9/15/2025 7:00,9/15/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,9/16/2025,Patmos,9/16/2025 8:00,9/16/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/17/2025,Santorini,9/17/2025 8:00,9/17/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,9/18/2025,Milos,9/18/2025 8:00,9/18/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/19/2025,Monemvasia,9/19/2025 8:00,9/19/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,9/20/2025,Athens / PIRAEUS,9/20/2025 7:00,9/20/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,9/21/2025,Mykonos,9/21/2025 8:00,9/21/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/22/2025,Kusadasi,9/22/2025 7:00,9/22/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,9/23/2025,Patmos,9/23/2025 8:00,9/23/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/24/2025,Santorini,9/24/2025 8:00,9/24/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,9/25/2025,Milos,9/25/2025 8:00,9/25/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/26/2025,Monemvasia,9/26/2025 8:00,9/26/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,9/27/2025,Athens / PIRAEUS,9/27/2025 7:00,9/27/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,9/28/2025,Delos,9/28/2025 6:00,9/28/2025 11:30,Greece,Europe/Athens
+WIND SPIRIT,9/28/2025,Mykonos,9/28/2025 14:00,9/28/2025 19:00,Greece,Europe/Athens
+WIND SPIRIT,9/29/2025,Kusadasi,9/29/2025 8:00,9/29/2025 19:00,Turkey,Europe/Istanbul
+WIND SPIRIT,9/30/2025,Patmos,9/30/2025 9:00,9/30/2025 19:30,Greece,Europe/Athens
+WIND SPIRIT,10/1/2025,Rhodes,10/1/2025 9:00,10/1/2025 16:30,Greece,Europe/Athens
+WIND SPIRIT,10/2/2025,Santorini,10/2/2025 9:00,10/2/2025 21:30,Greece,Europe/Athens
+WIND SPIRIT,10/3/2025,Milos,10/3/2025 8:00,10/3/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,10/4/2025,Athens / PIRAEUS,10/4/2025 5:30,10/4/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,10/5/2025,Mykonos,10/5/2025 8:00,10/5/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,10/6/2025,Kusadasi,10/6/2025 7:00,10/6/2025 23:59,Turkey,Europe/Istanbul
+WIND SPIRIT,10/7/2025,Patmos,10/7/2025 8:00,10/7/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,10/8/2025,Santorini,10/8/2025 8:00,10/8/2025 21:00,Greece,Europe/Athens
+WIND SPIRIT,10/9/2025,Milos,10/9/2025 8:00,10/9/2025 18:00,Greece,Europe/Athens
+WIND SPIRIT,10/10/2025,Monemvasia,10/10/2025 8:00,10/10/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,10/11/2025,Athens / PIRAEUS,10/11/2025 7:00,10/11/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,10/12/2025,Monemvasia,10/12/2025 8:00,10/12/2025 17:00,Greece,Europe/Athens
+WIND SPIRIT,10/13/2025,Gythion,10/13/2025 8:00,10/13/2025 16:00,Greece,Europe/Athens
+WIND SPIRIT,10/14/2025,At Sea,,,nan,UTC
+WIND SPIRIT,10/15/2025,"Messina, Sicily",10/15/2025 8:00,10/15/2025 14:00,Italy,Europe/Rome
+WIND SPIRIT,10/16/2025,Sorrento,10/16/2025 10:00,,Italy,Europe/Rome
+WIND SPIRIT,10/17/2025,Sorrento,,10/17/2025 12:00,Italy,Europe/Rome
+WIND SPIRIT,10/18/2025,Rome / CIVITAVECCHIA,10/18/2025 7:00,10/18/2025 17:00,Italy,Europe/Rome
+WIND SPIRIT,10/19/2025,Portoferraio,10/19/2025 8:00,10/19/2025 22:00,Italy,Europe/Rome
+WIND SPIRIT,10/20/2025,Bastia,10/20/2025 8:00,10/20/2025 17:00,France,Europe/Paris
+WIND SPIRIT,10/21/2025,Calvi,10/21/2025 8:00,10/21/2025 23:59,France,Europe/Paris
+WIND SPIRIT,10/22/2025,At Sea,,,nan,UTC
+WIND SPIRIT,10/23/2025,Mahon,10/23/2025 8:00,10/23/2025 17:00,Spain,Europe/Madrid
+WIND SPIRIT,10/24/2025,Palma de Mallorca,10/24/2025 8:00,10/24/2025 16:00,Spain,Europe/Madrid
+WIND SPIRIT,10/25/2025,BARCELONA,10/25/2025 7:00,10/25/2025 17:00,Spain,Europe/Madrid
+WIND SPIRIT,10/26/2025,Tarragona,10/26/2025 7:00,10/26/2025 17:00,Spain,Europe/Madrid
+WIND SPIRIT,10/27/2025,Palma de Mallorca,10/27/2025 8:00,10/27/2025 13:00,Spain,Europe/Madrid
+WIND SPIRIT,10/28/2025,Valencia,10/28/2025 8:00,10/28/2025 17:00,Spain,Europe/Madrid
+WIND SPIRIT,10/29/2025,"Cartagena, Spain",10/29/2025 12:00,10/29/2025 23:59,Spain,Europe/Madrid
+WIND SPIRIT,10/30/2025,At Sea,,,nan,UTC
+WIND SPIRIT,10/31/2025,Malaga,10/31/2025 7:00,,Spain,Europe/Madrid
+WIND SPIRIT,11/1/2025,Malaga,,11/1/2025 21:00,Spain,Europe/Madrid
+WIND SPIRIT,11/2/2025,Tangier,11/2/2025 8:00,11/2/2025 17:00,Morocco,Africa/Casablanca
+WIND SPIRIT,11/3/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/4/2025,LISBON,11/4/2025 7:00,11/4/2025 15:00,Portugal,Europe/Lisbon
+WIND SPIRIT,11/5/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/6/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/7/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/8/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/9/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/10/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/11/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/12/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/13/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/14/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/15/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/16/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/17/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/18/2025,BRIDGETOWN,11/18/2025 11:00,11/18/2025 18:00,Barbados,America/Barbados
+WIND SPIRIT,11/19/2025,Bequia,11/19/2025 8:00,11/19/2025 23:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,11/20/2025,Mayreau,11/20/2025 8:00,11/20/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,11/21/2025,"St. George's, Grenada",11/21/2025 8:00,11/21/2025 17:00,Grenada,America/Grenada
+WIND SPIRIT,11/22/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/23/2025,Kralendijk,11/23/2025 13:00,11/23/2025 22:00,Bonaire,America/Kralendijk
+WIND SPIRIT,11/24/2025,Willemstad,11/24/2025 8:00,11/24/2025 18:00,Curacao,America/Curacao
+WIND SPIRIT,11/25/2025,Oranjestad,11/25/2025 6:00,11/25/2025 15:00,Aruba,America/Aruba
+WIND SPIRIT,11/26/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/27/2025,"Cartagena, Colombia",11/27/2025 9:00,11/27/2025 18:00,Colombia,America/Bogota
+WIND SPIRIT,11/28/2025,At Sea,,,nan,UTC
+WIND SPIRIT,11/29/2025,COLON - Cristobal Terminal,11/29/2025 7:00,11/29/2025 18:00,Panama,America/Panama
+WIND SPIRIT,11/29/2025,Colon - SERVICE CALL ONLY,11/29/2025 22:00,,Panama,America/Panama
+WIND SPIRIT,11/30/2025,Colon - SERVICE CALL ONLY,,11/30/2025 4:00,Panama,America/Panama
+WIND SPIRIT,11/30/2025,transit Panama Canal,11/30/2025 4:00,11/30/2025 18:00,Panama,America/Panama
+WIND SPIRIT,11/30/2025,Balboa / Fuerte Amador,11/30/2025 22:00,,Panama,America/Panama
+WIND SPIRIT,12/1/2025,Balboa / Fuerte Amador,,12/1/2025 17:00,Panama,America/Panama
+WIND SPIRIT,12/2/2025,At Sea,,,nan,UTC
+WIND SPIRIT,12/3/2025,Isla Parida,12/3/2025 8:00,12/3/2025 18:00,Panama,America/Panama
+WIND SPIRIT,12/4/2025,Golfito,12/4/2025 5:30,12/4/2025 7:00,Costa Rica,America/Costa_Rica
+WIND SPIRIT,12/4/2025,Puerto Jimenez,12/4/2025 8:30,12/4/2025 17:00,Costa Rica,America/Costa_Rica
+WIND SPIRIT,12/5/2025,Quepos,12/5/2025 7:00,12/5/2025 18:00,Costa Rica,America/Costa_Rica
+WIND SPIRIT,12/6/2025,PUERTO CALDERA,12/6/2025 6:00,12/6/2025 18:00,Costa Rica,America/Costa_Rica
+WIND SPIRIT,12/7/2025,Quepos,12/7/2025 7:00,12/7/2025 18:00,Costa Rica,America/Costa_Rica
+WIND SPIRIT,12/8/2025,Puerto Jimenez,12/8/2025 8:00,12/8/2025 17:00,Costa Rica,America/Costa_Rica
+WIND SPIRIT,12/8/2025,Golfito,12/8/2025 18:30,12/8/2025 20:00,Costa Rica,America/Costa_Rica
+WIND SPIRIT,12/9/2025,Isla Parida,12/9/2025 8:00,12/9/2025 18:00,Panama,America/Panama
+WIND SPIRIT,12/10/2025,At Sea,,,nan,UTC
+WIND SPIRIT,12/11/2025,Balboa / Fuerte Amador,12/11/2025 8:00,12/11/2025 17:00,Panama,America/Panama
+WIND SPIRIT,12/11/2025,Balboa - SERVICE CALL ONLY,12/11/2025 19:00,,Panama,America/Panama
+WIND SPIRIT,12/12/2025,Balboa - SERVICE CALL ONLY,,12/12/2025 4:00,Panama,America/Panama
+WIND SPIRIT,12/12/2025,transit Panama Canal,12/12/2025 4:00,12/12/2025 18:00,Panama,America/Panama
+WIND SPIRIT,12/12/2025,Colon - SERVICE CALL ONLY,12/12/2025 22:00,,Panama,America/Panama
+WIND SPIRIT,12/13/2025,Colon - SERVICE CALL ONLY,,12/13/2025 4:00,Panama,America/Panama
+WIND SPIRIT,12/13/2025,COLON - Cristobal Terminal,12/13/2025 7:00,12/13/2025 18:00,Panama,America/Panama
+WIND SPIRIT,12/14/2025,Isla Aroma San Blas Islands,12/14/2025 8:00,12/14/2025 18:00,Panama,America/Panama
+WIND SPIRIT,12/15/2025,At Sea,,,nan,UTC
+WIND SPIRIT,12/16/2025,"Cartagena, Colombia",12/16/2025 8:00,,Colombia,America/Bogota
+WIND SPIRIT,12/17/2025,"Cartagena, Colombia",,12/17/2025 17:00,Colombia,America/Bogota
+WIND SPIRIT,12/18/2025,Santa Marta,12/18/2025 10:00,12/18/2025 17:00,Colombia,America/Bogota
+WIND SPIRIT,12/19/2025,At Sea,,,nan,UTC
+WIND SPIRIT,12/20/2025,ORANJESTAD,12/20/2025 8:00,12/20/2025 19:00,Aruba,America/Aruba
+WIND SPIRIT,12/21/2025,Willemstad,12/21/2025 9:00,12/21/2025 21:00,Curacao,America/Curacao
+WIND SPIRIT,12/22/2025,Kralendijk,12/22/2025 7:00,12/22/2025 16:00,Bonaire,America/Kralendijk
+WIND SPIRIT,12/23/2025,At Sea,,,nan,UTC
+WIND SPIRIT,12/24/2025,"St. George's, Grenada",12/24/2025 18:00,,Grenada,America/Grenada
+WIND SPIRIT,12/25/2025,"St. George's, Grenada",,12/25/2025 22:00,Grenada,America/Grenada
+WIND SPIRIT,12/26/2025,Mayreau,12/26/2025 8:00,12/26/2025 18:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,12/27/2025,Bequia,12/27/2025 7:00,12/27/2025 14:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,12/28/2025,BRIDGETOWN,12/28/2025 5:00,12/28/2025 17:00,Barbados,America/Barbados
+WIND SPIRIT,12/29/2025,At Sea,,,nan,UTC
+WIND SPIRIT,12/30/2025,Basseterre,12/30/2025 9:00,12/30/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SPIRIT,12/31/2025,Les Saintes,12/31/2025 9:00,12/31/2025 22:00,Guadeloupe,America/Guadeloupe
+WIND SPIRIT,1/1/2026,Roseau,1/1/2026 8:00,1/1/2026 13:00,Dominica,America/Dominica
+WIND SPIRIT,1/2/2026,Mayreau,1/2/2026 8:00,1/2/2026 17:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SPIRIT,1/3/2026,Fort de France,1/3/2026 7:30,1/3/2026 14:00,Martinique,America/Martinique
+WIND STAR,12/28/2024,PUERTO CALDERA,12/28/2024 6:00,12/28/2024 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,12/29/2024,Quepos,12/29/2024 7:00,12/29/2024 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,12/30/2024,Puerto Jimenez,12/30/2024 8:00,12/30/2024 17:00,Costa Rica,America/Costa_Rica
+WIND STAR,12/30/2024,Golfito,12/30/2024 18:30,12/30/2024 20:00,Costa Rica,America/Costa_Rica
+WIND STAR,12/31/2024,Isla Parida,12/31/2024 8:00,12/31/2024 18:00,Panama,America/Panama
+WIND STAR,1/1/2025,At Sea,,,nan,UTC
+WIND STAR,1/2/2025,Balboa / Fuerte Amador,1/2/2025 8:00,1/2/2025 17:00,Panama,America/Panama
+WIND STAR,1/2/2025,Balboa - SERVICE CALL ONLY,1/2/2025 19:00,,Panama,America/Panama
+WIND STAR,1/3/2025,Balboa - SERVICE CALL ONLY,,1/3/2025 4:00,Panama,America/Panama
+WIND STAR,1/3/2025,transit Panama Canal,1/3/2025 4:00,1/3/2025 18:00,Panama,America/Panama
+WIND STAR,1/3/2025,Colon - SERVICE CALL ONLY,1/3/2025 22:00,,Panama,America/Panama
+WIND STAR,1/4/2025,Colon - SERVICE CALL ONLY,,1/4/2025 4:00,Panama,America/Panama
+WIND STAR,1/4/2025,COLON - Cristobal Terminal,1/4/2025 7:00,1/4/2025 18:00,Panama,America/Panama
+WIND STAR,1/4/2025,Colon - SERVICE CALL ONLY,1/4/2025 22:00,,Panama,America/Panama
+WIND STAR,1/5/2025,Colon - SERVICE CALL ONLY,,1/5/2025 4:00,Panama,America/Panama
+WIND STAR,1/5/2025,transit Panama Canal,1/5/2025 4:00,1/5/2025 18:00,Panama,America/Panama
+WIND STAR,1/5/2025,Balboa / Fuerte Amador,1/5/2025 22:00,,Panama,America/Panama
+WIND STAR,1/6/2025,Balboa / Fuerte Amador,,1/6/2025 17:00,Panama,America/Panama
+WIND STAR,1/7/2025,At Sea,,,nan,UTC
+WIND STAR,1/8/2025,Isla Parida,1/8/2025 8:00,1/8/2025 18:00,Panama,America/Panama
+WIND STAR,1/9/2025,Golfito,1/9/2025 5:30,1/9/2025 7:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/9/2025,Puerto Jimenez,1/9/2025 8:30,1/9/2025 17:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/10/2025,Quepos,1/10/2025 7:00,1/10/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/11/2025,PUERTO CALDERA,1/11/2025 6:00,1/11/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/12/2025,Playa Flamingo,1/12/2025 10:00,,Costa Rica,America/Costa_Rica
+WIND STAR,1/13/2025,Playa Flamingo,,1/13/2025 15:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/14/2025,Curu,1/14/2025 7:00,1/14/2025 21:30,Costa Rica,America/Costa_Rica
+WIND STAR,1/15/2025,Quepos,1/15/2025 6:00,1/15/2025 16:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/16/2025,Puerto Jimenez,1/16/2025 7:00,1/16/2025 16:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/17/2025,Punta Leona,1/17/2025 10:00,1/17/2025 22:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/18/2025,PUERTO CALDERA,1/18/2025 6:00,1/18/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/19/2025,Quepos,1/19/2025 7:00,1/19/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/20/2025,Puerto Jimenez,1/20/2025 8:00,1/20/2025 17:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/20/2025,Golfito,1/20/2025 18:30,1/20/2025 20:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/21/2025,Isla Parida,1/21/2025 8:00,1/21/2025 18:00,Panama,America/Panama
+WIND STAR,1/22/2025,At Sea,,,nan,UTC
+WIND STAR,1/23/2025,Balboa / Fuerte Amador,1/23/2025 8:00,1/23/2025 17:00,Panama,America/Panama
+WIND STAR,1/23/2025,Balboa - SERVICE CALL ONLY,1/23/2025 19:00,,Panama,America/Panama
+WIND STAR,1/24/2025,Balboa - SERVICE CALL ONLY,,1/24/2025 4:00,Panama,America/Panama
+WIND STAR,1/24/2025,transit Panama Canal,1/24/2025 4:00,1/24/2025 18:00,Panama,America/Panama
+WIND STAR,1/24/2025,Colon - SERVICE CALL ONLY,1/24/2025 22:00,,Panama,America/Panama
+WIND STAR,1/25/2025,Colon - SERVICE CALL ONLY,,1/25/2025 4:00,Panama,America/Panama
+WIND STAR,1/25/2025,COLON - Cristobal Terminal,1/25/2025 7:00,1/25/2025 18:00,Panama,America/Panama
+WIND STAR,1/25/2025,Colon - SERVICE CALL ONLY,1/25/2025 22:00,,Panama,America/Panama
+WIND STAR,1/26/2025,Colon - SERVICE CALL ONLY,,1/26/2025 4:00,Panama,America/Panama
+WIND STAR,1/26/2025,transit Panama Canal,1/26/2025 4:00,1/26/2025 18:00,Panama,America/Panama
+WIND STAR,1/26/2025,Balboa / Fuerte Amador,1/26/2025 22:00,,Panama,America/Panama
+WIND STAR,1/27/2025,Balboa / Fuerte Amador,,1/27/2025 17:00,Panama,America/Panama
+WIND STAR,1/28/2025,At Sea,,,nan,UTC
+WIND STAR,1/29/2025,Isla Parida,1/29/2025 8:00,1/29/2025 18:00,Panama,America/Panama
+WIND STAR,1/30/2025,Golfito,1/30/2025 5:30,1/30/2025 7:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/30/2025,Puerto Jimenez,1/30/2025 8:30,1/30/2025 17:00,Costa Rica,America/Costa_Rica
+WIND STAR,1/31/2025,Quepos,1/31/2025 7:00,1/31/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/1/2025,PUERTO CALDERA,2/1/2025 6:00,2/1/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/2/2025,Quepos,2/2/2025 6:00,2/2/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/3/2025,Puerto Jimenez,2/3/2025 8:00,2/3/2025 17:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/3/2025,Golfito,2/3/2025 18:30,2/3/2025 20:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/4/2025,Isla Parida,2/4/2025 8:00,2/4/2025 18:00,Panama,America/Panama
+WIND STAR,2/5/2025,At Sea,,,nan,UTC
+WIND STAR,2/6/2025,Balboa / Fuerte Amador,2/6/2025 8:00,2/6/2025 17:00,Panama,America/Panama
+WIND STAR,2/6/2025,Balboa - SERVICE CALL ONLY,2/6/2025 19:00,,Panama,America/Panama
+WIND STAR,2/7/2025,Balboa - SERVICE CALL ONLY,,2/7/2025 4:00,Panama,America/Panama
+WIND STAR,2/7/2025,transit Panama Canal,2/7/2025 4:00,2/7/2025 18:00,Panama,America/Panama
+WIND STAR,2/7/2025,COLON - Cristobal Terminal,2/7/2025 19:00,,Panama,America/Panama
+WIND STAR,2/8/2025,COLON - Cristobal Terminal,,2/8/2025 18:00,Panama,America/Panama
+WIND STAR,2/8/2025,Colon - SERVICE CALL ONLY,2/8/2025 22:00,,Panama,America/Panama
+WIND STAR,2/9/2025,Colon - SERVICE CALL ONLY,,2/9/2025 4:00,Panama,America/Panama
+WIND STAR,2/9/2025,transit Panama Canal,2/9/2025 4:00,2/9/2025 18:00,Panama,America/Panama
+WIND STAR,2/9/2025,Balboa / Fuerte Amador,2/9/2025 22:00,,Panama,America/Panama
+WIND STAR,2/10/2025,Balboa / Fuerte Amador,,2/10/2025 17:00,Panama,America/Panama
+WIND STAR,2/11/2025,At Sea,,,nan,UTC
+WIND STAR,2/12/2025,Isla Parida,2/12/2025 8:00,2/12/2025 18:00,Panama,America/Panama
+WIND STAR,2/13/2025,Golfito,2/13/2025 5:30,2/13/2025 7:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/13/2025,Puerto Jimenez,2/13/2025 8:30,2/13/2025 17:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/14/2025,Quepos,2/14/2025 7:00,2/14/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/15/2025,PUERTO CALDERA,2/15/2025 6:00,2/15/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/16/2025,Playa Flamingo,2/16/2025 10:00,,Costa Rica,America/Costa_Rica
+WIND STAR,2/17/2025,Playa Flamingo,,2/17/2025 15:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/18/2025,Curu,2/18/2025 7:00,2/18/2025 21:30,Costa Rica,America/Costa_Rica
+WIND STAR,2/19/2025,Quepos,2/19/2025 6:00,2/19/2025 16:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/20/2025,Puerto Jimenez,2/20/2025 7:00,2/20/2025 16:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/21/2025,Punta Leona,2/21/2025 10:00,2/21/2025 22:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/22/2025,PUERTO CALDERA,2/22/2025 6:00,2/22/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/23/2025,Quepos,2/23/2025 7:00,2/23/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/24/2025,Puerto Jimenez,2/24/2025 8:00,2/24/2025 17:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/24/2025,Golfito,2/24/2025 18:30,2/24/2025 20:00,Costa Rica,America/Costa_Rica
+WIND STAR,2/25/2025,Isla Parida,2/25/2025 8:00,2/25/2025 18:00,Panama,America/Panama
+WIND STAR,2/26/2025,At Sea,,,nan,UTC
+WIND STAR,2/27/2025,Balboa / Fuerte Amador,2/27/2025 8:00,2/27/2025 17:00,Panama,America/Panama
+WIND STAR,2/27/2025,Balboa - SERVICE CALL ONLY,2/27/2025 19:00,,Panama,America/Panama
+WIND STAR,2/28/2025,Balboa - SERVICE CALL ONLY,,2/28/2025 4:00,Panama,America/Panama
+WIND STAR,2/28/2025,transit Panama Canal,2/28/2025 4:00,2/28/2025 18:00,Panama,America/Panama
+WIND STAR,2/28/2025,COLON - Cristobal Terminal,2/28/2025 19:00,,Panama,America/Panama
+WIND STAR,3/1/2025,COLON - Cristobal Terminal,,3/1/2025 18:00,Panama,America/Panama
+WIND STAR,3/1/2025,Colon - SERVICE CALL ONLY,3/1/2025 22:00,,Panama,America/Panama
+WIND STAR,3/2/2025,Colon - SERVICE CALL ONLY,,3/2/2025 4:00,Panama,America/Panama
+WIND STAR,3/2/2025,transit Panama Canal,3/2/2025 4:00,3/2/2025 18:00,Panama,America/Panama
+WIND STAR,3/2/2025,Balboa / Fuerte Amador,3/2/2025 22:00,,Panama,America/Panama
+WIND STAR,3/3/2025,Balboa / Fuerte Amador,,3/3/2025 17:00,Panama,America/Panama
+WIND STAR,3/4/2025,At Sea,,,nan,UTC
+WIND STAR,3/5/2025,Isla Parida,3/5/2025 8:00,3/5/2025 18:00,Panama,America/Panama
+WIND STAR,3/6/2025,Golfito,3/6/2025 5:30,3/6/2025 7:00,Costa Rica,America/Costa_Rica
+WIND STAR,3/6/2025,Puerto Jimenez,3/6/2025 8:30,3/6/2025 17:00,Costa Rica,America/Costa_Rica
+WIND STAR,3/7/2025,Quepos,3/7/2025 7:00,3/7/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,3/8/2025,PUERTO CALDERA,3/8/2025 6:00,3/8/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,3/9/2025,Quepos,3/9/2025 7:00,3/9/2025 18:00,Costa Rica,America/Costa_Rica
+WIND STAR,3/10/2025,Puerto Jimenez,3/10/2025 8:00,3/10/2025 17:00,Costa Rica,America/Costa_Rica
+WIND STAR,3/10/2025,Golfito,3/10/2025 18:30,3/10/2025 20:00,Costa Rica,America/Costa_Rica
+WIND STAR,3/11/2025,Isla Parida,3/11/2025 8:00,3/11/2025 18:00,Panama,America/Panama
+WIND STAR,3/12/2025,At Sea,,,nan,UTC
+WIND STAR,3/13/2025,Balboa / Fuerte Amador,3/13/2025 8:00,3/13/2025 17:00,Panama,America/Panama
+WIND STAR,3/13/2025,Balboa - SERVICE CALL ONLY,3/13/2025 19:00,,Panama,America/Panama
+WIND STAR,3/14/2025,Balboa - SERVICE CALL ONLY,,3/14/2025 4:00,Panama,America/Panama
+WIND STAR,3/14/2025,transit Panama Canal,3/14/2025 4:00,3/14/2025 18:00,Panama,America/Panama
+WIND STAR,3/14/2025,Colon - SERVICE CALL ONLY,3/14/2025 22:00,,Panama,America/Panama
+WIND STAR,3/15/2025,Colon - SERVICE CALL ONLY,,3/15/2025 4:00,Panama,America/Panama
+WIND STAR,3/15/2025,COLON - Cristobal Terminal,3/15/2025 7:00,3/15/2025 18:00,Panama,America/Panama
+WIND STAR,3/16/2025,At Sea,,,nan,UTC
+WIND STAR,3/17/2025,"Cartagena, Colombia",3/17/2025 9:00,3/17/2025 18:00,Colombia,America/Bogota
+WIND STAR,3/18/2025,Santa Marta,3/18/2025 11:00,3/18/2025 18:00,Colombia,America/Bogota
+WIND STAR,3/19/2025,At Sea,,,nan,UTC
+WIND STAR,3/20/2025,Oranjestad,3/20/2025 10:00,3/20/2025 23:00,Aruba,America/Aruba
+WIND STAR,3/21/2025,Willemstad,3/21/2025 9:00,3/21/2025 21:00,Curacao,America/Curacao
+WIND STAR,3/22/2025,At Sea,,,nan,UTC
+WIND STAR,3/23/2025,At Sea,,,nan,UTC
+WIND STAR,3/24/2025,"St. George's, Grenada",3/24/2025 8:00,3/24/2025 22:00,Grenada,America/Grenada
+WIND STAR,3/25/2025,Mayreau,3/25/2025 8:00,3/25/2025 16:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND STAR,3/26/2025,BRIDGETOWN,3/26/2025 8:00,3/26/2025 15:00,Barbados,America/Barbados
+WIND STAR,3/27/2025,At Sea,,,nan,UTC
+WIND STAR,3/28/2025,At Sea,,,nan,UTC
+WIND STAR,3/29/2025,At Sea,,,nan,UTC
+WIND STAR,3/30/2025,At Sea,,,nan,UTC
+WIND STAR,3/31/2025,At Sea,,,nan,UTC
+WIND STAR,4/1/2025,At Sea,,,nan,UTC
+WIND STAR,4/2/2025,At Sea,,,nan,UTC
+WIND STAR,4/3/2025,At Sea,,,nan,UTC
+WIND STAR,4/4/2025,At Sea,,,nan,UTC
+WIND STAR,4/5/2025,At Sea,,,nan,UTC
+WIND STAR,4/6/2025,At Sea,,,nan,UTC
+WIND STAR,4/7/2025,At Sea,,,nan,UTC
+WIND STAR,4/8/2025,At Sea,,,nan,UTC
+WIND STAR,4/9/2025,At Sea,,,nan,UTC
+WIND STAR,4/10/2025,LISBON,4/10/2025 7:00,4/10/2025 17:00,Portugal,Europe/Lisbon
+WIND STAR,4/11/2025,At Sea,,,nan,UTC
+WIND STAR,4/12/2025,Tangier,4/12/2025 8:00,4/12/2025 18:00,Morocco,Africa/Casablanca
+WIND STAR,4/13/2025,Malaga  overnight,4/13/2025 8:00,,Spain,Europe/Madrid
+WIND STAR,4/14/2025,Malaga  overnight,,4/14/2025 22:00,Spain,Europe/Madrid
+WIND STAR,4/15/2025,At Sea,,,nan,UTC
+WIND STAR,4/16/2025,"Cartagena, Spain",4/16/2025 7:00,4/16/2025 14:00,Spain,Europe/Madrid
+WIND STAR,4/17/2025,Valencia,4/17/2025 10:00,4/17/2025 17:00,Spain,Europe/Madrid
+WIND STAR,4/18/2025,Palma De Mallorca,4/18/2025 10:00,4/18/2025 17:00,Spain,Europe/Madrid
+WIND STAR,4/19/2025,Tarragona,4/19/2025 9:00,4/19/2025 21:00,Spain,Europe/Madrid
+WIND STAR,4/20/2025,BARCELONA,4/20/2025 7:00,4/20/2025 17:00,Spain,Europe/Madrid
+WIND STAR,4/21/2025,Palma De Mallorca,4/21/2025 9:00,4/21/2025 17:00,Spain,Europe/Madrid
+WIND STAR,4/22/2025,Mahon,4/22/2025 8:00,4/22/2025 22:00,Spain,Europe/Madrid
+WIND STAR,4/23/2025,At Sea,,,nan,UTC
+WIND STAR,4/24/2025,Calvi,4/24/2025 8:00,4/24/2025 18:00,France,Europe/Paris
+WIND STAR,4/25/2025,Bastia,4/25/2025 8:00,4/25/2025 22:00,France,Europe/Paris
+WIND STAR,4/26/2025,Portoferraio,4/26/2025 7:00,4/26/2025 17:00,Italy,Europe/Rome
+WIND STAR,4/27/2025,Rome / CIVITAVECCHIA,4/27/2025 7:00,4/27/2025 17:00,Italy,Europe/Rome
+WIND STAR,4/28/2025,Sorrento,4/28/2025 13:00,,Italy,Europe/Rome
+WIND STAR,4/29/2025,Sorrento,,4/29/2025 17:00,Italy,Europe/Rome
+WIND STAR,4/30/2025,"Messina, Sicily",4/30/2025 12:00,4/30/2025 18:30,Italy,Europe/Rome
+WIND STAR,5/1/2025,At Sea,,,nan,UTC
+WIND STAR,5/2/2025,Gythion,5/2/2025 13:00,5/2/2025 22:00,Greece,Europe/Athens
+WIND STAR,5/3/2025,Monemvasia,5/3/2025 8:00,5/3/2025 17:00,Greece,Europe/Athens
+WIND STAR,5/4/2025,Athens / PIRAEUS,5/4/2025 7:00,5/4/2025 17:00,Greece,Europe/Athens
+WIND STAR,5/5/2025,Nafplio,5/5/2025 8:00,5/5/2025 17:00,Greece,Europe/Athens
+WIND STAR,5/6/2025,Mykonos,5/6/2025 8:00,5/6/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/7/2025,Kusadasi,5/7/2025 7:00,5/7/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,5/8/2025,Patmos,5/8/2025 8:00,5/8/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/9/2025,Santorini,5/9/2025 7:00,5/9/2025 21:00,Greece,Europe/Athens
+WIND STAR,5/10/2025,Monemvasia,5/10/2025 12:00,5/10/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/11/2025,Athens / PIRAEUS,5/11/2025 7:00,5/11/2025 17:00,Greece,Europe/Athens
+WIND STAR,5/12/2025,Mykonos,5/12/2025 8:00,5/12/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/13/2025,Kusadasi,5/13/2025 7:00,5/13/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,5/14/2025,Patmos,5/14/2025 8:00,5/14/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/15/2025,Santorini,5/15/2025 8:00,5/15/2025 21:00,Greece,Europe/Athens
+WIND STAR,5/16/2025,Monemvasia,5/16/2025 12:00,5/16/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/17/2025,Nafplio,5/17/2025 7:00,5/17/2025 17:00,Greece,Europe/Athens
+WIND STAR,5/18/2025,Athens / PIRAEUS,5/18/2025 7:00,5/18/2025 17:00,Greece,Europe/Athens
+WIND STAR,5/19/2025,Mykonos,5/19/2025 8:00,5/19/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/20/2025,Kusadasi,5/20/2025 7:00,5/20/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,5/21/2025,Patmos,5/21/2025 8:00,5/21/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/22/2025,Santorini,5/22/2025 8:00,5/22/2025 21:00,Greece,Europe/Athens
+WIND STAR,5/23/2025,Monemvasia,5/23/2025 12:00,5/23/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/24/2025,Nafplio,5/24/2025 7:00,5/24/2025 17:00,Greece,Europe/Athens
+WIND STAR,5/25/2025,Athens / PIRAEUS,5/25/2025 7:00,5/25/2025 17:00,Greece,Europe/Athens
+WIND STAR,5/26/2025,Mykonos,5/26/2025 8:00,5/26/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/27/2025,Kusadasi,5/27/2025 7:00,5/27/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,5/28/2025,Patmos,5/28/2025 8:00,5/28/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/29/2025,Santorini,5/29/2025 8:00,5/29/2025 21:00,Greece,Europe/Athens
+WIND STAR,5/30/2025,Monemvasia,5/30/2025 12:00,5/30/2025 18:00,Greece,Europe/Athens
+WIND STAR,5/31/2025,Nafplio,5/31/2025 7:00,5/31/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/1/2025,Athens / PIRAEUS,6/1/2025 7:00,6/1/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/2/2025,Mykonos,6/2/2025 8:00,6/2/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/3/2025,Kusadasi,6/3/2025 7:00,6/3/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,6/4/2025,Patmos,6/4/2025 8:00,6/4/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/5/2025,Santorini,6/5/2025 8:00,6/5/2025 21:00,Greece,Europe/Athens
+WIND STAR,6/6/2025,Monemvasia,6/6/2025 12:00,6/6/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/7/2025,Nafplio,6/7/2025 7:00,6/7/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/8/2025,Athens / PIRAEUS,6/8/2025 7:00,6/8/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/9/2025,Mykonos,6/9/2025 8:00,6/9/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/10/2025,Kusadasi,6/10/2025 7:00,6/10/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,6/11/2025,Patmos,6/11/2025 8:00,6/11/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/12/2025,Santorini,6/12/2025 8:00,6/12/2025 21:00,Greece,Europe/Athens
+WIND STAR,6/13/2025,Monemvasia,6/13/2025 12:00,6/13/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/14/2025,Nafplio,6/14/2025 7:00,6/14/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/15/2025,Athens / PIRAEUS,6/15/2025 7:00,6/15/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/16/2025,Mykonos,6/16/2025 8:00,6/16/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/17/2025,Kusadasi,6/17/2025 7:00,6/17/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,6/18/2025,Patmos,6/18/2025 8:00,6/18/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/19/2025,Santorini,6/19/2025 8:00,6/19/2025 21:00,Greece,Europe/Athens
+WIND STAR,6/20/2025,Monemvasia,6/20/2025 12:00,6/20/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/21/2025,Nafplio,6/21/2025 7:00,6/21/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/22/2025,Athens / PIRAEUS,6/22/2025 7:00,6/22/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/23/2025,Mykonos,6/23/2025 8:00,6/23/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/24/2025,Kusadasi,6/24/2025 7:00,6/24/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,6/25/2025,Patmos,6/25/2025 8:00,6/25/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/26/2025,Santorini,6/26/2025 8:00,6/26/2025 21:00,Greece,Europe/Athens
+WIND STAR,6/27/2025,Monemvasia,6/27/2025 12:00,6/27/2025 18:00,Greece,Europe/Athens
+WIND STAR,6/28/2025,Nafplio,6/28/2025 7:00,6/28/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/29/2025,Athens / PIRAEUS,6/29/2025 7:00,6/29/2025 17:00,Greece,Europe/Athens
+WIND STAR,6/30/2025,Mykonos,6/30/2025 8:00,6/30/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/1/2025,Kusadasi,7/1/2025 7:00,7/1/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,7/2/2025,Patmos,7/2/2025 8:00,7/2/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/3/2025,Santorini,7/3/2025 8:00,7/3/2025 21:00,Greece,Europe/Athens
+WIND STAR,7/4/2025,Monemvasia,7/4/2025 12:00,7/4/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/5/2025,Nafplio,7/5/2025 7:00,7/5/2025 17:00,Greece,Europe/Athens
+WIND STAR,7/6/2025,Athens / PIRAEUS,7/6/2025 7:00,7/6/2025 17:00,Greece,Europe/Athens
+WIND STAR,7/7/2025,Mykonos,7/7/2025 8:00,7/7/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/8/2025,Kusadasi,7/8/2025 7:00,7/8/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,7/9/2025,Patmos,7/9/2025 8:00,7/9/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/10/2025,Santorini,7/10/2025 8:00,7/10/2025 21:00,Greece,Europe/Athens
+WIND STAR,7/11/2025,Monemvasia,7/11/2025 12:00,7/11/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/12/2025,Nafplio,7/12/2025 7:00,7/12/2025 17:00,Greece,Europe/Athens
+WIND STAR,7/13/2025,Athens / PIRAEUS,7/13/2025 7:00,7/13/2025 17:00,Greece,Europe/Athens
+WIND STAR,7/14/2025,Mykonos,7/14/2025 8:00,7/14/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/15/2025,Kusadasi,7/15/2025 7:00,7/15/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,7/16/2025,Patmos,7/16/2025 8:00,7/16/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/17/2025,Santorini,7/17/2025 8:00,7/17/2025 21:00,Greece,Europe/Athens
+WIND STAR,7/18/2025,Monemvasia,7/18/2025 12:00,7/18/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/19/2025,Nafplio,7/19/2025 7:00,7/19/2025 17:00,Greece,Europe/Athens
+WIND STAR,7/20/2025,Athens / PIRAEUS,7/20/2025 7:00,7/20/2025 17:00,Greece,Europe/Athens
+WIND STAR,7/21/2025,Mykonos,7/21/2025 8:00,7/21/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/22/2025,Kusadasi,7/22/2025 7:00,7/22/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,7/23/2025,Patmos,7/23/2025 8:00,7/23/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/24/2025,Santorini,7/24/2025 8:00,7/24/2025 21:00,Greece,Europe/Athens
+WIND STAR,7/25/2025,Monemvasia,7/25/2025 12:00,7/25/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/26/2025,Nafplio,7/26/2025 7:00,7/26/2025 17:00,Greece,Europe/Athens
+WIND STAR,7/27/2025,Athens / PIRAEUS,7/27/2025 7:00,7/27/2025 17:00,Greece,Europe/Athens
+WIND STAR,7/28/2025,Mykonos,7/28/2025 8:00,7/28/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/29/2025,Kusadasi,7/29/2025 7:00,7/29/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,7/30/2025,Patmos,7/30/2025 8:00,7/30/2025 18:00,Greece,Europe/Athens
+WIND STAR,7/31/2025,Santorini,7/31/2025 8:00,7/31/2025 21:00,Greece,Europe/Athens
+WIND STAR,8/1/2025,Monemvasia,8/1/2025 12:00,8/1/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/2/2025,Nafplio,8/2/2025 7:00,8/2/2025 17:00,Greece,Europe/Athens
+WIND STAR,8/3/2025,Athens / PIRAEUS,8/3/2025 7:00,8/3/2025 17:00,Greece,Europe/Athens
+WIND STAR,8/4/2025,Mykonos,8/4/2025 8:00,8/4/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/5/2025,Kusadasi,8/5/2025 7:00,8/5/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,8/6/2025,Patmos,8/6/2025 8:00,8/6/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/7/2025,Santorini,8/7/2025 8:00,8/7/2025 21:00,Greece,Europe/Athens
+WIND STAR,8/8/2025,Monemvasia,8/8/2025 12:00,8/8/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/9/2025,Nafplio,8/9/2025 7:00,8/9/2025 17:00,Greece,Europe/Athens
+WIND STAR,8/10/2025,Athens / PIRAEUS,8/10/2025 7:00,8/10/2025 17:00,Greece,Europe/Athens
+WIND STAR,8/11/2025,Mykonos,8/11/2025 8:00,8/11/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/12/2025,Kusadasi,8/12/2025 7:00,8/12/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,8/13/2025,Patmos,8/13/2025 8:00,8/13/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/14/2025,Santorini,8/14/2025 8:00,8/14/2025 21:00,Greece,Europe/Athens
+WIND STAR,8/15/2025,Monemvasia,8/15/2025 12:00,8/15/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/16/2025,Nafplio,8/16/2025 7:00,8/16/2025 17:00,Greece,Europe/Athens
+WIND STAR,8/17/2025,Athens / PIRAEUS,8/17/2025 7:00,8/17/2025 17:00,Greece,Europe/Athens
+WIND STAR,8/18/2025,Mykonos,8/18/2025 8:00,8/18/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/19/2025,Kusadasi,8/19/2025 7:00,8/19/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,8/20/2025,Patmos,8/20/2025 8:00,8/20/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/21/2025,Santorini,8/21/2025 8:00,8/21/2025 21:00,Greece,Europe/Athens
+WIND STAR,8/22/2025,Monemvasia,8/22/2025 12:00,8/22/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/23/2025,Nafplio,8/23/2025 7:00,8/23/2025 17:00,Greece,Europe/Athens
+WIND STAR,8/24/2025,Athens / PIRAEUS,8/24/2025 7:00,8/24/2025 17:00,Greece,Europe/Athens
+WIND STAR,8/25/2025,Mykonos,8/25/2025 8:00,8/25/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/26/2025,Kusadasi,8/26/2025 7:00,8/26/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,8/27/2025,Patmos,8/27/2025 8:00,8/27/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/28/2025,Santorini,8/28/2025 8:00,8/28/2025 21:00,Greece,Europe/Athens
+WIND STAR,8/29/2025,Monemvasia,8/29/2025 12:00,8/29/2025 18:00,Greece,Europe/Athens
+WIND STAR,8/30/2025,Nafplio,8/30/2025 7:00,8/30/2025 17:00,Greece,Europe/Athens
+WIND STAR,8/31/2025,Athens / PIRAEUS,8/31/2025 7:00,8/31/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/1/2025,Mykonos,9/1/2025 8:00,9/1/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/2/2025,Kusadasi,9/2/2025 7:00,9/2/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,9/3/2025,Patmos,9/3/2025 8:00,9/3/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/4/2025,Santorini,9/4/2025 8:00,9/4/2025 21:00,Greece,Europe/Athens
+WIND STAR,9/5/2025,Monemvasia,9/5/2025 12:00,9/5/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/6/2025,Nafplio,9/6/2025 7:00,9/6/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/7/2025,Athens / PIRAEUS,9/7/2025 7:00,9/7/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/8/2025,Mykonos,9/8/2025 8:00,9/8/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/9/2025,Kusadasi,9/9/2025 7:00,9/9/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,9/10/2025,Patmos,9/10/2025 8:00,9/10/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/11/2025,Santorini,9/11/2025 8:00,9/11/2025 21:00,Greece,Europe/Athens
+WIND STAR,9/12/2025,Monemvasia,9/12/2025 12:00,9/12/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/13/2025,Nafplio,9/13/2025 7:00,9/13/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/14/2025,Athens / PIRAEUS,9/14/2025 7:00,9/14/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/15/2025,Mykonos,9/15/2025 8:00,9/15/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/16/2025,Kusadasi,9/16/2025 7:00,9/16/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,9/17/2025,Patmos,9/17/2025 8:00,9/17/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/18/2025,Santorini,9/18/2025 8:00,9/18/2025 21:00,Greece,Europe/Athens
+WIND STAR,9/19/2025,Monemvasia,9/19/2025 12:00,9/19/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/20/2025,Nafplio,9/20/2025 7:00,9/20/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/21/2025,Athens / PIRAEUS,9/21/2025 7:00,9/21/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/22/2025,Nafplio,9/22/2025 8:00,9/22/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/23/2025,Mykonos,9/23/2025 8:00,9/23/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/24/2025,Kusadasi,9/24/2025 7:00,9/24/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,9/25/2025,Patmos,9/25/2025 8:00,9/25/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/26/2025,Santorini,9/26/2025 7:00,9/26/2025 21:00,Greece,Europe/Athens
+WIND STAR,9/27/2025,Monemvasia,9/27/2025 12:00,9/27/2025 18:00,Greece,Europe/Athens
+WIND STAR,9/28/2025,Athens / PIRAEUS,9/28/2025 7:00,9/28/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/29/2025,Nafplio,9/29/2025 8:00,9/29/2025 17:00,Greece,Europe/Athens
+WIND STAR,9/30/2025,Mykonos,9/30/2025 8:00,9/30/2025 18:00,Greece,Europe/Athens
+WIND STAR,10/1/2025,Kusadasi,10/1/2025 7:00,10/1/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,10/2/2025,Patmos,10/2/2025 8:00,10/2/2025 18:00,Greece,Europe/Athens
+WIND STAR,10/3/2025,Santorini,10/3/2025 7:00,10/3/2025 21:00,Greece,Europe/Athens
+WIND STAR,10/4/2025,Monemvasia,10/4/2025 12:00,10/4/2025 18:00,Greece,Europe/Athens
+WIND STAR,10/5/2025,Athens / PIRAEUS,10/5/2025 7:00,10/5/2025 17:00,Greece,Europe/Athens
+WIND STAR,10/6/2025,Mykonos,10/6/2025 8:00,10/6/2025 18:00,Greece,Europe/Athens
+WIND STAR,10/7/2025,Kusadasi,10/7/2025 7:00,10/7/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,10/8/2025,Patmos,10/8/2025 8:00,10/8/2025 18:00,Greece,Europe/Athens
+WIND STAR,10/9/2025,Santorini,10/9/2025 8:00,10/9/2025 21:00,Greece,Europe/Athens
+WIND STAR,10/10/2025,Monemvasia,10/10/2025 12:00,10/10/2025 18:00,Greece,Europe/Athens
+WIND STAR,10/11/2025,Nafplio,10/11/2025 7:00,10/11/2025 17:00,Greece,Europe/Athens
+WIND STAR,10/12/2025,Athens / PIRAEUS,10/12/2025 7:00,10/12/2025 17:00,Greece,Europe/Athens
+WIND STAR,10/13/2025,Mykonos,10/13/2025 8:00,10/13/2025 18:00,Greece,Europe/Athens
+WIND STAR,10/14/2025,Kusadasi,10/14/2025 7:00,10/14/2025 23:59,Turkey,Europe/Istanbul
+WIND STAR,10/15/2025,Patmos,10/15/2025 8:00,10/15/2025 18:00,Greece,Europe/Athens
+WIND STAR,10/16/2025,Santorini,10/16/2025 8:00,10/16/2025 21:00,Greece,Europe/Athens
+WIND STAR,10/17/2025,Monemvasia,10/17/2025 12:00,10/17/2025 18:00,Greece,Europe/Athens
+WIND STAR,10/18/2025,Nafplio,10/18/2025 7:00,10/18/2025 17:00,Greece,Europe/Athens
+WIND STAR,10/19/2025,Athens / PIRAEUS,10/19/2025 7:00,10/19/2025 17:00,Greece,Europe/Athens
+WIND STAR,10/20/2025,Monemvasia,10/20/2025 8:00,10/20/2025 17:00,Greece,Europe/Athens
+WIND STAR,10/21/2025,Gythion,10/21/2025 8:00,10/21/2025 16:00,Greece,Europe/Athens
+WIND STAR,10/22/2025,At Sea,,,nan,UTC
+WIND STAR,10/23/2025,"Messina, Sicily",10/23/2025 8:00,10/23/2025 14:00,Italy,Europe/Rome
+WIND STAR,10/24/2025,Sorrento,10/24/2025 10:00,,Italy,Europe/Rome
+WIND STAR,10/25/2025,Sorrento,,10/25/2025 12:00,Italy,Europe/Rome
+WIND STAR,10/26/2025,Rome / CIVITAVECCHIA,10/26/2025 7:00,10/26/2025 17:00,Italy,Europe/Rome
+WIND STAR,10/27/2025,Portoferraio,10/27/2025 8:00,10/27/2025 22:00,Italy,Europe/Rome
+WIND STAR,10/28/2025,Bastia,10/28/2025 8:00,10/28/2025 17:00,France,Europe/Paris
+WIND STAR,10/29/2025,Calvi,10/29/2025 8:00,10/29/2025 23:59,France,Europe/Paris
+WIND STAR,10/30/2025,At Sea,,,nan,UTC
+WIND STAR,10/31/2025,Mahon,10/31/2025 8:00,10/31/2025 17:00,Spain,Europe/Madrid
+WIND STAR,11/1/2025,Palma de Mallorca,11/1/2025 8:00,11/1/2025 16:00,Spain,Europe/Madrid
+WIND STAR,11/2/2025,BARCELONA,11/2/2025 7:00,11/2/2025 17:00,Spain,Europe/Madrid
+WIND STAR,11/3/2025,Tarragona,11/3/2025 7:00,11/3/2025 17:00,Spain,Europe/Madrid
+WIND STAR,11/4/2025,Palma de Mallorca,11/4/2025 8:00,11/4/2025 13:00,Spain,Europe/Madrid
+WIND STAR,11/5/2025,Valencia,11/5/2025 8:00,11/5/2025 17:00,Spain,Europe/Madrid
+WIND STAR,11/6/2025,"Cartagena, Spain",11/6/2025 12:00,11/6/2025 23:59,Spain,Europe/Madrid
+WIND STAR,11/7/2025,At Sea,,,nan,UTC
+WIND STAR,11/8/2025,Malaga  overnight,11/8/2025 7:00,,Spain,Europe/Madrid
+WIND STAR,11/9/2025,Malaga  overnight,,11/9/2025 21:00,Spain,Europe/Madrid
+WIND STAR,11/10/2025,Tangier,11/10/2025 8:00,11/10/2025 17:00,Morocco,Africa/Casablanca
+WIND STAR,11/11/2025,At Sea,,,nan,UTC
+WIND STAR,11/12/2025,LISBON,11/12/2025 7:00,11/12/2025 15:00,Portugal,Europe/Lisbon
+WIND STAR,11/13/2025,At Sea,,,nan,UTC
+WIND STAR,11/14/2025,At Sea,,,nan,UTC
+WIND STAR,11/15/2025,"Funchal, Madeira",11/15/2025 8:00,11/15/2025 23:00,Portugal,Atlantic/Madeira
+WIND STAR,11/16/2025,At Sea,,,nan,UTC
+WIND STAR,11/17/2025,San Sebastián de La Gomera,11/17/2025 8:00,11/17/2025 22:00,Spain,Atlantic/Canary
+WIND STAR,11/18/2025,Santa Cruz de La Palma,11/18/2025 8:00,11/18/2025 17:00,Spain,Atlantic/Canary
+WIND STAR,11/19/2025,"Las Palmas, Grand Canaria",11/19/2025 13:00,11/19/2025 22:00,Spain,Atlantic/Canary
+WIND STAR,11/20/2025,SANTA CRUZ de TENERIFE,11/20/2025 7:00,11/20/2025 17:00,Spain,Atlantic/Canary
+WIND STAR,11/21/2025,San Sebastián de La Gomera,11/21/2025 9:00,11/21/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,11/22/2025,Santa Cruz de La Palma,11/22/2025 7:00,11/22/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,11/23/2025,At Sea,,,nan,UTC
+WIND STAR,11/24/2025,"Funchal, Madeira - overnight",11/24/2025 13:00,,Portugal,Atlantic/Madeira
+WIND STAR,11/25/2025,"Funchal, Madeira - overnight",,11/25/2025 17:00,Portugal,Atlantic/Madeira
+WIND STAR,11/26/2025,At Sea,,,nan,UTC
+WIND STAR,11/27/2025,"Lanzarote, Canary Is / ARRECIFE",11/27/2025 8:00,11/27/2025 22:00,Spain,Atlantic/Canary
+WIND STAR,11/28/2025,"Las Palmas, Grand Canaria - overnight",11/28/2025 13:00,,Spain,Atlantic/Canary
+WIND STAR,11/29/2025,"Las Palmas, Grand Canaria - overnight",,11/29/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,11/30/2025,SANTA CRUZ de TENERIFE,11/30/2025 7:00,11/30/2025 17:00,Spain,Atlantic/Canary
+WIND STAR,12/1/2025,San Sebastián de La Gomera,12/1/2025 9:00,12/1/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,12/2/2025,Santa Cruz de La Palma,12/2/2025 7:00,12/2/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,12/3/2025,At Sea,,,nan,UTC
+WIND STAR,12/4/2025,"Funchal, Madeira - overnight",12/4/2025 13:00,,Portugal,Atlantic/Madeira
+WIND STAR,12/5/2025,"Funchal, Madeira - overnight",,12/5/2025 17:00,Portugal,Atlantic/Madeira
+WIND STAR,12/6/2025,At Sea,,,nan,UTC
+WIND STAR,12/7/2025,"Lanzarote, Canary Is / ARRECIFE",12/7/2025 8:00,12/7/2025 22:00,Spain,Atlantic/Canary
+WIND STAR,12/8/2025,"Las Palmas, Grand Canaria - overnight",12/8/2025 13:00,,Spain,Atlantic/Canary
+WIND STAR,12/9/2025,"Las Palmas, Grand Canaria - overnight",,12/9/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,12/10/2025,SANTA CRUZ de TENERIFE,12/10/2025 7:00,12/10/2025 17:00,Spain,Atlantic/Canary
+WIND STAR,12/11/2025,San Sebastián de la Gomera,12/11/2025 9:00,12/11/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,12/12/2025,Santa Cruz de la Palma,12/12/2025 7:00,12/12/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,12/13/2025,At Sea,,,nan,UTC
+WIND STAR,12/14/2025,"Funchal, Madeira - overnight",12/14/2025 13:00,,Portugal,Atlantic/Madeira
+WIND STAR,12/15/2025,"Funchal, Madeira - overnight",,12/15/2025 17:00,Portugal,Atlantic/Madeira
+WIND STAR,12/16/2025,At Sea,,,nan,UTC
+WIND STAR,12/17/2025,"Lanzarote, Canary Is / ARRECIFE",12/17/2025 8:00,12/17/2025 22:00,Spain,Atlantic/Canary
+WIND STAR,12/18/2025,"Las Palmas, Grand Canaria",12/18/2025 13:00,12/18/2025 23:00,Spain,Atlantic/Canary
+WIND STAR,12/19/2025,SANTA CRUZ de TENERIFE,12/19/2025 7:00,,Spain,Atlantic/Canary
+WIND STAR,12/20/2025,SANTA CRUZ de TENERIFE,,12/20/2025 17:00,Spain,Atlantic/Canary
+WIND STAR,12/21/2025,San Sebastián de la Gomera,12/21/2025 9:00,12/21/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,12/22/2025,Santa Cruz de la Palma,12/22/2025 7:00,12/22/2025 18:00,Spain,Atlantic/Canary
+WIND STAR,12/23/2025,At Sea,,,nan,UTC
+WIND STAR,12/24/2025,"Funchal, Madeira - overnight",12/24/2025 13:00,,Portugal,Atlantic/Madeira
+WIND STAR,12/25/2025,"Funchal, Madeira - overnight",,12/25/2025 17:00,Portugal,Atlantic/Madeira
+WIND STAR,12/26/2025,At Sea,,,nan,UTC
+WIND STAR,12/27/2025,"Lanzarote, Canary Is / ARRECIFE",12/27/2025 8:00,12/27/2025 22:00,Spain,Atlantic/Canary
+WIND STAR,12/28/2025,"Las Palmas, Grand Canaria - overnight",12/28/2025 13:00,,Spain,Atlantic/Canary
+WIND STAR,12/29/2025,"Las Palmas, Grand Canaria - overnight",,12/29/2025 18:00,Spain,Atlantic/Canary
+WIND SURF,12/28/2024,PHILIPSBURG,12/28/2024 6:00,12/28/2024 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,12/29/2024,Falmouth Harbour,12/29/2024 8:00,12/29/2024 18:00,Antigua & Barbuda,America/Antigua
+WIND SURF,12/30/2024,Road Bay,12/30/2024 8:00,12/30/2024 18:00,Anguilla,America/Anguilla
+WIND SURF,12/31/2024,Jost Van Dyke Great Harbour,12/31/2024 8:00,12/31/2024 22:00,B.V.I.,America/Tortola
+WIND SURF,1/1/2025,Virgin Gorda Prickly Pear Beach,1/1/2025 8:00,1/1/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,1/1/2025,Soper's Hole - Tortola,1/1/2025 22:00,,B.V.I.,America/Tortola
+WIND SURF,1/2/2025,Soper's Hole - Tortola,,1/2/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,1/3/2025,Gustavia,1/3/2025 8:00,1/3/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,1/4/2025,PHILIPSBURG,1/4/2025 6:00,1/4/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,1/5/2025,Charlestown,1/5/2025 8:00,1/5/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,1/6/2025,Roseau,1/6/2025 8:00,1/6/2025 17:00,Dominica,America/Dominica
+WIND SURF,1/7/2025,Pigeon Island,1/7/2025 8:00,1/7/2025 17:00,St. Lucia,America/St_Lucia
+WIND SURF,1/8/2025,Les Saintes,1/8/2025 8:00,1/8/2025 17:00,Guadeloupe,America/Guadeloupe
+WIND SURF,1/9/2025,Gustavia,1/9/2025 8:00,1/9/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,1/10/2025,Basseterre,1/10/2025 8:00,1/10/2025 21:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,1/11/2025,PHILIPSBURG,1/11/2025 6:00,1/11/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,1/12/2025,Falmouth Harbour,1/12/2025 8:00,1/12/2025 18:00,Antigua & Barbuda,America/Antigua
+WIND SURF,1/13/2025,Gustavia,1/13/2025 8:00,1/13/2025 19:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,1/14/2025,Soper's Hole - Tortola,1/14/2025 8:00,1/14/2025 18:00,B.V.I.,America/Tortola
+WIND SURF,1/14/2025,Jost Van Dyke Great Harbour,1/14/2025 19:00,,B.V.I.,America/Tortola
+WIND SURF,1/15/2025,Jost Van Dyke Great Harbour,,1/15/2025 22:00,B.V.I.,America/Tortola
+WIND SURF,1/16/2025,Virgin Gorda Prickly Pear Beach,1/16/2025 8:00,1/16/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,1/17/2025,Road Bay,1/17/2025 8:00,1/17/2025 18:00,Anguilla,America/Anguilla
+WIND SURF,1/18/2025,PHILIPSBURG,1/18/2025 6:00,1/18/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,1/19/2025,Charlestown,1/19/2025 8:00,1/19/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,1/20/2025,Roseau,1/20/2025 8:00,1/20/2025 17:00,Dominica,America/Dominica
+WIND SURF,1/21/2025,Pigeon Island,1/21/2025 8:00,1/21/2025 17:00,St. Lucia,America/St_Lucia
+WIND SURF,1/22/2025,Les Saintes,1/22/2025 8:00,1/22/2025 17:00,Guadeloupe,America/Guadeloupe
+WIND SURF,1/23/2025,Gustavia,1/23/2025 8:00,1/23/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,1/24/2025,Basseterre,1/24/2025 8:00,1/24/2025 21:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,1/25/2025,PHILIPSBURG,1/25/2025 6:00,1/25/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,1/26/2025,Falmouth Harbour,1/26/2025 8:00,1/26/2025 18:00,Antigua & Barbuda,America/Antigua
+WIND SURF,1/27/2025,Road Bay,1/27/2025 8:00,1/27/2025 18:00,Anguilla,America/Anguilla
+WIND SURF,1/28/2025,Soper's Hole - Tortola,1/28/2025 8:00,1/28/2025 18:00,B.V.I.,America/Tortola
+WIND SURF,1/28/2025,Jost Van Dyke Great Harbour,1/28/2025 19:00,,B.V.I.,America/Tortola
+WIND SURF,1/29/2025,Jost Van Dyke Great Harbour,,1/29/2025 22:00,B.V.I.,America/Tortola
+WIND SURF,1/30/2025,Virgin Gorda Prickly Pear Beach,1/30/2025 8:00,1/30/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,1/31/2025,Gustavia,1/31/2025 8:00,1/31/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,2/1/2025,PHILIPSBURG,2/1/2025 6:00,2/1/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,2/2/2025,Falmouth Harbour,2/2/2025 8:00,2/2/2025 18:00,Antigua & Barbuda,America/Antigua
+WIND SURF,2/3/2025,Road Bay,2/3/2025 8:00,2/3/2025 18:00,Anguilla,America/Anguilla
+WIND SURF,2/4/2025,Soper's Hole - Tortola,2/4/2025 8:00,2/4/2025 18:00,B.V.I.,America/Tortola
+WIND SURF,2/4/2025,Jost Van Dyke Great Harbour,2/4/2025 19:00,,B.V.I.,America/Tortola
+WIND SURF,2/5/2025,Jost Van Dyke Great Harbour,,2/5/2025 22:00,B.V.I.,America/Tortola
+WIND SURF,2/6/2025,Virgin Gorda Prickly Pear Beach,2/6/2025 8:00,2/6/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,2/7/2025,Gustavia,2/7/2025 8:00,2/7/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,2/8/2025,PHILIPSBURG,2/8/2025 6:00,2/8/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,2/9/2025,Charlestown,2/9/2025 8:00,2/9/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,2/10/2025,Roseau,2/10/2025 8:00,2/10/2025 17:00,Dominica,America/Dominica
+WIND SURF,2/11/2025,Pigeon Island,2/11/2025 8:00,2/11/2025 17:00,St. Lucia,America/St_Lucia
+WIND SURF,2/12/2025,Les Saintes,2/12/2025 8:00,2/12/2025 18:00,Guadeloupe,America/Guadeloupe
+WIND SURF,2/13/2025,Basseterre,2/13/2025 8:00,2/13/2025 22:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,2/14/2025,Gustavia,2/14/2025 8:00,2/14/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,2/15/2025,PHILIPSBURG,2/15/2025 6:00,2/15/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,2/16/2025,Falmouth Harbour,2/16/2025 8:00,2/16/2025 13:00,Antigua & Barbuda,America/Antigua
+WIND SURF,2/17/2025,Jost Van Dyke Great Harbour,2/17/2025 8:00,2/17/2025 22:00,B.V.I.,America/Tortola
+WIND SURF,2/18/2025,Virgin Gorda Prickly Pear Beach,2/18/2025 8:00,2/18/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,2/19/2025,Soper's Hole - Tortola,2/19/2025 8:00,2/19/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,2/20/2025,Gustavia,2/20/2025 8:00,2/20/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,2/21/2025,Road Bay,2/21/2025 8:00,2/21/2025 18:00,Anguilla,America/Anguilla
+WIND SURF,2/22/2025,PHILIPSBURG,2/22/2025 6:00,2/22/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,2/23/2025,Charlestown,2/23/2025 8:00,2/23/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,2/24/2025,Roseau,2/24/2025 8:00,2/24/2025 17:00,Dominica,America/Dominica
+WIND SURF,2/25/2025,Pigeon Island,2/25/2025 8:00,2/25/2025 17:00,St. Lucia,America/St_Lucia
+WIND SURF,2/26/2025,Les Saintes,2/26/2025 8:00,2/26/2025 18:00,Guadeloupe,America/Guadeloupe
+WIND SURF,2/27/2025,Basseterre,2/27/2025 8:00,2/27/2025 22:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,2/28/2025,Gustavia,2/28/2025 8:00,2/28/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,3/1/2025,PHILIPSBURG,3/1/2025 6:00,3/1/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,3/2/2025,Falmouth Harbour,3/2/2025 8:00,3/2/2025 18:00,Antigua & Barbuda,America/Antigua
+WIND SURF,3/3/2025,Road Bay,3/3/2025 8:00,3/3/2025 18:00,Anguilla,America/Anguilla
+WIND SURF,3/4/2025,Soper's Hole - Tortola,3/4/2025 8:00,3/4/2025 18:00,B.V.I.,America/Tortola
+WIND SURF,3/4/2025,Jost Van Dyke Great Harbour,3/4/2025 19:00,,B.V.I.,America/Tortola
+WIND SURF,3/5/2025,Jost Van Dyke Great Harbour,,3/5/2025 22:00,B.V.I.,America/Tortola
+WIND SURF,3/6/2025,Virgin Gorda Prickly Pear Beach,3/6/2025 8:00,3/6/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,3/7/2025,Gustavia,3/7/2025 8:00,3/7/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,3/8/2025,PHILIPSBURG,3/8/2025 6:00,3/8/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,3/9/2025,Falmouth Harbour,3/9/2025 8:00,3/9/2025 18:00,Antigua & Barbuda,America/Antigua
+WIND SURF,3/10/2025,Road Bay,3/10/2025 8:00,3/10/2025 18:00,Anguilla,America/Anguilla
+WIND SURF,3/11/2025,Soper's Hole - Tortola,3/11/2025 8:00,3/11/2025 18:00,B.V.I.,America/Tortola
+WIND SURF,3/11/2025,Jost Van Dyke Great Harbour,3/11/2025 19:00,,B.V.I.,America/Tortola
+WIND SURF,3/12/2025,Jost Van Dyke Great Harbour,,3/12/2025 22:00,B.V.I.,America/Tortola
+WIND SURF,3/13/2025,Virgin Gorda Prickly Pear Beach,3/13/2025 8:00,3/13/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,3/14/2025,Gustavia,3/14/2025 8:00,3/14/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,3/15/2025,PHILIPSBURG,3/15/2025 6:00,3/15/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,3/16/2025,Charlestown,3/16/2025 8:00,3/16/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,3/17/2025,Roseau,3/17/2025 8:00,3/17/2025 17:00,Dominica,America/Dominica
+WIND SURF,3/18/2025,Pigeon Island,3/18/2025 8:00,3/18/2025 17:00,St. Lucia,America/St_Lucia
+WIND SURF,3/19/2025,Les Saintes,3/19/2025 8:00,3/19/2025 18:00,Guadeloupe,America/Guadeloupe
+WIND SURF,3/20/2025,Basseterre,3/20/2025 8:00,3/20/2025 22:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,3/21/2025,Gustavia,3/21/2025 8:00,3/21/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,3/22/2025,PHILIPSBURG,3/22/2025 6:00,3/22/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,3/23/2025,Falmouth Harbour,3/23/2025 8:00,3/23/2025 18:00,Antigua & Barbuda,America/Antigua
+WIND SURF,3/24/2025,Road Bay,3/24/2025 8:00,3/24/2025 18:00,Anguilla,America/Anguilla
+WIND SURF,3/25/2025,Soper's Hole - Tortola,3/25/2025 8:00,3/25/2025 18:00,B.V.I.,America/Tortola
+WIND SURF,3/25/2025,Jost Van Dyke Great Harbour,3/25/2025 19:00,,B.V.I.,America/Tortola
+WIND SURF,3/26/2025,Jost Van Dyke Great Harbour,,3/26/2025 22:00,B.V.I.,America/Tortola
+WIND SURF,3/27/2025,Virgin Gorda Prickly Pear Beach,3/27/2025 8:00,3/27/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,3/28/2025,Gustavia,3/28/2025 8:00,3/28/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,3/29/2025,PHILIPSBURG,3/29/2025 6:00,3/29/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,3/30/2025,At Sea,,,nan,UTC
+WIND SURF,3/31/2025,At Sea,,,nan,UTC
+WIND SURF,4/1/2025,At Sea,,,nan,UTC
+WIND SURF,4/2/2025,At Sea,,,nan,UTC
+WIND SURF,4/3/2025,At Sea,,,nan,UTC
+WIND SURF,4/4/2025,At Sea,,,nan,UTC
+WIND SURF,4/5/2025,At Sea,,,nan,UTC
+WIND SURF,4/6/2025,At Sea,,,nan,UTC
+WIND SURF,4/7/2025,At Sea,,,nan,UTC
+WIND SURF,4/8/2025,"Ponta Delgada, Azores",4/8/2025 8:00,4/8/2025 18:00,Portugal,Atlantic/Azores
+WIND SURF,4/9/2025,At Sea,,,nan,UTC
+WIND SURF,4/10/2025,At Sea,,,nan,UTC
+WIND SURF,4/11/2025,LISBON,4/11/2025 22:00,,Portugal,Europe/Lisbon
+WIND SURF,4/12/2025,LISBON,,4/12/2025 21:30,Portugal,Europe/Lisbon
+WIND SURF,4/13/2025,At Sea,,,nan,UTC
+WIND SURF,4/14/2025,Cadiz,4/14/2025 8:00,4/14/2025 22:00,Spain,Europe/Madrid
+WIND SURF,4/15/2025,Gibraltar,4/15/2025 9:00,4/15/2025 18:00,British Overseas Territory,Europe/Gibraltar
+WIND SURF,4/16/2025,Malaga,4/16/2025 8:00,4/16/2025 20:00,Spain,Europe/Madrid
+WIND SURF,4/17/2025,Almeria,4/17/2025 7:00,4/17/2025 18:00,Spain,Europe/Madrid
+WIND SURF,4/18/2025,"Cartagena, Spain",4/18/2025 7:00,4/18/2025 12:00,Spain,Europe/Madrid
+WIND SURF,4/19/2025,Palma de Mallorca,4/19/2025 9:00,4/19/2025 17:00,Spain,Europe/Madrid
+WIND SURF,4/20/2025,BARCELONA,4/20/2025 7:00,4/20/2025 17:00,Spain,Europe/Madrid
+WIND SURF,4/21/2025,Port Vendres,4/21/2025 8:00,4/21/2025 17:00,France,Europe/Paris
+WIND SURF,4/22/2025,Sanary-sur-Mer,4/22/2025 8:00,4/22/2025 18:00,France,Europe/Paris
+WIND SURF,4/23/2025,Monte Carlo,4/23/2025 8:00,4/23/2025 23:59,Monaco,Europe/Monaco
+WIND SURF,4/24/2025,Cannes,4/24/2025 7:00,4/24/2025 18:00,France,Europe/Paris
+WIND SURF,4/25/2025,Portofino,4/25/2025 9:00,4/25/2025 21:00,Italy,Europe/Rome
+WIND SURF,4/26/2025,Portoferraio,4/26/2025 8:00,4/26/2025 18:00,Italy,Europe/Rome
+WIND SURF,4/27/2025,Rome / CIVITAVECCHIA,4/27/2025 7:00,4/27/2025 16:00,Italy,Europe/Rome
+WIND SURF,4/28/2025,Sorrento,4/28/2025 8:00,4/28/2025 17:00,Italy,Europe/Rome
+WIND SURF,4/29/2025,Giardini Naxos,4/29/2025 12:00,4/29/2025 18:00,Italy,Europe/Rome
+WIND SURF,4/30/2025,At Sea,,,nan,UTC
+WIND SURF,5/1/2025,Kotor,5/1/2025 9:00,5/1/2025 22:00,Montenegro,Europe/Podgorica
+WIND SURF,5/2/2025,Dubrovnik,5/2/2025 8:00,5/2/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,5/3/2025,Split,5/3/2025 8:00,5/3/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,5/4/2025,Rovinj,5/4/2025 9:00,5/4/2025 19:00,Croatia,Europe/Zagreb
+WIND SURF,5/5/2025,VENICE,5/5/2025 7:00,5/5/2025 18:00,Italy,Europe/Rome
+WIND SURF,5/6/2025,Rovinj,5/6/2025 8:00,5/6/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,5/7/2025,Split,5/7/2025 8:00,5/7/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,5/8/2025,Dubrovnik,5/8/2025 8:00,5/8/2025 22:00,Croatia,Europe/Zagreb
+WIND SURF,5/9/2025,Kotor,5/9/2025 8:00,5/9/2025 17:00,Montenegro,Europe/Podgorica
+WIND SURF,5/10/2025,At Sea,,,nan,UTC
+WIND SURF,5/11/2025,Giardini Naxos,5/11/2025 8:00,5/11/2025 14:00,Italy,Europe/Rome
+WIND SURF,5/12/2025,Sorrento,5/12/2025 8:00,5/12/2025 15:00,Italy,Europe/Rome
+WIND SURF,5/13/2025,Rome / CIVITAVECCHIA,5/13/2025 7:00,5/13/2025 17:00,Italy,Europe/Rome
+WIND SURF,5/14/2025,Portoferraio,5/14/2025 8:00,5/14/2025 18:00,Italy,Europe/Rome
+WIND SURF,5/15/2025,Portofino,5/15/2025 8:00,5/15/2025 22:00,Italy,Europe/Rome
+WIND SURF,5/16/2025,Monte Carlo,5/16/2025 8:00,5/16/2025 23:59,Monaco,Europe/Monaco
+WIND SURF,5/17/2025,Cannes,5/17/2025 7:00,5/17/2025 22:00,France,Europe/Paris
+WIND SURF,5/18/2025,Sanary-sur-Mer,5/18/2025 8:00,5/18/2025 18:00,France,Europe/Paris
+WIND SURF,5/19/2025,Port Vendres,5/19/2025 9:00,5/19/2025 18:00,France,Europe/Paris
+WIND SURF,5/20/2025,BARCELONA,5/20/2025 7:00,5/20/2025 17:00,Spain,Europe/Madrid
+WIND SURF,5/21/2025,Palamos,5/21/2025 8:00,5/21/2025 17:00,Spain,Europe/Madrid
+WIND SURF,5/22/2025,Sanary-sur-Mer,5/22/2025 8:00,5/22/2025 18:00,France,Europe/Paris
+WIND SURF,5/23/2025,Cannes,5/23/2025 7:00,5/23/2025 18:00,France,Europe/Paris
+WIND SURF,5/24/2025,Monte Carlo,5/24/2025 4:00,,Monaco,Europe/Monaco
+WIND SURF,5/25/2025,Monte Carlo,,5/25/2025 22:00,Monaco,Europe/Monaco
+WIND SURF,5/26/2025,Portoferraio,5/26/2025 12:00,5/26/2025 18:00,Italy,Europe/Rome
+WIND SURF,5/27/2025,Rome / CIVITAVECCHIA,5/27/2025 7:00,5/27/2025 17:00,Italy,Europe/Rome
+WIND SURF,5/28/2025,At Sea,,,nan,UTC
+WIND SURF,5/29/2025,"Syracuse, Sicily",5/29/2025 8:00,5/29/2025 18:00,Italy,Europe/Rome
+WIND SURF,5/30/2025,Valletta,5/30/2025 8:00,5/30/2025 23:59,Malta,Europe/Malta
+WIND SURF,5/31/2025,Gozo / MGARR,5/31/2025 7:00,5/31/2025 18:00,Malta,Europe/Malta
+WIND SURF,6/1/2025,"Porto Empedocle, Sicily",6/1/2025 8:00,6/1/2025 17:00,Italy,Europe/Rome
+WIND SURF,6/2/2025,"Trapani, Sicily",6/2/2025 8:00,6/2/2025 16:00,Italy,Europe/Rome
+WIND SURF,6/3/2025,Lipari,6/3/2025 8:00,6/3/2025 16:00,Italy,Europe/Rome
+WIND SURF,6/4/2025,Sorrento,6/4/2025 8:00,6/4/2025 23:59,Italy,Europe/Rome
+WIND SURF,6/5/2025,Amalfi,6/5/2025 7:00,6/5/2025 14:00,Italy,Europe/Rome
+WIND SURF,6/6/2025,Rome / CIVITAVECCHIA,6/6/2025 7:00,6/6/2025 16:00,Italy,Europe/Rome
+WIND SURF,6/7/2025,Sorrento,6/7/2025 8:00,6/7/2025 17:00,Italy,Europe/Rome
+WIND SURF,6/8/2025,Giardini Naxos,6/8/2025 12:00,6/8/2025 18:00,Italy,Europe/Rome
+WIND SURF,6/9/2025,At Sea,,,nan,UTC
+WIND SURF,6/10/2025,Kotor,6/10/2025 9:00,6/10/2025 22:00,Montenegro,Europe/Podgorica
+WIND SURF,6/11/2025,Dubrovnik,6/11/2025 8:00,6/11/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,6/12/2025,Split,6/12/2025 8:00,6/12/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,6/13/2025,Rovinj,6/13/2025 9:00,6/13/2025 19:00,Croatia,Europe/Zagreb
+WIND SURF,6/14/2025,VENICE,6/14/2025 7:00,6/14/2025 16:00,Italy,Europe/Rome
+WIND SURF,6/15/2025,Zadar,6/15/2025 9:00,6/15/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,6/16/2025,Hvar,6/16/2025 8:00,6/16/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,6/17/2025,Dubrovnik,6/17/2025 8:00,6/17/2025 23:00,Croatia,Europe/Zagreb
+WIND SURF,6/18/2025,Kotor,6/18/2025 7:00,,Montenegro,Europe/Podgorica
+WIND SURF,6/19/2025,Kotor,,6/19/2025 11:00,Montenegro,Europe/Podgorica
+WIND SURF,6/20/2025,"Kerkyra, Corfu",6/20/2025 8:00,6/20/2025 16:00,Greece,Europe/Athens
+WIND SURF,6/21/2025,Katakolon,6/21/2025 9:00,6/21/2025 17:00,Greece,Europe/Athens
+WIND SURF,6/22/2025,Monemvasia,6/22/2025 10:00,6/22/2025 19:00,Greece,Europe/Athens
+WIND SURF,6/23/2025,Athens / PIRAEUS,6/23/2025 7:00,6/23/2025 17:00,Greece,Europe/Athens
+WIND SURF,6/24/2025,Monemvasia,6/24/2025 7:00,6/24/2025 15:00,Greece,Europe/Athens
+WIND SURF,6/25/2025,Katakolon,6/25/2025 8:00,6/25/2025 16:00,Greece,Europe/Athens
+WIND SURF,6/26/2025,"Kerkyra, Corfu",6/26/2025 9:00,6/26/2025 18:00,Greece,Europe/Athens
+WIND SURF,6/27/2025,Kotor,6/27/2025 14:00,,Montenegro,Europe/Podgorica
+WIND SURF,6/28/2025,Kotor,,6/28/2025 23:00,Montenegro,Europe/Podgorica
+WIND SURF,6/29/2025,Dubrovnik,6/29/2025 8:00,6/29/2025 22:00,Croatia,Europe/Zagreb
+WIND SURF,6/30/2025,Hvar,6/30/2025 9:00,6/30/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,7/1/2025,Zadar,7/1/2025 7:00,7/1/2025 14:00,Croatia,Europe/Zagreb
+WIND SURF,7/2/2025,VENICE,7/2/2025 7:00,7/2/2025 18:00,Italy,Europe/Rome
+WIND SURF,7/3/2025,Rovinj,7/3/2025 8:00,7/3/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,7/4/2025,Split,7/4/2025 8:00,7/4/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,7/5/2025,Dubrovnik,7/5/2025 8:00,7/5/2025 22:00,Croatia,Europe/Zagreb
+WIND SURF,7/6/2025,Kotor,7/6/2025 8:00,7/6/2025 17:00,Montenegro,Europe/Podgorica
+WIND SURF,7/7/2025,At Sea,,,nan,UTC
+WIND SURF,7/8/2025,Giardini Naxos,7/8/2025 8:00,7/8/2025 14:00,Italy,Europe/Rome
+WIND SURF,7/9/2025,Sorrento,7/9/2025 8:00,7/9/2025 15:00,Italy,Europe/Rome
+WIND SURF,7/10/2025,Rome / CIVITAVECCHIA,7/10/2025 7:00,7/10/2025 17:00,Italy,Europe/Rome
+WIND SURF,7/11/2025,At Sea,,,nan,UTC
+WIND SURF,7/12/2025,Catania,7/12/2025 8:00,7/12/2025 18:00,Italy,Europe/Rome
+WIND SURF,7/13/2025,Gozo / MGARR,7/13/2025 8:00,7/13/2025 18:00,Malta,Europe/Malta
+WIND SURF,7/14/2025,Valletta,7/14/2025 0:01,7/14/2025 18:00,Malta,Europe/Malta
+WIND SURF,7/15/2025,"Porto Empedocle, Sicily",7/15/2025 8:00,7/15/2025 17:00,Italy,Europe/Rome
+WIND SURF,7/16/2025,"Trapani, Sicily",7/16/2025 8:00,7/16/2025 16:00,Italy,Europe/Rome
+WIND SURF,7/17/2025,Lipari,7/17/2025 8:00,7/17/2025 16:00,Italy,Europe/Rome
+WIND SURF,7/18/2025,Sorrento,7/18/2025 8:00,7/18/2025 23:59,Italy,Europe/Rome
+WIND SURF,7/19/2025,Amalfi,7/19/2025 7:00,7/19/2025 14:00,Italy,Europe/Rome
+WIND SURF,7/20/2025,Rome / CIVITAVECCHIA,7/20/2025 7:00,7/20/2025 17:00,Italy,Europe/Rome
+WIND SURF,7/21/2025,Portoferraio,7/21/2025 8:00,7/21/2025 18:00,Italy,Europe/Rome
+WIND SURF,7/22/2025,Portofino,7/22/2025 8:00,7/22/2025 22:00,Italy,Europe/Rome
+WIND SURF,7/23/2025,Monte Carlo,7/23/2025 8:00,7/23/2025 23:59,Monaco,Europe/Monaco
+WIND SURF,7/24/2025,Cannes,7/24/2025 7:00,7/24/2025 22:00,France,Europe/Paris
+WIND SURF,7/25/2025,Sanary-sur-Mer,7/25/2025 8:00,7/25/2025 18:00,France,Europe/Paris
+WIND SURF,7/26/2025,Palamos,7/26/2025 9:00,7/26/2025 18:00,Spain,Europe/Madrid
+WIND SURF,7/27/2025,BARCELONA,7/27/2025 7:00,7/27/2025 17:00,Spain,Europe/Madrid
+WIND SURF,7/28/2025,Palma de Mallorca,7/28/2025 8:00,7/28/2025 16:00,Spain,Europe/Madrid
+WIND SURF,7/29/2025,"Cartagena, Spain",7/29/2025 13:00,7/29/2025 19:00,Spain,Europe/Madrid
+WIND SURF,7/30/2025,Almeria,7/30/2025 8:00,7/30/2025 22:00,Spain,Europe/Madrid
+WIND SURF,7/31/2025,Malaga,7/31/2025 9:00,7/31/2025 23:59,Spain,Europe/Madrid
+WIND SURF,8/1/2025,Gibraltar,8/1/2025 9:00,8/1/2025 18:00,British Overseas Territory,Europe/Gibraltar
+WIND SURF,8/2/2025,Cadiz,8/2/2025 7:00,8/2/2025 23:59,Spain,Europe/Madrid
+WIND SURF,8/3/2025,At Sea,,,nan,UTC
+WIND SURF,8/4/2025,LISBON,8/4/2025 7:30,8/4/2025 18:30,Portugal,Europe/Lisbon
+WIND SURF,8/5/2025,At Sea,,,nan,UTC
+WIND SURF,8/6/2025,Cadiz,8/6/2025 8:00,8/6/2025 22:00,Spain,Europe/Madrid
+WIND SURF,8/7/2025,Gibraltar,8/7/2025 9:00,8/7/2025 18:00,British Overseas Territory,Europe/Gibraltar
+WIND SURF,8/8/2025,Malaga,8/8/2025 8:00,8/8/2025 20:00,Spain,Europe/Madrid
+WIND SURF,8/9/2025,Almeria,8/9/2025 7:00,8/9/2025 18:00,Spain,Europe/Madrid
+WIND SURF,8/10/2025,"Cartagena, Spain",8/10/2025 7:00,8/10/2025 12:00,Spain,Europe/Madrid
+WIND SURF,8/11/2025,Palma de Mallorca,8/11/2025 9:00,8/11/2025 17:00,Spain,Europe/Madrid
+WIND SURF,8/12/2025,BARCELONA,8/12/2025 7:00,8/12/2025 17:00,Spain,Europe/Madrid
+WIND SURF,8/13/2025,Palamos,8/13/2025 8:00,8/13/2025 17:00,Spain,Europe/Madrid
+WIND SURF,8/14/2025,Sanary-sur-Mer,8/14/2025 8:00,8/14/2025 18:00,France,Europe/Paris
+WIND SURF,8/15/2025,Monte Carlo,8/15/2025 8:00,8/15/2025 23:59,Monaco,Europe/Monaco
+WIND SURF,8/16/2025,Cannes,8/16/2025 7:00,8/16/2025 18:00,France,Europe/Paris
+WIND SURF,8/17/2025,Portofino,8/17/2025 9:00,8/17/2025 21:00,Italy,Europe/Rome
+WIND SURF,8/18/2025,Portoferraio,8/18/2025 8:00,8/18/2025 18:00,Italy,Europe/Rome
+WIND SURF,8/19/2025,Rome / CIVITAVECCHIA,8/19/2025 7:00,8/19/2025 16:00,Italy,Europe/Rome
+WIND SURF,8/20/2025,Sorrento,8/20/2025 8:00,8/20/2025 17:00,Italy,Europe/Rome
+WIND SURF,8/21/2025,Giardini Naxos,8/21/2025 12:00,8/21/2025 18:00,Italy,Europe/Rome
+WIND SURF,8/22/2025,At Sea,,,nan,UTC
+WIND SURF,8/23/2025,Kotor,8/23/2025 9:00,8/23/2025 22:00,Montenegro,Europe/Podgorica
+WIND SURF,8/24/2025,Dubrovnik,8/24/2025 8:00,8/24/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,8/25/2025,Split,8/25/2025 8:00,8/25/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,8/26/2025,Rovinj,8/26/2025 9:00,8/26/2025 19:00,Croatia,Europe/Zagreb
+WIND SURF,8/27/2025,VENICE,8/27/2025 7:00,8/27/2025 16:00,Italy,Europe/Rome
+WIND SURF,8/28/2025,Zadar,8/28/2025 9:00,8/28/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,8/29/2025,Hvar,8/29/2025 8:00,8/29/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,8/30/2025,Dubrovnik,8/30/2025 8:00,8/30/2025 23:00,Croatia,Europe/Zagreb
+WIND SURF,8/31/2025,Kotor,8/31/2025 7:00,,Montenegro,Europe/Podgorica
+WIND SURF,9/1/2025,Kotor,,9/1/2025 11:00,Montenegro,Europe/Podgorica
+WIND SURF,9/2/2025,"Kerkyra, Corfu",9/2/2025 8:00,9/2/2025 16:00,Greece,Europe/Athens
+WIND SURF,9/3/2025,Katakolon,9/3/2025 9:00,9/3/2025 17:00,Greece,Europe/Athens
+WIND SURF,9/4/2025,Monemvasia,9/4/2025 10:00,9/4/2025 19:00,Greece,Europe/Athens
+WIND SURF,9/5/2025,Athens / PIRAEUS,9/5/2025 7:00,9/5/2025 17:00,Greece,Europe/Athens
+WIND SURF,9/6/2025,Monemvasia,9/6/2025 7:00,9/6/2025 15:00,Greece,Europe/Athens
+WIND SURF,9/7/2025,Katakolon,9/7/2025 8:00,9/7/2025 16:00,Greece,Europe/Athens
+WIND SURF,9/8/2025,"Kerkyra, Corfu",9/8/2025 9:00,9/8/2025 18:00,Greece,Europe/Athens
+WIND SURF,9/9/2025,Kotor,9/9/2025 14:00,,Montenegro,Europe/Podgorica
+WIND SURF,9/10/2025,Kotor,,9/10/2025 23:00,Montenegro,Europe/Podgorica
+WIND SURF,9/11/2025,Dubrovnik,9/11/2025 8:00,9/11/2025 22:00,Croatia,Europe/Zagreb
+WIND SURF,9/12/2025,Hvar,9/12/2025 9:00,9/12/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,9/13/2025,Zadar,9/13/2025 7:00,9/13/2025 14:00,Croatia,Europe/Zagreb
+WIND SURF,9/14/2025,VENICE,9/14/2025 7:00,9/14/2025 18:00,Italy,Europe/Rome
+WIND SURF,9/15/2025,Rovinj,9/15/2025 8:00,9/15/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,9/16/2025,Split,9/16/2025 8:00,9/16/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,9/17/2025,Dubrovnik,9/17/2025 8:00,9/17/2025 22:00,Croatia,Europe/Zagreb
+WIND SURF,9/18/2025,Kotor,9/18/2025 8:00,9/18/2025 17:00,Montenegro,Europe/Podgorica
+WIND SURF,9/19/2025,At Sea,,,nan,UTC
+WIND SURF,9/20/2025,Giardini Naxos,9/20/2025 8:00,9/20/2025 14:00,Italy,Europe/Rome
+WIND SURF,9/21/2025,Sorrento,9/21/2025 8:00,9/21/2025 15:00,Italy,Europe/Rome
+WIND SURF,9/22/2025,Rome / CIVITAVECCHIA,9/22/2025 7:00,9/22/2025 17:00,Italy,Europe/Rome
+WIND SURF,9/23/2025,At Sea,,,nan,UTC
+WIND SURF,9/24/2025,Giardini Naxos,9/24/2025 8:00,9/24/2025 22:00,Italy,Europe/Rome
+WIND SURF,9/25/2025,"Syracuse, Sicily",9/25/2025 8:00,9/25/2025 18:00,Italy,Europe/Rome
+WIND SURF,9/26/2025,Gozo / MGARR,9/26/2025 8:00,9/26/2025 18:00,Malta,Europe/Malta
+WIND SURF,9/27/2025,Valletta,9/27/2025 0:01,9/27/2025 18:00,Malta,Europe/Malta
+WIND SURF,9/28/2025,"Porto Empedocle, Sicily",9/28/2025 8:00,9/28/2025 17:00,Italy,Europe/Rome
+WIND SURF,9/29/2025,"Trapani, Sicily",9/29/2025 8:00,9/29/2025 16:00,Italy,Europe/Rome
+WIND SURF,9/30/2025,Lipari,9/30/2025 8:00,9/30/2025 16:00,Italy,Europe/Rome
+WIND SURF,10/1/2025,Sorrento,10/1/2025 8:00,10/1/2025 23:59,Italy,Europe/Rome
+WIND SURF,10/2/2025,Amalfi,10/2/2025 7:00,10/2/2025 14:00,Italy,Europe/Rome
+WIND SURF,10/3/2025,Rome / CIVITAVECCHIA,10/3/2025 7:00,10/3/2025 16:00,Italy,Europe/Rome
+WIND SURF,10/4/2025,Sorrento,10/4/2025 8:00,10/4/2025 17:00,Italy,Europe/Rome
+WIND SURF,10/5/2025,Giardini Naxos,10/5/2025 12:00,10/5/2025 18:00,Italy,Europe/Rome
+WIND SURF,10/6/2025,At Sea,,,nan,UTC
+WIND SURF,10/7/2025,Dubrovnik,10/7/2025 9:00,10/7/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,10/8/2025,Split,10/8/2025 8:00,10/8/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,10/9/2025,Rovinj,10/9/2025 9:00,10/9/2025 19:00,Croatia,Europe/Zagreb
+WIND SURF,10/10/2025,VENICE,10/10/2025 7:00,10/10/2025 18:00,Italy,Europe/Rome
+WIND SURF,10/11/2025,Rovinj,10/11/2025 8:00,10/11/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,10/12/2025,Split,10/12/2025 8:00,10/12/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,10/13/2025,Dubrovnik,10/13/2025 8:00,10/13/2025 22:00,Croatia,Europe/Zagreb
+WIND SURF,10/14/2025,Kotor,10/14/2025 8:00,10/14/2025 17:00,Montenegro,Europe/Podgorica
+WIND SURF,10/15/2025,At Sea,,,nan,UTC
+WIND SURF,10/16/2025,Giardini Naxos,10/16/2025 8:00,10/16/2025 14:00,Italy,Europe/Rome
+WIND SURF,10/17/2025,Sorrento,10/17/2025 8:00,10/17/2025 15:00,Italy,Europe/Rome
+WIND SURF,10/18/2025,Rome / CIVITAVECCHIA,10/18/2025 7:00,10/18/2025 16:00,Italy,Europe/Rome
+WIND SURF,10/19/2025,Sorrento,10/19/2025 8:00,10/19/2025 17:00,Italy,Europe/Rome
+WIND SURF,10/20/2025,Giardini Naxos,10/20/2025 12:00,10/20/2025 18:00,Italy,Europe/Rome
+WIND SURF,10/21/2025,At Sea,,,nan,UTC
+WIND SURF,10/22/2025,Kotor,10/22/2025 9:00,10/22/2025 22:00,Montenegro,Europe/Podgorica
+WIND SURF,10/23/2025,Dubrovnik,10/23/2025 8:00,10/23/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,10/24/2025,Split,10/24/2025 8:00,10/24/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,10/25/2025,Rovinj,10/25/2025 9:00,10/25/2025 19:00,Croatia,Europe/Zagreb
+WIND SURF,10/26/2025,VENICE,10/26/2025 7:00,10/26/2025 18:00,Italy,Europe/Rome
+WIND SURF,10/27/2025,Rovinj,10/27/2025 8:00,10/27/2025 16:00,Croatia,Europe/Zagreb
+WIND SURF,10/28/2025,Split,10/28/2025 8:00,10/28/2025 17:00,Croatia,Europe/Zagreb
+WIND SURF,10/29/2025,Dubrovnik,10/29/2025 8:00,10/29/2025 22:00,Croatia,Europe/Zagreb
+WIND SURF,10/30/2025,Kotor,10/30/2025 8:00,10/30/2025 17:00,Montenegro,Europe/Podgorica
+WIND SURF,10/31/2025,At Sea,,,nan,UTC
+WIND SURF,11/1/2025,Giardini Naxos,11/1/2025 8:00,11/1/2025 14:00,Italy,Europe/Rome
+WIND SURF,11/2/2025,Sorrento,11/2/2025 8:00,11/2/2025 15:00,Italy,Europe/Rome
+WIND SURF,11/3/2025,Rome / CIVITAVECCHIA,11/3/2025 7:00,11/3/2025 17:00,Italy,Europe/Rome
+WIND SURF,11/4/2025,Portoferraio,11/4/2025 8:00,11/4/2025 18:00,Italy,Europe/Rome
+WIND SURF,11/5/2025,Portofino,11/5/2025 8:00,11/5/2025 22:00,Italy,Europe/Rome
+WIND SURF,11/6/2025,Monte Carlo,11/6/2025 8:00,11/6/2025 23:59,Monaco,Europe/Monaco
+WIND SURF,11/7/2025,Cannes,11/7/2025 7:00,11/7/2025 22:00,France,Europe/Paris
+WIND SURF,11/8/2025,Sanary-sur-Mer,11/8/2025 8:00,11/8/2025 18:00,France,Europe/Paris
+WIND SURF,11/9/2025,Palamos,11/9/2025 9:00,11/9/2025 18:00,Spain,Europe/Madrid
+WIND SURF,11/10/2025,BARCELONA,11/10/2025 7:00,11/10/2025 17:00,Spain,Europe/Madrid
+WIND SURF,11/11/2025,Palma de Mallorca,11/11/2025 8:00,11/11/2025 16:00,Spain,Europe/Madrid
+WIND SURF,11/12/2025,"Cartagena, Spain",11/12/2025 13:00,11/12/2025 19:00,Spain,Europe/Madrid
+WIND SURF,11/13/2025,Almeria,11/13/2025 8:00,11/13/2025 22:00,Spain,Europe/Madrid
+WIND SURF,11/14/2025,Malaga,11/14/2025 9:00,11/14/2025 23:59,Spain,Europe/Madrid
+WIND SURF,11/15/2025,Gibraltar,11/15/2025 9:00,11/15/2025 18:00,British Overseas Territory,Europe/Gibraltar
+WIND SURF,11/16/2025,Cadiz,11/16/2025 7:00,11/16/2025 23:59,Spain,Europe/Madrid
+WIND SURF,11/17/2025,At Sea,,,nan,UTC
+WIND SURF,11/18/2025,LISBON,11/18/2025 8:30,11/18/2025 19:30,Portugal,Europe/Lisbon
+WIND SURF,11/19/2025,At Sea,,,nan,UTC
+WIND SURF,11/20/2025,At Sea,,,nan,UTC
+WIND SURF,11/21/2025,At Sea,,,nan,UTC
+WIND SURF,11/22/2025,At Sea,,,nan,UTC
+WIND SURF,11/23/2025,At Sea,,,nan,UTC
+WIND SURF,11/24/2025,At Sea,,,nan,UTC
+WIND SURF,11/25/2025,At Sea,,,nan,UTC
+WIND SURF,11/26/2025,At Sea,,,nan,UTC
+WIND SURF,11/27/2025,At Sea,,,nan,UTC
+WIND SURF,11/28/2025,At Sea,,,nan,UTC
+WIND SURF,11/29/2025,At Sea,,,nan,UTC
+WIND SURF,11/30/2025,At Sea,,,nan,UTC
+WIND SURF,12/1/2025,St. John's,12/1/2025 8:00,12/1/2025 19:00,Antigua & Barbuda,America/Antigua
+WIND SURF,12/2/2025,PHILIPSBURG,12/2/2025 6:00,12/2/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,12/3/2025,Soper's Hole - Tortola,12/3/2025 8:00,12/3/2025 18:00,B.V.I.,America/Tortola
+WIND SURF,12/3/2025,Jost Van Dyke Great Harbour,12/3/2025 19:00,,B.V.I.,America/Tortola
+WIND SURF,12/4/2025,Jost Van Dyke Great Harbour,,12/4/2025 22:00,B.V.I.,America/Tortola
+WIND SURF,12/5/2025,Virgin Gorda Prickly Pear Beach,12/5/2025 8:00,12/5/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,12/6/2025,Gustavia,12/6/2025 8:00,12/6/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,12/7/2025,PHILIPSBURG,12/7/2025 6:00,12/7/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,12/8/2025,Charlestown,12/8/2025 8:00,12/8/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,12/9/2025,Roseau,12/9/2025 8:00,12/9/2025 16:00,Dominica,America/Dominica
+WIND SURF,12/10/2025,Mayreau,12/10/2025 8:00,12/10/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SURF,12/11/2025,Les Saintes,12/11/2025 12:00,12/11/2025 18:00,Guadeloupe,America/Guadeloupe
+WIND SURF,12/12/2025,Basseterre,12/12/2025 8:00,12/12/2025 22:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,12/13/2025,Gustavia,12/13/2025 8:00,12/13/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,12/14/2025,PHILIPSBURG,12/14/2025 6:00,12/14/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,12/15/2025,Falmouth Harbour,12/15/2025 8:00,12/15/2025 18:00,Antigua & Barbuda,America/Antigua
+WIND SURF,12/16/2025,Road Bay,12/16/2025 8:00,12/16/2025 18:00,Anguilla,America/Anguilla
+WIND SURF,12/17/2025,Soper's Hole - Tortola,12/17/2025 8:00,12/17/2025 18:00,B.V.I.,America/Tortola
+WIND SURF,12/17/2025,Jost Van Dyke Great Harbour,12/17/2025 19:00,,B.V.I.,America/Tortola
+WIND SURF,12/18/2025,Jost Van Dyke Great Harbour,,12/18/2025 22:00,B.V.I.,America/Tortola
+WIND SURF,12/19/2025,Virgin Gorda Prickly Pear Beach,12/19/2025 8:00,12/19/2025 17:00,B.V.I.,America/Tortola
+WIND SURF,12/20/2025,Gustavia,12/20/2025 8:00,12/20/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,12/21/2025,PHILIPSBURG,12/21/2025 6:00,12/21/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,12/22/2025,Charlestown,12/22/2025 8:00,12/22/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,12/23/2025,Roseau,12/23/2025 8:00,12/23/2025 16:00,Dominica,America/Dominica
+WIND SURF,12/24/2025,Mayreau,12/24/2025 8:00,12/24/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+WIND SURF,12/25/2025,Les Saintes,12/25/2025 12:00,12/25/2025 18:00,Guadeloupe,America/Guadeloupe
+WIND SURF,12/26/2025,Basseterre,12/26/2025 8:00,12/26/2025 22:00,St. Kitts & Nevis,America/St_Kitts
+WIND SURF,12/27/2025,Gustavia,12/27/2025 8:00,12/27/2025 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,12/28/2025,PHILIPSBURG,12/28/2025 6:00,12/28/2025 19:00,St. Maarten,America/Lower_Princes
+WIND SURF,12/29/2025,Falmouth Harbour,12/29/2025 8:00,12/29/2025 18:00,Antigua & Barbuda,America/Antigua
+WIND SURF,12/30/2025,Road Bay,12/30/2025 8:00,12/30/2025 18:00,Anguilla,America/Anguilla
+WIND SURF,12/31/2025,Soper's Hole - Tortola,12/31/2025 8:00,12/31/2025 18:00,B.V.I.,America/Tortola
+WIND SURF,12/31/2025,Jost Van Dyke Great Harbour,12/31/2025 19:00,,B.V.I.,America/Tortola
+WIND SURF,1/1/2026,Jost Van Dyke Great Harbour,,1/1/2026 22:00,B.V.I.,America/Tortola
+WIND SURF,1/2/2026,Virgin Gorda Prickly Pear Beach,1/2/2026 8:00,1/2/2026 17:00,B.V.I.,America/Tortola
+WIND SURF,1/3/2026,Gustavia,1/3/2026 8:00,1/3/2026 22:00,St. Barthelemy,America/St_Barthelemy
+WIND SURF,1/4/2026,PHILIPSBURG,1/4/2026 6:00,1/4/2026 19:00,St. Maarten,America/Lower_Princes
+STAR PRIDE,12/28/2024,Panama City / BALBOA AMADOR / Panama Cruise Terminal,12/28/2024 7:00,12/28/2024 18:00,Panama,America/Panama
+STAR PRIDE,12/28/2024,Balboa - SERVICE CALL ONLY,12/28/2024 23:59,,Panama,America/Panama
+STAR PRIDE,12/29/2024,Balboa - SERVICE CALL ONLY,,12/29/2024 4:00,Panama,America/Panama
+STAR PRIDE,12/29/2024,Transit Panama Canal,12/29/2024 4:00,12/29/2024 18:00,Panama,UTC
+STAR PRIDE,12/30/2024,Bocas del Toro,12/30/2024 8:00,12/30/2024 15:00,Panama,America/Panama
+STAR PRIDE,12/31/2024,Isla Aroma San Blas Islands,12/31/2024 10:00,12/31/2024 16:00,Panama,America/Panama
+STAR PRIDE,1/1/2025,"Cartagena, Colombia",1/1/2025 10:00,,Colombia,America/Bogota
+STAR PRIDE,1/2/2025,"Cartagena, Colombia",,1/2/2025 17:00,Colombia,America/Bogota
+STAR PRIDE,1/3/2025,At Sea,,,nan,UTC
+STAR PRIDE,1/4/2025,ORANJESTAD,1/4/2025 6:00,1/4/2025 18:00,Aruba,America/Aruba
+STAR PRIDE,1/5/2025,Willemstad,1/5/2025 7:00,1/5/2025 22:00,Curacao,America/Curacao
+STAR PRIDE,1/6/2025,At Sea,,,nan,UTC
+STAR PRIDE,1/7/2025,"St. George's, Grenada",1/7/2025 8:00,1/7/2025 21:00,Grenada,America/Grenada
+STAR PRIDE,1/8/2025,Soufriere,1/8/2025 8:00,1/8/2025 17:00,St. Lucia,America/St_Lucia
+STAR PRIDE,1/9/2025,Mayreau,1/9/2025 8:00,1/9/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,1/10/2025,Man-O-War,1/10/2025 7:00,1/10/2025 17:00,Tobago,America/Port_of_Spain
+STAR PRIDE,1/11/2025,BRIDGETOWN,1/11/2025 5:00,1/11/2025 18:00,Barbados,America/Barbados
+STAR PRIDE,1/12/2025,Man-O-War,1/12/2025 8:00,1/12/2025 17:00,Tobago,America/Port_of_Spain
+STAR PRIDE,1/13/2025,Mayreau,1/13/2025 8:00,1/13/2025 18:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,1/14/2025,Soufriere,1/14/2025 8:00,1/14/2025 16:00,St. Lucia,America/St_Lucia
+STAR PRIDE,1/15/2025,At Sea,,,nan,UTC
+STAR PRIDE,1/16/2025,Willemstad,1/16/2025 7:00,1/16/2025 22:00,Curacao,America/Curacao
+STAR PRIDE,1/17/2025,Kralendijk,1/17/2025 6:00,1/17/2025 18:00,Bonaire,America/Kralendijk
+STAR PRIDE,1/18/2025,ORANJESTAD,1/18/2025 6:00,1/18/2025 18:00,Aruba,America/Aruba
+STAR PRIDE,1/19/2025,At Sea,,,nan,UTC
+STAR PRIDE,1/20/2025,"Cartagena, Colombia",1/20/2025 7:00,,Colombia,America/Bogota
+STAR PRIDE,1/21/2025,"Cartagena, Colombia",,1/21/2025 16:00,Colombia,America/Bogota
+STAR PRIDE,1/22/2025,Isla Aroma San Blas Islands,1/22/2025 9:00,1/22/2025 14:00,Panama,America/Panama
+STAR PRIDE,1/23/2025,Bocas del Toro,1/23/2025 9:00,1/23/2025 13:00,Panama,America/Panama
+STAR PRIDE,1/24/2025,Colon - SERVICE CALL ONLY,1/24/2025 2:00,1/24/2025 4:00,Panama,America/Panama
+STAR PRIDE,1/24/2025,Transit Panama Canal,1/24/2025 4:00,1/24/2025 18:00,Panama,UTC
+STAR PRIDE,1/24/2025,Balboa - SERVICE CALL ONLY,1/24/2025 18:00,,Panama,America/Panama
+STAR PRIDE,1/25/2025,Balboa - SERVICE CALL ONLY,,1/25/2025 4:00,Panama,America/Panama
+STAR PRIDE,1/25/2025,Panama City / BALBOA AMADOR / Panama Cruise Terminal,1/25/2025 7:00,1/25/2025 18:00,Panama,America/Panama
+STAR PRIDE,1/25/2025,Balboa - SERVICE CALL ONLY,1/25/2025 23:59,,Panama,America/Panama
+STAR PRIDE,1/26/2025,Balboa - SERVICE CALL ONLY,,1/26/2025 4:00,Panama,America/Panama
+STAR PRIDE,1/26/2025,Transit Panama Canal,1/26/2025 4:00,1/26/2025 18:00,Panama,UTC
+STAR PRIDE,1/27/2025,Bocas del Toro,1/27/2025 8:00,1/27/2025 15:00,Panama,America/Panama
+STAR PRIDE,1/28/2025,Isla Aroma San Blas Islands,1/28/2025 10:00,1/28/2025 16:00,Panama,America/Panama
+STAR PRIDE,1/29/2025,"Cartagena, Colombia",1/29/2025 10:00,,Colombia,America/Bogota
+STAR PRIDE,1/30/2025,"Cartagena, Colombia",,1/30/2025 17:00,Colombia,America/Bogota
+STAR PRIDE,1/31/2025,At Sea,,,nan,UTC
+STAR PRIDE,2/1/2025,ORANJESTAD,2/1/2025 6:00,2/1/2025 16:00,Aruba,America/Aruba
+STAR PRIDE,2/2/2025,At Sea,,,nan,UTC
+STAR PRIDE,2/3/2025,"Cartagena, Colombia",2/3/2025 7:00,,Colombia,America/Bogota
+STAR PRIDE,2/4/2025,"Cartagena, Colombia",,2/4/2025 16:00,Colombia,America/Bogota
+STAR PRIDE,2/5/2025,Isla Aroma San Blas Islands,2/5/2025 9:00,2/5/2025 14:00,Panama,America/Panama
+STAR PRIDE,2/6/2025,Bocas del Toro,2/6/2025 9:00,2/6/2025 13:00,Panama,America/Panama
+STAR PRIDE,2/7/2025,Colon - SERVICE CALL ONLY,2/7/2025 2:00,2/7/2025 4:00,Panama,America/Panama
+STAR PRIDE,2/7/2025,Transit Panama Canal,2/7/2025 4:00,2/7/2025 18:00,Panama,UTC
+STAR PRIDE,2/7/2025,Balboa - SERVICE CALL ONLY,2/7/2025 18:00,,Panama,America/Panama
+STAR PRIDE,2/8/2025,Balboa - SERVICE CALL ONLY,,2/8/2025 4:00,Panama,America/Panama
+STAR PRIDE,2/8/2025,Panama City / BALBOA AMADOR / Panama Cruise Terminal,2/8/2025 7:00,2/8/2025 18:00,Panama,America/Panama
+STAR PRIDE,2/8/2025,Balboa - SERVICE CALL ONLY,2/8/2025 23:59,,Panama,America/Panama
+STAR PRIDE,2/9/2025,Balboa - SERVICE CALL ONLY,,2/9/2025 4:00,Panama,America/Panama
+STAR PRIDE,2/9/2025,Transit Panama Canal,2/9/2025 4:00,2/9/2025 18:00,Panama,UTC
+STAR PRIDE,2/10/2025,Bocas del Toro,2/10/2025 8:00,2/10/2025 15:00,Panama,America/Panama
+STAR PRIDE,2/11/2025,Isla Aroma San Blas Islands,2/11/2025 10:00,2/11/2025 16:00,Panama,America/Panama
+STAR PRIDE,2/12/2025,"Cartagena, Colombia",2/12/2025 10:00,,Colombia,America/Bogota
+STAR PRIDE,2/13/2025,"Cartagena, Colombia",,2/13/2025 17:00,Colombia,America/Bogota
+STAR PRIDE,2/14/2025,At Sea,,,nan,UTC
+STAR PRIDE,2/15/2025,ORANJESTAD,2/15/2025 6:00,2/15/2025 19:00,Aruba,America/Aruba
+STAR PRIDE,2/16/2025,Kralendijk,2/16/2025 9:00,2/16/2025 22:00,Bonaire,America/Kralendijk
+STAR PRIDE,2/17/2025,Willemstad,2/17/2025 7:00,2/17/2025 19:00,Curacao,America/Curacao
+STAR PRIDE,2/18/2025,At Sea,,,nan,UTC
+STAR PRIDE,2/19/2025,Soufriere,2/19/2025 9:00,2/19/2025 18:00,St. Lucia,America/St_Lucia
+STAR PRIDE,2/20/2025,Mayreau,2/20/2025 8:00,2/20/2025 18:30,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,2/21/2025,Bequia,2/21/2025 7:00,2/21/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,2/22/2025,BRIDGETOWN,2/22/2025 5:00,2/22/2025 18:00,Barbados,America/Barbados
+STAR PRIDE,2/23/2025,Scarborough,2/23/2025 8:00,2/23/2025 17:00,Tobago,America/Port_of_Spain
+STAR PRIDE,2/24/2025,Mayreau,2/24/2025 8:00,2/24/2025 18:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,2/25/2025,Soufriere,2/25/2025 8:00,2/25/2025 16:00,St. Lucia,America/St_Lucia
+STAR PRIDE,2/26/2025,"St. George's, Grenada",2/26/2025 8:00,2/26/2025 21:00,Grenada,America/Grenada
+STAR PRIDE,2/27/2025,At Sea,,,nan,UTC
+STAR PRIDE,2/28/2025,Willemstad,2/28/2025 8:00,2/28/2025 18:00,Curacao,America/Curacao
+STAR PRIDE,3/1/2025,ORANJESTAD,3/1/2025 6:00,3/1/2025 18:00,Aruba,America/Aruba
+STAR PRIDE,3/2/2025,At Sea,,,nan,UTC
+STAR PRIDE,3/3/2025,"Cartagena, Colombia",3/3/2025 7:00,,Colombia,America/Bogota
+STAR PRIDE,3/4/2025,"Cartagena, Colombia",,3/4/2025 16:00,Colombia,America/Bogota
+STAR PRIDE,3/5/2025,Isla Aroma San Blas Islands,3/5/2025 9:00,3/5/2025 14:00,Panama,America/Panama
+STAR PRIDE,3/6/2025,Bocas del Toro,3/6/2025 9:00,3/6/2025 13:00,Panama,America/Panama
+STAR PRIDE,3/7/2025,Colon - SERVICE CALL ONLY,3/7/2025 2:00,3/7/2025 4:00,Panama,America/Panama
+STAR PRIDE,3/7/2025,Transit Panama Canal,3/7/2025 4:00,3/7/2025 18:00,Panama,UTC
+STAR PRIDE,3/7/2025,Balboa - SERVICE CALL ONLY,3/7/2025 18:00,,Panama,America/Panama
+STAR PRIDE,3/8/2025,Balboa - SERVICE CALL ONLY,,3/8/2025 4:00,Panama,America/Panama
+STAR PRIDE,3/8/2025,Panama City / BALBOA AMADOR / Panama Cruise Terminal,3/8/2025 7:00,3/8/2025 18:00,Panama,America/Panama
+STAR PRIDE,3/8/2025,Balboa - SERVICE CALL ONLY,3/8/2025 23:59,,Panama,America/Panama
+STAR PRIDE,3/9/2025,Balboa - SERVICE CALL ONLY,,3/9/2025 4:00,Panama,America/Panama
+STAR PRIDE,3/9/2025,Transit Panama Canal,3/9/2025 4:00,3/9/2025 18:00,Panama,UTC
+STAR PRIDE,3/10/2025,Bocas del Toro,3/10/2025 8:00,3/10/2025 15:00,Panama,America/Panama
+STAR PRIDE,3/11/2025,Isla Aroma San Blas Islands,3/11/2025 10:00,3/11/2025 16:00,Panama,America/Panama
+STAR PRIDE,3/12/2025,"Cartagena, Colombia",3/12/2025 10:00,,Colombia,America/Bogota
+STAR PRIDE,3/13/2025,"Cartagena, Colombia",,3/13/2025 17:00,Colombia,America/Bogota
+STAR PRIDE,3/14/2025,At Sea,,,nan,UTC
+STAR PRIDE,3/15/2025,ORANJESTAD,3/15/2025 6:00,3/15/2025 18:00,Aruba,America/Aruba
+STAR PRIDE,3/16/2025,Willemstad,3/16/2025 9:00,3/16/2025 22:00,Curacao,America/Curacao
+STAR PRIDE,3/17/2025,Kralendijk,3/17/2025 7:00,3/17/2025 21:00,Bonaire,America/Kralendijk
+STAR PRIDE,3/18/2025,At Sea,,,nan,UTC
+STAR PRIDE,3/19/2025,Soufriere,3/19/2025 8:00,3/19/2025 17:00,St. Lucia,America/St_Lucia
+STAR PRIDE,3/20/2025,Mayreau,3/20/2025 8:00,3/20/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,3/21/2025,Scarborough,3/21/2025 7:00,3/21/2025 16:30,Tobago,America/Port_of_Spain
+STAR PRIDE,3/22/2025,BRIDGETOWN,3/22/2025 5:00,,Barbados,America/Barbados
+STAR PRIDE,3/23/2025,BRIDGETOWN,,3/23/2025 18:00,Barbados,America/Barbados
+STAR PRIDE,3/24/2025,Anse Mitan,3/24/2025 8:00,3/24/2025 18:00,Martinique,America/Martinique
+STAR PRIDE,3/25/2025,Pigeon Island,3/25/2025 8:00,3/25/2025 22:00,St. Lucia,America/St_Lucia
+STAR PRIDE,3/26/2025,"St. George's, Grenada",3/26/2025 10:00,3/26/2025 18:00,Grenada,America/Grenada
+STAR PRIDE,3/27/2025,Mayreau,3/27/2025 8:00,3/27/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,3/28/2025,BRIDGETOWN,3/28/2025 5:00,,Barbados,America/Barbados
+STAR PRIDE,3/29/2025,BRIDGETOWN,,3/29/2025 18:00,Barbados,America/Barbados
+STAR PRIDE,3/30/2025,Pigeon Island,3/30/2025 8:00,,St. Lucia,America/St_Lucia
+STAR PRIDE,3/31/2025,Pigeon Island,,3/31/2025 5:00,St. Lucia,America/St_Lucia
+STAR PRIDE,3/31/2025,Castries,3/31/2025 8:00,3/31/2025 16:00,St. Lucia,America/St_Lucia
+STAR PRIDE,3/31/2025,Sunset Cruising Pitons,3/31/2025 18:30,,St. Lucia,America/St_Lucia
+STAR PRIDE,4/1/2025,Anse Mitan,4/1/2025 8:00,4/1/2025 18:00,Martinique,America/Martinique
+STAR PRIDE,4/2/2025,Mayreau,4/2/2025 8:00,4/2/2025 18:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,4/3/2025,"St. George's, Grenada",4/3/2025 8:00,4/3/2025 22:00,Grenada,America/Grenada
+STAR PRIDE,4/4/2025,Bequia,4/4/2025 8:00,4/4/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,4/5/2025,BRIDGETOWN,4/5/2025 5:00,4/5/2025 18:00,Barbados,America/Barbados
+STAR PRIDE,4/6/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/7/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/8/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/9/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/10/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/11/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/12/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/13/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/14/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/15/2025,SANTA CRUZ DE TENERIFE,4/15/2025 8:00,4/15/2025 18:00,Spain,Atlantic/Canary
+STAR PRIDE,4/16/2025,San Sebastián de La Gomera,4/16/2025 7:00,4/16/2025 21:00,Spain,Atlantic/Canary
+STAR PRIDE,4/17/2025,"Las Palmas, Grand Canaria",4/17/2025 8:00,4/17/2025 18:00,Spain,Atlantic/Canary
+STAR PRIDE,4/18/2025,"Lanzarote, Canary Is / ARRECIFE",4/18/2025 8:00,,Spain,Atlantic/Canary
+STAR PRIDE,4/19/2025,"Lanzarote, Canary Is / ARRECIFE",,4/19/2025 11:00,Spain,Atlantic/Canary
+STAR PRIDE,4/20/2025,"Funchal, Madeira",4/20/2025 13:00,,Portugal,Atlantic/Madeira
+STAR PRIDE,4/21/2025,"Funchal, Madeira",,4/21/2025 13:00,Portugal,Atlantic/Madeira
+STAR PRIDE,4/22/2025,At Sea,,,nan,UTC
+STAR PRIDE,4/23/2025,LISBON,4/23/2025 8:00,4/23/2025 17:00,Portugal,Europe/Lisbon
+STAR PRIDE,4/24/2025,Portimao,4/24/2025 8:00,4/24/2025 14:00,Portugal,Europe/Lisbon
+STAR PRIDE,4/25/2025,Casablanca,4/25/2025 8:00,4/25/2025 22:00,Morocco,Africa/Casablanca
+STAR PRIDE,4/26/2025,Cadiz,4/26/2025 15:00,,Spain,Europe/Madrid
+STAR PRIDE,4/27/2025,Cadiz,,4/27/2025 22:00,Spain,Europe/Madrid
+STAR PRIDE,4/28/2025,Tangier,4/28/2025 8:00,4/28/2025 19:00,Morocco,Africa/Casablanca
+STAR PRIDE,4/29/2025,Malaga,4/29/2025 7:00,,Spain,Europe/Madrid
+STAR PRIDE,4/30/2025,Malaga,,4/30/2025 16:00,Spain,Europe/Madrid
+STAR PRIDE,5/1/2025,"Cartagena, Spain",5/1/2025 9:00,5/1/2025 23:00,Spain,Europe/Madrid
+STAR PRIDE,5/2/2025,At Sea,,,nan,UTC
+STAR PRIDE,5/3/2025,BARCELONA,5/3/2025 8:00,5/3/2025 17:00,Spain,Europe/Madrid
+STAR PRIDE,5/4/2025,At Sea,,,nan,UTC
+STAR PRIDE,5/5/2025,Malaga,5/5/2025 8:00,5/5/2025 23:00,Spain,Europe/Madrid
+STAR PRIDE,5/6/2025,Gibraltar,5/6/2025 8:00,5/6/2025 13:30,British Overseas Territory,Europe/Gibraltar
+STAR PRIDE,5/7/2025,Seville,5/7/2025 4:30,,Spain,Europe/Madrid
+STAR PRIDE,5/8/2025,Seville,,5/8/2025 17:30,Spain,Europe/Madrid
+STAR PRIDE,5/9/2025,At Sea,,,nan,UTC
+STAR PRIDE,5/10/2025,Vigo,5/10/2025 11:00,5/10/2025 18:00,Spain,Europe/Madrid
+STAR PRIDE,5/11/2025,El Ferrol,5/11/2025 7:00,5/11/2025 16:00,Spain,Europe/Madrid
+STAR PRIDE,5/12/2025,Bilbao / GETXO,5/12/2025 13:00,,Spain,Europe/Madrid
+STAR PRIDE,5/13/2025,Bilbao / GETXO,,5/13/2025 13:00,Spain,Europe/Madrid
+STAR PRIDE,5/14/2025,Bordeaux / City Centre - 2 day call,5/14/2025 9:30,,France,Europe/Paris
+STAR PRIDE,5/15/2025,Bordeaux / City Centre - 2 day call,,5/15/2025 19:00,France,Europe/Paris
+STAR PRIDE,5/16/2025,La Rochelle / LA PALLICE,5/16/2025 7:00,5/16/2025 15:00,France,Europe/Paris
+STAR PRIDE,5/17/2025,Brest,5/17/2025 11:00,5/17/2025 17:00,France,Europe/Paris
+STAR PRIDE,5/18/2025,"St. Peter Port, Guernsey",5/18/2025 9:00,5/18/2025 18:00,UK/Channel Islands,Europe/Guernsey
+STAR PRIDE,5/19/2025,St Malo,5/19/2025 6:00,5/19/2025 21:00,France,Europe/Paris
+STAR PRIDE,5/20/2025,Cherbourg,5/20/2025 8:00,5/20/2025 17:00,France,Europe/Paris
+STAR PRIDE,5/21/2025,Dover,5/21/2025 7:00,5/21/2025 19:00,UK,Europe/London
+STAR PRIDE,5/22/2025,Harwich,5/22/2025 7:00,5/22/2025 18:00,UK,Europe/London
+STAR PRIDE,5/23/2025,Bruges / ZEEBRUGGE,5/23/2025 6:00,5/23/2025 23:00,Belgium,Europe/Brussels
+STAR PRIDE,5/24/2025,Antwerp,5/24/2025 7:00,5/24/2025 17:00,Belgium,Europe/Brussels
+STAR PRIDE,5/25/2025,AMSTERDAM,5/25/2025 8:00,5/25/2025 18:00,Netherlands,Europe/Amsterdam
+STAR PRIDE,5/26/2025,Harlingen,5/26/2025 9:00,,Netherlands,Europe/Amsterdam
+STAR PRIDE,5/27/2025,Harlingen,,5/27/2025 13:00,Netherlands,Europe/Amsterdam
+STAR PRIDE,5/28/2025,Heligoland,5/28/2025 8:00,5/28/2025 18:00,Germany,Europe/Berlin
+STAR PRIDE,5/29/2025,Hamburg,5/29/2025 8:00,,Germany,Europe/Berlin
+STAR PRIDE,5/30/2025,Hamburg,,5/30/2025 6:00,Germany,Europe/Berlin
+STAR PRIDE,5/30/2025,Kiel Canal (Brunsbuttel),5/30/2025 11:00,,Germany,Europe/Berlin
+STAR PRIDE,5/30/2025,Kiel Canal (Holtenau),,5/30/2025 19:00,Germany,Europe/Berlin
+STAR PRIDE,5/31/2025,Lubeck / TRAVEMUNDE,5/31/2025 8:00,5/31/2025 22:00,Germany,Europe/Berlin
+STAR PRIDE,6/1/2025,Berlin / WISMAR,6/1/2025 7:00,6/1/2025 21:00,Germany,Europe/Berlin
+STAR PRIDE,6/2/2025,"Binz, Rugen",6/2/2025 9:00,6/2/2025 18:00,Germany,Europe/Berlin
+STAR PRIDE,6/3/2025,COPENHAGEN,6/3/2025 7:00,6/3/2025 17:00,Denmark,Europe/Copenhagen
+STAR PRIDE,6/4/2025,Aalborg,6/4/2025 8:00,6/4/2025 16:00,Denmark,Europe/Copenhagen
+STAR PRIDE,6/5/2025,Arendal,6/5/2025 8:00,6/5/2025 15:00,Norway,Europe/Oslo
+STAR PRIDE,6/6/2025,Stavanger,6/6/2025 8:00,6/6/2025 13:00,Norway,Europe/Oslo
+STAR PRIDE,6/7/2025,Flam,6/7/2025 10:00,6/7/2025 15:30,Norway,Europe/Oslo
+STAR PRIDE,6/8/2025,OldenLoen,6/8/2025 12:00,6/8/2025 18:00,Norway,Europe/Oslo
+STAR PRIDE,6/9/2025,Andalsnes,6/9/2025 9:30,6/9/2025 17:00,Norway,Europe/Oslo
+STAR PRIDE,6/10/2025,Bergen,6/10/2025 13:00,,Norway,Europe/Oslo
+STAR PRIDE,6/11/2025,BERGEN,,6/11/2025 16:00,Norway,Europe/Oslo
+STAR PRIDE,6/12/2025,Olden,6/12/2025 8:00,6/12/2025 17:00,Norway,Europe/Oslo
+STAR PRIDE,6/13/2025,Molde,6/13/2025 7:00,6/13/2025 8:30,Norway,Europe/Oslo
+STAR PRIDE,6/13/2025,Averoy,6/13/2025 15:00,6/13/2025 17:00,Norway,Europe/Oslo
+STAR PRIDE,6/14/2025,Nordfjordeid,6/14/2025 7:00,6/14/2025 15:30,Norway,Europe/Oslo
+STAR PRIDE,6/15/2025,Skjolden,6/15/2025 9:00,6/15/2025 17:00,Norway,Europe/Oslo
+STAR PRIDE,6/16/2025,Bergen,6/16/2025 8:00,6/16/2025 16:00,Norway,Europe/Oslo
+STAR PRIDE,6/17/2025,Egersund,6/17/2025 8:00,6/17/2025 17:00,Norway,Europe/Oslo
+STAR PRIDE,6/18/2025,Arendal,6/18/2025 7:00,6/18/2025 16:00,Norway,Europe/Oslo
+STAR PRIDE,6/19/2025,Aalborg,6/19/2025 8:00,6/19/2025 16:00,Denmark,Europe/Copenhagen
+STAR PRIDE,6/20/2025,COPENHAGEN,6/20/2025 7:00,6/20/2025 17:00,Denmark,Europe/Copenhagen
+STAR PRIDE,6/21/2025,Aalborg,6/21/2025 8:00,6/21/2025 16:00,Denmark,Europe/Copenhagen
+STAR PRIDE,6/22/2025,Arendal,6/22/2025 7:00,6/22/2025 17:00,Norway,Europe/Oslo
+STAR PRIDE,6/23/2025,At Sea,,,nan,UTC
+STAR PRIDE,6/24/2025,Flam,6/24/2025 7:00,6/24/2025 15:30,Norway,Europe/Oslo
+STAR PRIDE,6/25/2025,OldenLoen,6/25/2025 12:00,6/25/2025 18:00,Norway,Europe/Oslo
+STAR PRIDE,6/26/2025,Geiranger,6/26/2025 10:00,6/26/2025 17:00,Norway,Europe/Oslo
+STAR PRIDE,6/26/2025,Scenic cruising Geirangerfjord,,,Norway,Europe/Oslo
+STAR PRIDE,6/27/2025,Bergen,6/27/2025 13:00,,Norway,Europe/Oslo
+STAR PRIDE,6/28/2025,BERGEN,,6/28/2025 18:00,Norway,Europe/Oslo
+STAR PRIDE,6/29/2025,OldenLoen,6/29/2025 10:00,6/29/2025 18:00,Norway,Europe/Oslo
+STAR PRIDE,6/30/2025,Alesund,6/30/2025 8:00,6/30/2025 19:00,Norway,Europe/Oslo
+STAR PRIDE,7/1/2025,Molde,7/1/2025 7:00,7/1/2025 18:00,Norway,Europe/Oslo
+STAR PRIDE,7/2/2025,Geiranger,7/2/2025 7:00,7/2/2025 13:00,Norway,Europe/Oslo
+STAR PRIDE,7/2/2025,Scenic cruising Geirangerfjord,,,Norway,Europe/Oslo
+STAR PRIDE,7/3/2025,"Lerwick, Shetland Islands",7/3/2025 14:00,7/3/2025 21:00,UK,Europe/London
+STAR PRIDE,7/4/2025,"Kirkwall, Orkney Islands, Scotland",7/4/2025 7:00,7/4/2025 17:00,UK,Europe/London
+STAR PRIDE,7/5/2025,At Sea,,,nan,UTC
+STAR PRIDE,7/6/2025,At Sea,,,nan,UTC
+STAR PRIDE,7/7/2025,REYKJAVIK,7/7/2025 7:00,7/7/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/8/2025,Scenic Cruise Surtsey Island,,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/8/2025,Heimaey Island (Vestmannaaeyjar),7/8/2025 10:00,7/8/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/9/2025,Seydisfjordur,7/9/2025 16:00,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/10/2025,Seydisfjordur,,7/10/2025 13:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/11/2025,Akureyri,7/11/2025 9:00,7/11/2025 19:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/12/2025,Isafjordur,7/12/2025 12:00,7/12/2025 20:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/13/2025,Grundarfjordur,7/13/2025 9:00,7/13/2025 18:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/14/2025,REYKJAVIK,7/14/2025 7:00,7/14/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/15/2025,Scenic Cruise Surtsey Island,,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/15/2025,Heimaey Island (Vestmannaaeyjar),7/15/2025 10:00,7/15/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/16/2025,Seydisfjordur,7/16/2025 16:00,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/17/2025,Seydisfjordur,,7/17/2025 13:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/18/2025,Akureyri,7/18/2025 9:00,7/18/2025 19:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/19/2025,Isafjordur,7/19/2025 12:00,7/19/2025 20:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/20/2025,Grundarfjordur,7/20/2025 9:00,7/20/2025 18:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/21/2025,REYKJAVIK,7/21/2025 7:00,7/21/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/22/2025,Scenic Cruise Surtsey Island,,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/22/2025,Heimaey Island (Vestmannaaeyjar),7/22/2025 10:00,7/22/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/23/2025,Seydisfjordur,7/23/2025 16:00,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/24/2025,Seydisfjordur,,7/24/2025 13:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/25/2025,Akureyri,7/25/2025 9:00,7/25/2025 19:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/26/2025,Isafjordur,7/26/2025 12:00,7/26/2025 20:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/27/2025,Grundarfjordur,7/27/2025 9:00,7/27/2025 18:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/28/2025,REYKJAVIK,7/28/2025 7:00,7/28/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/29/2025,Scenic Cruise Surtsey Island,,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/29/2025,Heimaey Island (Vestmannaaeyjar),7/29/2025 10:00,7/29/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/30/2025,Seydisfjordur,7/30/2025 16:00,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,7/31/2025,Seydisfjordur,,7/31/2025 13:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/1/2025,Akureyri,8/1/2025 9:00,8/1/2025 19:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/2/2025,Isafjordur,8/2/2025 12:00,8/2/2025 20:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/3/2025,Grundarfjordur,8/3/2025 9:00,8/3/2025 18:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/4/2025,REYKJAVIK,8/4/2025 7:00,8/4/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/5/2025,Scenic Cruise Surtsey Island,,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/5/2025,Heimaey Island (Vestmannaaeyjar),8/5/2025 10:00,8/5/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/6/2025,Seydisfjordur,8/6/2025 16:00,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/7/2025,Seydisfjordur,,8/7/2025 13:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/8/2025,Akureyri,8/8/2025 9:00,8/8/2025 19:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/9/2025,Isafjordur,8/9/2025 12:00,8/9/2025 20:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/10/2025,Grundarfjordur,8/10/2025 9:00,8/10/2025 18:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/11/2025,REYKJAVIK,8/11/2025 7:00,8/11/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/12/2025,Scenic Cruise Surtsey Island,,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/12/2025,Heimaey Island (Vestmannaaeyjar),8/12/2025 10:00,8/12/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/13/2025,Seydisfjordur,8/13/2025 16:00,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/14/2025,Seydisfjordur,,8/14/2025 13:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/15/2025,Akureyri,8/15/2025 9:00,8/15/2025 19:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/16/2025,Isafjordur,8/16/2025 12:00,8/16/2025 20:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/17/2025,Grundarfjordur,8/17/2025 9:00,8/17/2025 18:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/18/2025,REYKJAVIK,8/18/2025 7:00,8/18/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/19/2025,Scenic Cruise Surtsey Island,,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/19/2025,Heimaey Island (Vestmannaaeyjar),8/19/2025 10:00,8/19/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/20/2025,Seydisfjordur,8/20/2025 16:00,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/21/2025,Seydisfjordur,,8/21/2025 13:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/22/2025,Akureyri,8/22/2025 9:00,8/22/2025 19:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/23/2025,Isafjordur,8/23/2025 12:00,8/23/2025 20:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/24/2025,Grundarfjordur,8/24/2025 9:00,8/24/2025 18:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/25/2025,REYKJAVIK,8/25/2025 7:00,8/25/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/26/2025,Scenic Cruise Surtsey Island,,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/26/2025,Heimaey Island (Vestmannaaeyjar),8/26/2025 10:00,8/26/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/27/2025,Seydisfjordur,8/27/2025 16:00,,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/28/2025,Seydisfjordur,,8/28/2025 13:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/29/2025,Akureyri,8/29/2025 9:00,8/29/2025 19:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/30/2025,Isafjordur,8/30/2025 12:00,8/30/2025 20:30,Iceland,Atlantic/Reykjavik
+STAR PRIDE,8/31/2025,Grundarfjordur,8/31/2025 9:00,8/31/2025 18:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,9/1/2025,REYKJAVIK,9/1/2025 7:00,9/1/2025 17:00,Iceland,Atlantic/Reykjavik
+STAR PRIDE,9/2/2025,At Sea,,,nan,UTC
+STAR PRIDE,9/3/2025,At Sea,,,nan,UTC
+STAR PRIDE,9/4/2025,Scenic Cruising Prince Christian Sound,9/4/2025 7:00,9/4/2025 7:00,Greenland,America/Nuuk
+STAR PRIDE,9/4/2025,Scenic Cruising Prince Christian Sound,9/4/2025 17:00,9/4/2025 17:00,Greenland,America/Nuuk
+STAR PRIDE,9/5/2025,Qaqartoq,9/5/2025 8:00,9/5/2025 22:00,Greenland,America/Nuuk
+STAR PRIDE,9/6/2025,Narsaq,9/6/2025 8:00,9/6/2025 16:00,Greenland,America/Nuuk
+STAR PRIDE,9/7/2025,Nanortalik,9/7/2025 7:00,9/7/2025 14:00,Greenland,America/Nuuk
+STAR PRIDE,9/7/2025,Scenic Cruising Tasermiut Fjord,9/7/2025 15:00,9/7/2025 19:00,Greenland,America/Nuuk
+STAR PRIDE,9/8/2025,At Sea,,,nan,UTC
+STAR PRIDE,9/9/2025,At Sea,,,nan,UTC
+STAR PRIDE,9/10/2025,"St. Anthony, NL",9/10/2025 7:00,9/10/2025 13:00,Canada,America/St_Johns
+STAR PRIDE,9/11/2025,"Bonne Bay / WOODY POINT, NL",9/11/2025 8:00,9/11/2025 16:00,Canada,America/St_Johns
+STAR PRIDE,9/12/2025,"Havre St. Pierre, QC",9/12/2025 12:00,9/12/2025 20:00,Canada,America/Toronto
+STAR PRIDE,9/13/2025,At Sea,,,nan,UTC
+STAR PRIDE,9/14/2025,"Quebec City, QC",9/14/2025 8:00,9/14/2025 16:00,Canada,America/Toronto
+STAR PRIDE,9/15/2025,"MONTREAL, QC",9/15/2025 8:00,9/15/2025 18:00,Canada,America/Toronto
+STAR PRIDE,9/16/2025,"Quebec City, QC",9/16/2025 9:00,,Canada,America/Toronto
+STAR PRIDE,9/17/2025,"Quebec City, QC",,9/17/2025 18:00,Canada,America/Toronto
+STAR PRIDE,9/18/2025,At Sea,,,nan,UTC
+STAR PRIDE,9/19/2025,"Gaspe, QC",9/19/2025 7:00,9/19/2025 14:00,Canada,America/Toronto
+STAR PRIDE,9/20/2025,"Cap aux Meules, Magdalen Isl., QC",9/20/2025 11:00,9/20/2025 18:00,Canada,America/Halifax
+STAR PRIDE,9/21/2025,"Sydney, NS",9/21/2025 7:00,9/21/2025 14:00,Canada,America/Halifax
+STAR PRIDE,9/22/2025,"Halifax, NS",9/22/2025 11:00,9/22/2025 23:00,Canada,America/Halifax
+STAR PRIDE,9/23/2025,"Lunenburg, NS",9/23/2025 8:00,9/23/2025 22:00,Canada,America/Halifax
+STAR PRIDE,9/24/2025,At Sea,,,nan,UTC
+STAR PRIDE,9/25/2025,"Portland, ME",9/25/2025 8:00,9/25/2025 18:00,United States,America/New_York
+STAR PRIDE,9/26/2025,"BOSTON, MA",9/26/2025 8:00,9/26/2025 17:00,United States,America/New_York
+STAR PRIDE,9/27/2025,"Portland, ME",9/27/2025 8:00,9/27/2025 22:00,United States,America/New_York
+STAR PRIDE,9/28/2025,At Sea,,,nan,UTC
+STAR PRIDE,9/29/2025,"Lunenburg, NS",9/29/2025 8:00,9/29/2025 23:00,Canada,America/Halifax
+STAR PRIDE,9/30/2025,"Halifax, NS",9/30/2025 8:00,9/30/2025 16:00,Canada,America/Halifax
+STAR PRIDE,10/1/2025,"Sydney, NS",10/1/2025 13:00,10/1/2025 19:00,Canada,America/Halifax
+STAR PRIDE,10/2/2025,"Cap aux Meules, Magdalen Isl., QC",10/2/2025 10:00,10/2/2025 18:00,Canada,America/Halifax
+STAR PRIDE,10/3/2025,"Gaspe, QC",10/3/2025 13:00,10/3/2025 19:00,Canada,America/Toronto
+STAR PRIDE,10/4/2025,At Sea,,,nan,UTC
+STAR PRIDE,10/5/2025,"Quebec City, QC",10/5/2025 9:00,,Canada,America/Toronto
+STAR PRIDE,10/6/2025,"Quebec City, QC",,10/6/2025 16:00,Canada,America/Toronto
+STAR PRIDE,10/7/2025,"MONTREAL, QC",10/7/2025 8:00,10/7/2025 18:00,Canada,America/Toronto
+STAR PRIDE,10/8/2025,"Quebec City, QC",10/8/2025 9:00,,Canada,America/Toronto
+STAR PRIDE,10/9/2025,"Quebec City, QC",,10/9/2025 18:00,Canada,America/Toronto
+STAR PRIDE,10/10/2025,At Sea,,,nan,UTC
+STAR PRIDE,10/11/2025,"Gaspe, QC",10/11/2025 7:00,10/11/2025 14:00,Canada,America/Toronto
+STAR PRIDE,10/12/2025,"Cap aux Meules, Magdalen Isl., QC",10/12/2025 11:00,10/12/2025 18:00,Canada,America/Halifax
+STAR PRIDE,10/13/2025,"Sydney, NS",10/13/2025 7:00,10/13/2025 14:00,Canada,America/Halifax
+STAR PRIDE,10/14/2025,"Halifax, NS",10/14/2025 11:00,10/14/2025 23:00,Canada,America/Halifax
+STAR PRIDE,10/15/2025,At Sea,,,nan,UTC
+STAR PRIDE,10/16/2025,"Portland, ME",10/16/2025 8:00,,United States,America/New_York
+STAR PRIDE,10/17/2025,"Portland, ME",,10/17/2025 12:01,United States,America/New_York
+STAR PRIDE,10/17/2025,Transit Cape Cod Canal,10/17/2025 22:00,10/17/2025 23:59,United States,America/New_York
+STAR PRIDE,10/18/2025,"New York, NY (Manhattan)",10/18/2025 19:30,,United States,America/New_York
+STAR PRIDE,10/19/2025,"NEW YORK, NY (Manhattan)",,10/19/2025 18:00,United States,America/New_York
+STAR PRIDE,10/20/2025,At Sea,,,nan,UTC
+STAR PRIDE,10/21/2025,At Sea,,,nan,UTC
+STAR PRIDE,10/22/2025,"St. George's, Bermuda",10/22/2025 8:00,,Bermuda,Atlantic/Bermuda
+STAR PRIDE,10/23/2025,"St. George's, Bermuda",,10/23/2025 12:00,Bermuda,Atlantic/Bermuda
+STAR PRIDE,10/24/2025,At Sea,,,nan,UTC
+STAR PRIDE,10/25/2025,At Sea,,,nan,UTC
+STAR PRIDE,10/26/2025,SAN JUAN,10/26/2025 8:00,10/26/2025 19:00,Puerto Rico,America/Puerto_Rico
+STAR PRIDE,10/27/2025,"Cruz Bay, St John",10/27/2025 8:00,10/27/2025 18:00,U.S.V.I.,America/St_Thomas
+STAR PRIDE,10/28/2025,Basseterre,10/28/2025 8:00,10/28/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+STAR PRIDE,10/29/2025,Gustavia,10/29/2025 7:00,10/29/2025 22:00,St. Barthelemy,America/St_Barthelemy
+STAR PRIDE,10/30/2025,Philipsburg,10/30/2025 8:00,10/30/2025 22:00,St. Maarten,America/Lower_Princes
+STAR PRIDE,10/31/2025,Jost Van Dyke Great Harbour,10/31/2025 9:00,10/31/2025 22:00,B.V.I.,America/Tortola
+STAR PRIDE,11/1/2025,Virgin Gorda Prickly Pear Beach,11/1/2025 8:00,11/1/2025 17:00,B.V.I.,America/Tortola
+STAR PRIDE,11/2/2025,SAN JUAN,11/2/2025 7:00,11/2/2025 19:00,Puerto Rico,America/Puerto_Rico
+STAR PRIDE,11/3/2025,"Cruz Bay, St John",11/3/2025 8:00,11/3/2025 18:00,U.S.V.I.,America/St_Thomas
+STAR PRIDE,11/4/2025,Basseterre,11/4/2025 8:00,11/4/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+STAR PRIDE,11/5/2025,Gustavia,11/5/2025 7:00,11/5/2025 22:00,St. Barthelemy,America/St_Barthelemy
+STAR PRIDE,11/6/2025,Philipsburg,11/6/2025 8:00,11/6/2025 22:00,St. Maarten,America/Lower_Princes
+STAR PRIDE,11/7/2025,Jost Van Dyke Great Harbour,11/7/2025 9:00,11/7/2025 22:00,B.V.I.,America/Tortola
+STAR PRIDE,11/8/2025,Virgin Gorda Prickly Pear Beach,11/8/2025 8:00,11/8/2025 17:00,B.V.I.,America/Tortola
+STAR PRIDE,11/9/2025,SAN JUAN,11/9/2025 7:00,11/9/2025 19:00,Puerto Rico,America/Puerto_Rico
+STAR PRIDE,11/10/2025,At Sea,,,nan,UTC
+STAR PRIDE,11/11/2025,"St. George's, Grenada",11/11/2025 9:00,11/11/2025 22:00,Grenada,America/Grenada
+STAR PRIDE,11/12/2025,Bequia,11/12/2025 8:00,11/12/2025 22:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,11/13/2025,Mayreau,11/13/2025 8:00,11/13/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,11/14/2025,Les Saintes,11/14/2025 10:00,11/14/2025 17:00,Guadeloupe,America/Guadeloupe
+STAR PRIDE,11/15/2025,Marigot,11/15/2025 8:00,11/15/2025 15:00,St. Maarten,America/Lower_Princes
+STAR PRIDE,11/16/2025,SAN JUAN,11/16/2025 7:00,11/16/2025 19:00,Puerto Rico,America/Puerto_Rico
+STAR PRIDE,11/17/2025,"Cruz Bay, St John",11/17/2025 8:00,11/17/2025 18:00,U.S.V.I.,America/St_Thomas
+STAR PRIDE,11/18/2025,Basseterre,11/18/2025 8:00,11/18/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+STAR PRIDE,11/19/2025,Gustavia,11/19/2025 7:00,11/19/2025 22:00,St. Barthelemy,America/St_Barthelemy
+STAR PRIDE,11/20/2025,Philipsburg,11/20/2025 8:00,11/20/2025 22:00,St. Maarten,America/Lower_Princes
+STAR PRIDE,11/21/2025,Jost Van Dyke Great Harbour,11/21/2025 9:00,11/21/2025 22:00,B.V.I.,America/Tortola
+STAR PRIDE,11/22/2025,Virgin Gorda Prickly Pear Beach,11/22/2025 8:00,11/22/2025 17:00,B.V.I.,America/Tortola
+STAR PRIDE,11/23/2025,SAN JUAN,11/23/2025 7:00,11/23/2025 19:00,Puerto Rico,America/Puerto_Rico
+STAR PRIDE,11/24/2025,At Sea,,,nan,UTC
+STAR PRIDE,11/25/2025,"St. George's, Grenada",11/25/2025 9:00,11/25/2025 22:00,Grenada,America/Grenada
+STAR PRIDE,11/26/2025,Bequia,11/26/2025 8:00,11/26/2025 22:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,11/27/2025,Mayreau,11/27/2025 8:00,11/27/2025 17:00,St. Vincent & the Grenadines,America/St_Vincent
+STAR PRIDE,11/28/2025,Les Saintes,11/28/2025 10:00,11/28/2025 17:00,Guadeloupe,America/Guadeloupe
+STAR PRIDE,11/29/2025,Marigot,11/29/2025 8:00,11/29/2025 15:00,St. Maarten,America/Lower_Princes
+STAR PRIDE,11/30/2025,SAN JUAN,11/30/2025 7:00,11/30/2025 19:00,Puerto Rico,America/Puerto_Rico
+STAR PRIDE,12/1/2025,"Cruz Bay, St John",12/1/2025 8:00,12/1/2025 18:00,U.S.V.I.,America/St_Thomas
+STAR PRIDE,12/2/2025,Gustavia,12/2/2025 8:00,12/2/2025 22:00,St. Barthelemy,America/St_Barthelemy
+STAR PRIDE,12/3/2025,Basseterre,12/3/2025 8:00,12/3/2025 17:00,St. Kitts & Nevis,America/St_Kitts
+STAR PRIDE,12/4/2025,Philipsburg,12/4/2025 8:00,12/4/2025 22:00,St. Maarten,America/Lower_Princes
+STAR PRIDE,12/5/2025,Jost Van Dyke Great Harbour,12/5/2025 9:00,12/5/2025 22:00,B.V.I.,America/Tortola
+STAR PRIDE,12/6/2025,Virgin Gorda Prickly Pear Beach,12/6/2025 8:00,12/6/2025 17:00,B.V.I.,America/Tortola
+STAR PRIDE,12/7/2025,SAN JUAN,12/7/2025 7:00,12/7/2025 17:00,Puerto Rico,America/Puerto_Rico
+STAR PRIDE,12/8/2025,Santo Domingo / San Souci Port,12/8/2025 12:00,12/8/2025 17:00,Dominican Republic,America/Santo_Domingo
+STAR PRIDE,12/9/2025,At Sea,,,nan,UTC
+STAR PRIDE,12/10/2025,"Cartagena, Colombia",12/10/2025 14:30,,Colombia,America/Bogota
+STAR PRIDE,12/11/2025,"Cartagena, Colombia",,12/11/2025 14:00,Colombia,America/Bogota
+STAR PRIDE,12/12/2025,Isla Aroma San Blas Islands,12/12/2025 8:00,12/12/2025 17:00,Panama,America/Panama
+STAR PRIDE,12/13/2025,COLON - Cristobal terminal,12/13/2025 7:00,12/13/2025 18:00,Panama,America/Panama
+STAR PRIDE,12/13/2025,Colon - SERVICE CALL ONLY,12/13/2025 22:00,,Panama,America/Panama
+STAR PRIDE,12/14/2025,Colon - SERVICE CALL ONLY,,12/14/2025 4:00,Panama,America/Panama
+STAR PRIDE,12/14/2025,Transit Panama Canal,12/14/2025 4:00,12/14/2025 18:00,Panama,UTC
+STAR PRIDE,12/14/2025,Balboa / Fuetre Amador,12/14/2025 22:00,,Panama,America/Panama
+STAR PRIDE,12/15/2025,Balboa / Fuetre Amador,,12/15/2025 17:00,Panama,America/Panama
+STAR PRIDE,12/16/2025,At Sea,,,nan,UTC
+STAR PRIDE,12/17/2025,Isla Parida,12/17/2025 8:00,12/17/2025 18:00,Panama,America/Panama
+STAR PRIDE,12/18/2025,Golfito,12/18/2025 5:30,12/18/2025 7:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,12/18/2025,Puerto Jimenez,12/18/2025 8:30,12/18/2025 17:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,12/19/2025,Quepos,12/19/2025 6:00,12/19/2025 18:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,12/20/2025,PUERTO CALDERA,12/20/2025 6:00,12/20/2025 18:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,12/21/2025,Quepos,12/21/2025 6:00,12/21/2025 18:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,12/22/2025,Puerto Jimenez,12/22/2025 6:00,12/22/2025 17:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,12/22/2025,Golfito,12/22/2025 18:30,12/22/2025 20:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,12/23/2025,Isla Parida,12/23/2025 7:00,12/23/2025 18:00,Panama,America/Panama
+STAR PRIDE,12/24/2025,At Sea,,,nan,UTC
+STAR PRIDE,12/25/2025,Balboa / Fuetre Amador,12/25/2025 8:00,12/25/2025 17:00,Panama,America/Panama
+STAR PRIDE,12/25/2025,Balboa - SERVICE CALL ONLY,12/25/2025 19:00,,Panama,America/Panama
+STAR PRIDE,12/26/2025,Balboa - SERVICE CALL ONLY,,12/26/2025 4:00,Panama,America/Panama
+STAR PRIDE,12/26/2025,Transit Panama Canal,12/26/2025 4:00,12/26/2025 18:00,Panama,UTC
+STAR PRIDE,12/26/2025,Colon - SERVICE CALL ONLY,12/26/2025 22:00,,Panama,America/Panama
+STAR PRIDE,12/27/2025,Colon - SERVICE CALL ONLY,,12/27/2025 4:00,Panama,America/Panama
+STAR PRIDE,12/27/2025,COLON - Cristobal terminal,12/27/2025 7:00,12/27/2025 18:00,Panama,America/Panama
+STAR PRIDE,12/27/2025,Colon - SERVICE CALL ONLY,12/27/2025 22:00,,Panama,America/Panama
+STAR PRIDE,12/28/2025,Colon - SERVICE CALL ONLY,,12/28/2025 4:00,Panama,America/Panama
+STAR PRIDE,12/28/2025,Transit Panama Canal,12/28/2025 4:00,12/28/2025 18:00,Panama,UTC
+STAR PRIDE,12/28/2025,Balboa / Fuetre Amador,12/28/2025 22:00,,Panama,America/Panama
+STAR PRIDE,12/29/2025,Balboa / Fuetre Amador,,12/29/2025 17:00,Panama,America/Panama
+STAR PRIDE,12/30/2025,At Sea,,,nan,UTC
+STAR PRIDE,12/31/2025,Isla Parida,12/31/2025 8:00,12/31/2025 18:00,Panama,America/Panama
+STAR PRIDE,1/1/2026,Golfito,1/1/2026 5:30,1/1/2026 7:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,1/1/2026,Puerto Jimenez,1/1/2026 8:30,1/1/2026 17:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,1/2/2026,Quepos,1/2/2026 6:00,1/2/2026 18:00,Costa Rica,America/Costa_Rica
+STAR PRIDE,1/3/2026,PUERTO CALDERA,1/3/2026 6:00,1/3/2026 18:00,Costa Rica,America/Costa_Rica
+STAR BREEZE,1/2/2025,PAPEETE,1/2/2025 9:00,1/2/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,1/3/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/4/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/5/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/6/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/7/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/8/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/9/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/10/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/11/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/12/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/13/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/14/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/15/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/16/2025,PUERTO CALDERA,1/16/2025 11:00,1/16/2025 16:00,Costa Rica,America/Costa_Rica
+STAR BREEZE,1/17/2025,At Sea,,,nan,UTC
+STAR BREEZE,1/18/2025,PANAMA PORTS COMPANY BALBOA berth 6th or 7th,1/18/2025 8:00,1/18/2025 18:00,Panama,America/Panama
+STAR BREEZE,1/18/2025,Balboa / DRY DOCK,1/18/2025 20:00,,nan,UTC
+STAR BREEZE,1/19/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/20/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/21/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/22/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/23/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/24/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/25/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/26/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/27/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/28/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/29/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/30/2025,Drydock,,,nan,UTC
+STAR BREEZE,1/31/2025,Panama City / BALBOA AMADOR / Panama Cruise Terminal,1/31/2025 9:00,1/31/2025 18:00,Panama,America/Panama
+STAR BREEZE,2/1/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/2/2025,PUERTO CALDERA,2/2/2025 7:00,2/2/2025 17:00,Costa Rica,America/Costa_Rica
+STAR BREEZE,2/3/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/4/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/5/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/6/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/7/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/8/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/9/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/10/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/11/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/12/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/13/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/14/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/15/2025,At Sea,,,nan,UTC
+STAR BREEZE,2/16/2025,PAPEETE,2/16/2025 9:00,2/16/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/17/2025,"Cook's Bay, Moorea",2/17/2025 8:00,2/17/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/18/2025,"Uturoa, Raiatea",2/18/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/19/2025,"Uturoa, Raiatea",,2/19/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/19/2025,Motu Mahaea (Taha'a),2/19/2025 8:00,2/19/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/20/2025,"Maroe Bay, Huahine",2/20/2025 7:00,2/20/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/21/2025,"Vaitape, Bora Bora",2/21/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/22/2025,"Vaitape, Bora Bora",,2/22/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/23/2025,PAPEETE,2/23/2025 9:00,2/23/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/24/2025,"Cook's Bay, Moorea",2/24/2025 8:00,2/24/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/25/2025,"Uturoa, Raiatea",2/25/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/26/2025,"Uturoa, Raiatea",,2/26/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/26/2025,Motu Mahaea (Taha'a),2/26/2025 8:00,2/26/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/27/2025,"Vaitape, Bora Bora",2/27/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,2/28/2025,"Vaitape, Bora Bora",,2/28/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/1/2025,"Maroe Bay, Huahine",3/1/2025 7:00,3/1/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/2/2025,PAPEETE,3/2/2025 9:00,3/2/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/3/2025,At Sea,,,nan,UTC
+STAR BREEZE,3/4/2025,"Fakarava, Tuamotu",3/4/2025 7:00,3/4/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/5/2025,"Tiputa, Rangiroa",3/5/2025 9:00,3/5/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/6/2025,At Sea,,,nan,UTC
+STAR BREEZE,3/7/2025,Motu Mahaea (Taha'a),3/7/2025 8:00,3/7/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/7/2025,"Uturoa, Raiatea",3/7/2025 18:30,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/8/2025,"Uturoa, Raiatea",,3/8/2025 22:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/9/2025,"Vaitape, Bora Bora",3/9/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/10/2025,"Vaitape, Bora Bora",,3/10/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/11/2025,"Maroe Bay, Huahine",3/11/2025 8:00,3/11/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/12/2025,"Cook's Bay, Moorea",3/12/2025 8:00,3/12/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/12/2025,PAPEETE,3/12/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/13/2025,PAPEETE,,3/13/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/14/2025,"Cook's Bay, Moorea",3/14/2025 8:00,3/14/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/15/2025,"Uturoa, Raiatea",3/15/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/16/2025,"Uturoa, Raiatea",,3/16/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/16/2025,Motu Mahaea (Taha'a),3/16/2025 8:00,3/16/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/17/2025,"Vaitape, Bora Bora",3/17/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/18/2025,"Vaitape, Bora Bora",,3/18/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/19/2025,"Maroe Bay, Huahine",3/19/2025 7:00,3/19/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/20/2025,PAPEETE,3/20/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/21/2025,PAPEETE,,3/21/2025 5:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/21/2025,"Cook's Bay, Moorea",3/21/2025 8:00,3/21/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/22/2025,"Uturoa, Raiatea",3/22/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/23/2025,"Uturoa, Raiatea",,3/23/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/23/2025,Motu Mahaea (Taha'a),3/23/2025 8:00,3/23/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/24/2025,"Vaitape, Bora Bora",3/24/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/25/2025,"Vaitape, Bora Bora",,3/25/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/26/2025,"Maroe Bay, Huahine",3/26/2025 7:00,3/26/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/27/2025,PAPEETE,3/27/2025 9:00,3/27/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/28/2025,At Sea,,,nan,UTC
+STAR BREEZE,3/29/2025,"Fakarava, Tuamotu",3/29/2025 7:00,3/29/2025 16:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,3/30/2025,At Sea,,,nan,UTC
+STAR BREEZE,3/31/2025,"Omoa, Fatu Hiva, Marquesas Islands",3/31/2025 9:30,3/31/2025 18:00,French Polynesia,Pacific/Marquesas
+STAR BREEZE,4/1/2025,"Atuona, Hiva Oa, Marquesas Islands",4/1/2025 8:00,4/1/2025 21:00,French Polynesia,Pacific/Marquesas
+STAR BREEZE,4/2/2025,"Taiohae, Nuku Hiva, Marquesas Islands",4/2/2025 8:00,4/2/2025 14:00,French Polynesia,Pacific/Marquesas
+STAR BREEZE,4/3/2025,At Sea,,,nan,UTC
+STAR BREEZE,4/4/2025,"Tiputa, Rangiroa",4/4/2025 9:00,4/4/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/5/2025,At Sea,,,nan,UTC
+STAR BREEZE,4/6/2025,Motu Mahaea (Taha'a),4/6/2025 8:00,4/6/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/7/2025,"Vaitape, Bora Bora",4/7/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/8/2025,"Vaitape, Bora Bora",,4/8/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/9/2025,"Cook's Bay, Moorea",4/9/2025 8:00,4/9/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/9/2025,PAPEETE,4/9/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/10/2025,PAPEETE,,4/10/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/11/2025,"Cook's Bay, Moorea",4/11/2025 8:00,4/11/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/12/2025,"Uturoa, Raiatea",4/12/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/13/2025,"Uturoa, Raiatea",,4/13/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/13/2025,Motu Mahaea (Taha'a),4/13/2025 8:00,4/13/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/14/2025,"Vaitape, Bora Bora",4/14/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/15/2025,"Vaitape, Bora Bora",,4/15/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/16/2025,"Maroe Bay, Huahine",4/16/2025 7:00,4/16/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/17/2025,PAPEETE,4/17/2025 9:00,4/17/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/18/2025,"Cook's Bay, Moorea",4/18/2025 8:00,4/18/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/19/2025,"Uturoa, Raiatea",4/19/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/20/2025,"Uturoa, Raiatea",,4/20/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/20/2025,Motu Mahaea (Taha'a),4/20/2025 8:00,4/20/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/21/2025,"Vaitape, Bora Bora",4/21/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/22/2025,"Vaitape, Bora Bora",,4/22/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/23/2025,"Maroe Bay, Huahine",4/23/2025 7:00,4/23/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/24/2025,PAPEETE,4/24/2025 9:00,4/24/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/25/2025,"Cook's Bay, Moorea",4/25/2025 8:00,4/25/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/26/2025,"Uturoa, Raiatea",4/26/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/27/2025,"Uturoa, Raiatea",,4/27/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/27/2025,Motu Mahaea (Taha'a),4/27/2025 8:00,4/27/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/28/2025,"Vaitape, Bora Bora",4/28/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/29/2025,"Vaitape, Bora Bora",,4/29/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,4/30/2025,"Maroe Bay, Huahine",4/30/2025 7:00,4/30/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/1/2025,PAPEETE,5/1/2025 9:00,5/1/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/2/2025,At Sea,,,nan,UTC
+STAR BREEZE,5/3/2025,"Fakarava, Tuamotu",5/3/2025 7:00,5/3/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/4/2025,"Tiputa, Rangiroa",5/4/2025 9:00,5/4/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/5/2025,At Sea,,,nan,UTC
+STAR BREEZE,5/6/2025,Motu Mahaea (Taha'a),5/6/2025 8:00,5/6/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/6/2025,"Uturoa, Raiatea",5/6/2025 18:30,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/7/2025,"Uturoa, Raiatea",,5/7/2025 22:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/8/2025,"Vaitape, Bora Bora",5/8/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/9/2025,"Vaitape, Bora Bora",,5/9/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/10/2025,"Maroe Bay, Huahine",5/10/2025 8:00,5/10/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/11/2025,"Cook's Bay, Moorea",5/11/2025 8:00,5/11/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/11/2025,PAPEETE,5/11/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/12/2025,PAPEETE,,5/12/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/13/2025,At Sea,,,nan,UTC
+STAR BREEZE,5/14/2025,"Fakarava, Tuamotu",5/14/2025 7:00,5/14/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/15/2025,"Tiputa, Rangiroa",5/15/2025 9:00,5/15/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/16/2025,At Sea,,,nan,UTC
+STAR BREEZE,5/17/2025,Motu Mahaea (Taha'a),5/17/2025 8:00,5/17/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/18/2025,"Vaitape, Bora Bora",5/18/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/19/2025,"Vaitape, Bora Bora",,5/19/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/20/2025,"Maroe Bay, Huahine",5/20/2025 8:00,5/20/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/21/2025,"Cook's Bay, Moorea",5/21/2025 8:00,5/21/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/21/2025,PAPEETE,5/21/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/22/2025,PAPEETE,,5/22/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/23/2025,"Cook's Bay, Moorea",5/23/2025 8:00,5/23/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/24/2025,"Uturoa, Raiatea",5/24/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/25/2025,"Uturoa, Raiatea",,5/25/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/25/2025,Motu Mahaea (Taha'a),5/25/2025 8:00,5/25/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/26/2025,"Vaitape, Bora Bora",5/26/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/27/2025,"Vaitape, Bora Bora",,5/27/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/28/2025,"Maroe Bay, Huahine",5/28/2025 7:00,5/28/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/29/2025,PAPEETE,5/29/2025 9:00,5/29/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/30/2025,"Cook's Bay, Moorea",5/30/2025 8:00,5/30/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,5/31/2025,"Uturoa, Raiatea",5/31/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/1/2025,"Uturoa, Raiatea",,6/1/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/1/2025,Motu Mahaea (Taha'a),6/1/2025 8:00,6/1/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/2/2025,"Vaitape, Bora Bora",6/2/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/3/2025,"Vaitape, Bora Bora",,6/3/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/4/2025,"Maroe Bay, Huahine",6/4/2025 7:00,6/4/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/5/2025,PAPEETE,6/5/2025 9:00,6/5/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/6/2025,"Cook's Bay, Moorea",6/6/2025 8:00,6/6/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/7/2025,"Uturoa, Raiatea",6/7/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/8/2025,"Uturoa, Raiatea",,6/8/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/8/2025,Motu Mahaea (Taha'a),6/8/2025 8:00,6/8/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/9/2025,"Vaitape, Bora Bora",6/9/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/10/2025,"Vaitape, Bora Bora",,6/10/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/11/2025,"Maroe Bay, Huahine",6/11/2025 7:00,6/11/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/12/2025,PAPEETE,6/12/2025 9:00,6/12/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/13/2025,"Cook's Bay, Moorea",6/13/2025 8:00,6/13/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/14/2025,"Uturoa, Raiatea",6/14/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/15/2025,"Uturoa, Raiatea",,6/15/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/15/2025,Motu Mahaea (Taha'a),6/15/2025 8:00,6/15/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/16/2025,"Vaitape, Bora Bora",6/16/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/17/2025,"Vaitape, Bora Bora",,6/17/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/18/2025,"Maroe Bay, Huahine",6/18/2025 7:00,6/18/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/19/2025,PAPEETE,6/19/2025 9:00,6/19/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/20/2025,At Sea,,,nan,UTC
+STAR BREEZE,6/21/2025,"Fakarava, Tuamotu",6/21/2025 7:00,6/21/2025 16:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/22/2025,At Sea,,,nan,UTC
+STAR BREEZE,6/23/2025,"Omoa, Fatu Hiva, Marquesas Islands",6/23/2025 9:30,6/23/2025 18:00,French Polynesia,Pacific/Marquesas
+STAR BREEZE,6/24/2025,"Atuona, Hiva Oa, Marquesas Islands",6/24/2025 8:00,6/24/2025 21:00,French Polynesia,Pacific/Marquesas
+STAR BREEZE,6/25/2025,"Taiohae, Nuku Hiva, Marquesas Islands",6/25/2025 8:00,6/25/2025 14:00,French Polynesia,Pacific/Marquesas
+STAR BREEZE,6/26/2025,At Sea,,,nan,UTC
+STAR BREEZE,6/27/2025,"Tiputa, Rangiroa",6/27/2025 9:00,6/27/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/28/2025,At Sea,,,nan,UTC
+STAR BREEZE,6/29/2025,Motu Mahaea (Taha'a),6/29/2025 8:00,6/29/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,6/30/2025,"Vaitape, Bora Bora",6/30/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/1/2025,"Vaitape, Bora Bora",,7/1/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/2/2025,"Cook's Bay, Moorea",7/2/2025 8:00,7/2/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/2/2025,PAPEETE,7/2/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/3/2025,PAPEETE,,7/3/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/4/2025,"Cook's Bay, Moorea",7/4/2025 8:00,7/4/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/5/2025,"Uturoa, Raiatea",7/5/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/6/2025,"Uturoa, Raiatea",,7/6/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/6/2025,Motu Mahaea (Taha'a),7/6/2025 8:00,7/6/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/7/2025,"Vaitape, Bora Bora",7/7/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/8/2025,"Vaitape, Bora Bora",,7/8/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/9/2025,"Maroe Bay, Huahine",7/9/2025 7:00,7/9/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/10/2025,PAPEETE,7/10/2025 9:00,7/10/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/11/2025,"Cook's Bay, Moorea",7/11/2025 8:00,7/11/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/12/2025,"Uturoa, Raiatea",7/12/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/13/2025,"Uturoa, Raiatea",,7/13/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/13/2025,Motu Mahaea (Taha'a),7/13/2025 8:00,7/13/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/14/2025,"Vaitape, Bora Bora",7/14/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/15/2025,"Vaitape, Bora Bora",,7/15/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/16/2025,"Maroe Bay, Huahine",7/16/2025 7:00,7/16/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/17/2025,PAPEETE,7/17/2025 9:00,7/17/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/18/2025,"Cook's Bay, Moorea",7/18/2025 8:00,7/18/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/19/2025,"Uturoa, Raiatea",7/19/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/20/2025,"Uturoa, Raiatea",,7/20/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/20/2025,Motu Mahaea (Taha'a),7/20/2025 8:00,7/20/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/21/2025,"Vaitape, Bora Bora",7/21/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/22/2025,"Vaitape, Bora Bora",,7/22/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/23/2025,"Maroe Bay, Huahine",7/23/2025 7:00,7/23/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/24/2025,PAPEETE,7/24/2025 9:00,7/24/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/25/2025,"Cook's Bay, Moorea",7/25/2025 8:00,7/25/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/26/2025,"Uturoa, Raiatea",7/26/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/27/2025,"Uturoa, Raiatea",,7/27/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/27/2025,Motu Mahaea (Taha'a),7/27/2025 8:00,7/27/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/28/2025,"Vaitape, Bora Bora",7/28/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/29/2025,"Vaitape, Bora Bora",,7/29/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/30/2025,"Maroe Bay, Huahine",7/30/2025 7:00,7/30/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,7/31/2025,PAPEETE,7/31/2025 9:00,7/31/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/1/2025,At Sea,,,nan,UTC
+STAR BREEZE,8/2/2025,"Fakarava, Tuamotu",8/2/2025 7:00,8/2/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/3/2025,"Tiputa, Rangiroa",8/3/2025 9:00,8/3/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/4/2025,At Sea,,,nan,UTC
+STAR BREEZE,8/5/2025,Motu Mahaea (Taha'a),8/5/2025 8:00,8/5/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/5/2025,"Uturoa, Raiatea",8/5/2025 18:30,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/6/2025,"Uturoa, Raiatea",,8/6/2025 22:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/7/2025,"Vaitape, Bora Bora",8/7/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/8/2025,"Vaitape, Bora Bora",,8/8/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/9/2025,"Maroe Bay, Huahine",8/9/2025 8:00,8/9/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/10/2025,"Cook's Bay, Moorea",8/10/2025 8:00,8/10/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/10/2025,PAPEETE,8/10/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/11/2025,PAPEETE,,8/11/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/12/2025,At Sea,,,nan,UTC
+STAR BREEZE,8/13/2025,"Fakarava, Tuamotu",8/13/2025 7:00,8/13/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/14/2025,"Tiputa, Rangiroa",8/14/2025 9:00,8/14/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/15/2025,At Sea,,,nan,UTC
+STAR BREEZE,8/16/2025,Motu Mahaea (Taha'a),8/16/2025 8:00,8/16/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/17/2025,"Vaitape, Bora Bora",8/17/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/18/2025,"Vaitape, Bora Bora",,8/18/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/19/2025,"Maroe Bay, Huahine",8/19/2025 8:00,8/19/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/20/2025,"Cook's Bay, Moorea",8/20/2025 8:00,8/20/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/20/2025,PAPEETE,8/20/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/21/2025,PAPEETE,,8/21/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/22/2025,"Cook's Bay, Moorea",8/22/2025 8:00,8/22/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/23/2025,"Uturoa, Raiatea",8/23/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/24/2025,"Uturoa, Raiatea",,8/24/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/24/2025,Motu Mahaea (Taha'a),8/24/2025 8:00,8/24/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/25/2025,"Vaitape, Bora Bora",8/25/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/26/2025,"Vaitape, Bora Bora",,8/26/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/27/2025,"Maroe Bay, Huahine",8/27/2025 7:00,8/27/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/28/2025,PAPEETE,8/28/2025 9:00,8/28/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/29/2025,"Cook's Bay, Moorea",8/29/2025 8:00,8/29/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/30/2025,"Vaitape, Bora Bora",8/30/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,8/31/2025,"Vaitape, Bora Bora",,8/31/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/1/2025,Motu Mahaea (Taha'a),9/1/2025 8:00,9/1/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/1/2025,"Uturoa, Raiatea",9/1/2025 19:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/2/2025,"Uturoa, Raiatea",,9/2/2025 22:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/3/2025,"Maroe Bay, Huahine",9/3/2025 7:00,9/3/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/4/2025,PAPEETE,9/4/2025 9:00,9/4/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/5/2025,"Cook's Bay, Moorea",9/5/2025 8:00,9/5/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/6/2025,"Uturoa, Raiatea",9/6/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/7/2025,"Uturoa, Raiatea",,9/7/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/7/2025,Motu Mahaea (Taha'a),9/7/2025 8:00,9/7/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/8/2025,"Vaitape, Bora Bora",9/8/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/9/2025,"Vaitape, Bora Bora",,9/9/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/10/2025,"Maroe Bay, Huahine",9/10/2025 7:00,9/10/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/11/2025,PAPEETE,9/11/2025 9:00,9/11/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/12/2025,"Cook's Bay, Moorea",9/12/2025 8:00,9/12/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/13/2025,"Uturoa, Raiatea",9/13/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/14/2025,"Uturoa, Raiatea",,9/14/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/14/2025,Motu Mahaea (Taha'a),9/14/2025 8:00,9/14/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/15/2025,"Vaitape, Bora Bora",9/15/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/16/2025,"Vaitape, Bora Bora",,9/16/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/17/2025,"Maroe Bay, Huahine",9/17/2025 7:00,9/17/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/18/2025,PAPEETE,9/18/2025 9:00,9/18/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/19/2025,At Sea,,,nan,UTC
+STAR BREEZE,9/20/2025,"Fakarava, Tuamotu",9/20/2025 7:00,9/20/2025 16:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/21/2025,At Sea,,,nan,UTC
+STAR BREEZE,9/22/2025,"Omoa, Fatu Hiva, Marquesas Islands",9/22/2025 9:30,9/22/2025 18:00,French Polynesia,Pacific/Marquesas
+STAR BREEZE,9/23/2025,"Atuona, Hiva Oa, Marquesas Islands",9/23/2025 8:00,9/23/2025 21:00,French Polynesia,Pacific/Marquesas
+STAR BREEZE,9/24/2025,"Taiohae, Nuku Hiva, Marquesas Islands",9/24/2025 8:00,9/24/2025 14:00,French Polynesia,Pacific/Marquesas
+STAR BREEZE,9/25/2025,At Sea,,,nan,UTC
+STAR BREEZE,9/26/2025,"Tiputa, Rangiroa",9/26/2025 9:00,9/26/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/27/2025,At Sea,,,nan,UTC
+STAR BREEZE,9/28/2025,Motu Mahaea (Taha'a),9/28/2025 8:00,9/28/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/29/2025,"Vaitape, Bora Bora",9/29/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,9/30/2025,"Vaitape, Bora Bora",,9/30/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/1/2025,"Cook's Bay, Moorea",10/1/2025 8:00,10/1/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/1/2025,PAPEETE,10/1/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/2/2025,PAPEETE,,10/2/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/3/2025,"Cook's Bay, Moorea",10/3/2025 8:00,10/3/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/4/2025,"Uturoa, Raiatea",10/4/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/5/2025,"Uturoa, Raiatea",,10/5/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/5/2025,Motu Mahaea (Taha'a),10/5/2025 8:00,10/5/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/6/2025,"Vaitape, Bora Bora",10/6/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/7/2025,"Vaitape, Bora Bora",,10/7/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/8/2025,"Maroe Bay, Huahine",10/8/2025 7:00,10/8/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/9/2025,PAPEETE,10/9/2025 9:00,10/9/2025 17:30,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/10/2025,"Cook's Bay, Moorea",10/10/2025 8:00,10/10/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/11/2025,"Uturoa, Raiatea",10/11/2025 8:00,10/11/2025 22:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/12/2025,"Vaitape, Bora Bora",10/12/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/13/2025,"Vaitape, Bora Bora",,10/13/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/14/2025,Motu Mahaea (Taha'a),10/14/2025 8:00,10/14/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/15/2025,"Maroe Bay, Huahine",10/15/2025 7:00,10/15/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/16/2025,PAPEETE,10/16/2025 8:00,10/16/2025 17:30,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/17/2025,"Cook's Bay, Moorea",10/17/2025 8:00,10/17/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/18/2025,"Uturoa, Raiatea",10/18/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/19/2025,"Uturoa, Raiatea",,10/19/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/19/2025,Motu Mahaea (Taha'a),10/19/2025 8:00,10/19/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/20/2025,"Vaitape, Bora Bora",10/20/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/21/2025,"Vaitape, Bora Bora",,10/21/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/22/2025,"Maroe Bay, Huahine",10/22/2025 7:00,10/22/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/23/2025,PAPEETE,10/23/2025 9:00,10/23/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/24/2025,"Cook's Bay, Moorea",10/24/2025 8:00,10/24/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/25/2025,"Uturoa, Raiatea",10/25/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/26/2025,"Uturoa, Raiatea",,10/26/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/26/2025,Motu Mahaea (Taha'a),10/26/2025 8:00,10/26/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/27/2025,"Vaitape, Bora Bora",10/27/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/28/2025,"Vaitape, Bora Bora",,10/28/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/29/2025,"Maroe Bay, Huahine",10/29/2025 7:00,10/29/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/30/2025,PAPEETE,10/30/2025 9:00,10/30/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,10/31/2025,At Sea,,,nan,UTC
+STAR BREEZE,11/1/2025,"Fakarava, Tuamotu",11/1/2025 7:00,11/1/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/2/2025,"Tiputa, Rangiroa",11/2/2025 9:00,11/2/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/3/2025,At Sea,,,nan,UTC
+STAR BREEZE,11/4/2025,Motu Mahaea (Taha'a),11/4/2025 8:00,11/4/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/4/2025,"Uturoa, Raiatea",11/4/2025 18:30,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/5/2025,"Uturoa, Raiatea",,11/5/2025 22:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/6/2025,"Vaitape, Bora Bora",11/6/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/7/2025,"Vaitape, Bora Bora",,11/7/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/8/2025,"Maroe Bay, Huahine",11/8/2025 8:00,11/8/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/9/2025,"Cook's Bay, Moorea",11/9/2025 8:00,11/9/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/9/2025,PAPEETE,11/9/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/10/2025,PAPEETE,,11/10/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/11/2025,At Sea,,,nan,UTC
+STAR BREEZE,11/12/2025,"Fakarava, Tuamotu",11/12/2025 7:00,11/12/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/13/2025,"Tiputa, Rangiroa",11/13/2025 9:00,11/13/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/14/2025,At Sea,,,nan,UTC
+STAR BREEZE,11/15/2025,Motu Mahaea (Taha'a),11/15/2025 8:00,11/15/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/16/2025,"Vaitape, Bora Bora",11/16/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/17/2025,"Vaitape, Bora Bora",,11/17/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/18/2025,"Maroe Bay, Huahine",11/18/2025 8:00,11/18/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/19/2025,"Cook's Bay, Moorea",11/19/2025 8:00,11/19/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/19/2025,PAPEETE,11/19/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/20/2025,PAPEETE,,11/20/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/21/2025,"Cook's Bay, Moorea",11/21/2025 8:00,11/21/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/22/2025,"Uturoa, Raiatea",11/22/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/23/2025,"Uturoa, Raiatea",,11/23/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/23/2025,Motu Mahaea (Taha'a),11/23/2025 8:00,11/23/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/24/2025,"Vaitape, Bora Bora",11/24/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/25/2025,"Vaitape, Bora Bora",,11/25/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/26/2025,"Maroe Bay, Huahine",11/26/2025 7:00,11/26/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/27/2025,PAPEETE,11/27/2025 9:00,11/27/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/28/2025,"Cook's Bay, Moorea",11/28/2025 8:00,11/28/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/29/2025,"Uturoa, Raiatea",11/29/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/30/2025,"Uturoa, Raiatea",,11/30/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,11/30/2025,Motu Mahaea (Taha'a),11/30/2025 8:00,11/30/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/1/2025,"Vaitape, Bora Bora",12/1/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/2/2025,"Vaitape, Bora Bora",,12/2/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/3/2025,"Maroe Bay, Huahine",12/3/2025 7:00,12/3/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/4/2025,PAPEETE,12/4/2025 9:00,12/4/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/5/2025,"Cook's Bay, Moorea",12/5/2025 8:00,12/5/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/6/2025,"Uturoa, Raiatea",12/6/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/7/2025,"Uturoa, Raiatea",,12/7/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/7/2025,Motu Mahaea (Taha'a),12/7/2025 8:00,12/7/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/8/2025,"Vaitape, Bora Bora",12/8/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/9/2025,"Vaitape, Bora Bora",,12/9/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/10/2025,"Maroe Bay, Huahine",12/10/2025 7:00,12/10/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/11/2025,PAPEETE,12/11/2025 9:00,12/11/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/12/2025,"Cook's Bay, Moorea",12/12/2025 8:00,12/12/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/13/2025,"Uturoa, Raiatea",12/13/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/14/2025,"Uturoa, Raiatea",,12/14/2025 6:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/14/2025,Motu Mahaea (Taha'a),12/14/2025 8:00,12/14/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/15/2025,"Vaitape, Bora Bora",12/15/2025 9:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/16/2025,"Vaitape, Bora Bora",,12/16/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/17/2025,"Maroe Bay, Huahine",12/17/2025 7:00,12/17/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/18/2025,PAPEETE,12/18/2025 9:00,12/18/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/19/2025,At Sea,,,nan,UTC
+STAR BREEZE,12/20/2025,"Fakarava, Tuamotu",12/20/2025 7:00,12/20/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/21/2025,"Tiputa, Rangiroa",12/21/2025 9:00,12/21/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/22/2025,At Sea,,,nan,UTC
+STAR BREEZE,12/23/2025,Motu Mahaea (Taha'a),12/23/2025 8:00,12/23/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/23/2025,"Uturoa, Raiatea",12/23/2025 18:30,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/24/2025,"Uturoa, Raiatea",,12/24/2025 22:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/25/2025,"Maroe Bay, Huahine",12/25/2025 8:00,12/25/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/26/2025,"Vaitape, Bora Bora",12/26/2025 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/27/2025,"Vaitape, Bora Bora",,12/27/2025 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/28/2025,"Cook's Bay, Moorea",12/28/2025 9:30,12/28/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/28/2025,PAPEETE,12/28/2025 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/29/2025,PAPEETE,,12/29/2025 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,12/30/2025,At Sea,,,nan,UTC
+STAR BREEZE,12/31/2025,"Fakarava, Tuamotu",12/31/2025 7:00,12/31/2025 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,1/1/2026,"Tiputa, Rangiroa",1/1/2026 9:00,1/1/2026 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,1/2/2026,At Sea,,,nan,UTC
+STAR BREEZE,1/3/2026,Motu Mahaea (Taha'a),1/3/2026 8:00,1/3/2026 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,1/4/2026,"Vaitape, Bora Bora",1/4/2026 8:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,1/5/2026,"Vaitape, Bora Bora",,1/5/2026 21:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,1/6/2026,"Maroe Bay, Huahine",1/6/2026 8:00,1/6/2026 17:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,1/7/2026,"Cook's Bay, Moorea",1/7/2026 8:00,1/7/2026 18:00,French Polynesia,Pacific/Tahiti
+STAR BREEZE,1/7/2026,PAPEETE,1/7/2026 21:00,,French Polynesia,Pacific/Tahiti
+STAR BREEZE,1/8/2026,PAPEETE,,1/8/2026 18:00,French Polynesia,Pacific/Tahiti
+STAR LEGEND,12/30/2024,BARCELONA,,12/30/2024 17:00,Spain,Europe/Madrid
+STAR LEGEND,12/31/2024,Palma de Mallorca,12/31/2024 8:00,,Spain,Europe/Madrid
+STAR LEGEND,1/1/2025,Palma de Mallorca,,1/1/2025 12:30,Spain,Europe/Madrid
+STAR LEGEND,1/2/2025,"Cartagena, Spain",1/2/2025 8:00,1/2/2025 15:00,Spain,Europe/Madrid
+STAR LEGEND,1/3/2025,Gibraltar,1/3/2025 13:00,1/3/2025 22:00,British Overseas Territory,Europe/Gibraltar
+STAR LEGEND,1/4/2025,Malaga,1/4/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,1/5/2025,Malaga,,1/5/2025 22:00,Spain,Europe/Madrid
+STAR LEGEND,1/6/2025,At Sea,,,nan,UTC
+STAR LEGEND,1/7/2025,Valencia,1/7/2025 7:00,1/7/2025 16:00,Spain,Europe/Madrid
+STAR LEGEND,1/8/2025,BARCELONA,1/8/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,1/9/2025,BARCELONA,,1/9/2025 16:00,Spain,Europe/Madrid
+STAR LEGEND,1/10/2025,Nice,1/10/2025 16:00,,France,Europe/Paris
+STAR LEGEND,1/11/2025,Nice,,1/11/2025 22:00,France,Europe/Paris
+STAR LEGEND,1/12/2025,Genova,1/12/2025 8:00,1/12/2025 22:00,Italy,Europe/Rome
+STAR LEGEND,1/13/2025,Livorno,1/13/2025 8:00,,Italy,Europe/Rome
+STAR LEGEND,1/14/2025,Livorno,,1/14/2025 18:00,Italy,Europe/Rome
+STAR LEGEND,1/15/2025,Rome / CIVITAVECCHIA,1/15/2025 8:00,1/15/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,1/16/2025,Naples,1/16/2025 9:00,1/16/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,1/17/2025,"Messina, Sicily",1/17/2025 10:00,1/17/2025 18:00,Italy,Europe/Rome
+STAR LEGEND,1/18/2025,At Sea,,,nan,UTC
+STAR LEGEND,1/19/2025,Dubrovnik,1/19/2025 8:00,,Croatia,Europe/Zagreb
+STAR LEGEND,1/20/2025,Dubrovnik,,1/20/2025 14:00,Croatia,Europe/Zagreb
+STAR LEGEND,1/21/2025,Zadar,1/21/2025 9:00,1/21/2025 18:00,Croatia,Europe/Zagreb
+STAR LEGEND,1/22/2025,VENICE,1/22/2025 10:00,,Italy,Europe/Rome
+STAR LEGEND,1/23/2025,VENICE,,,Italy,Europe/Rome
+STAR LEGEND,1/24/2025,VENICE,,1/24/2025 16:00,Italy,Europe/Rome
+STAR LEGEND,1/25/2025,Zadar,1/25/2025 8:00,1/25/2025 17:00,Croatia,Europe/Zagreb
+STAR LEGEND,1/26/2025,Dubrovnik,1/26/2025 12:00,,Croatia,Europe/Zagreb
+STAR LEGEND,1/27/2025,Dubrovnik,,1/27/2025 18:00,Croatia,Europe/Zagreb
+STAR LEGEND,1/28/2025,At Sea,,,nan,UTC
+STAR LEGEND,1/29/2025,"Messina, Sicily",1/29/2025 7:00,1/29/2025 15:00,Italy,Europe/Rome
+STAR LEGEND,1/30/2025,Naples,1/30/2025 8:00,1/30/2025 16:00,Italy,Europe/Rome
+STAR LEGEND,1/31/2025,Rome / CIVITAVECCHIA,1/31/2025 8:00,1/31/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,2/1/2025,Livorno,2/1/2025 8:00,,Italy,Europe/Rome
+STAR LEGEND,2/2/2025,Livorno,,2/2/2025 22:00,Italy,Europe/Rome
+STAR LEGEND,2/3/2025,Genova,2/3/2025 8:00,2/3/2025 22:00,Italy,Europe/Rome
+STAR LEGEND,2/4/2025,Nice,2/4/2025 8:00,2/4/2025 22:00,France,Europe/Paris
+STAR LEGEND,2/5/2025,BARCELONA,2/5/2025 20:00,,Spain,Europe/Madrid
+STAR LEGEND,2/6/2025,BARCELONA,,,Spain,Europe/Madrid
+STAR LEGEND,2/7/2025,BARCELONA,,,Spain,Europe/Madrid
+STAR LEGEND,2/8/2025,BARCELONA,,2/8/2025 16:00,Spain,Europe/Madrid
+STAR LEGEND,2/9/2025,Valencia,2/9/2025 8:00,2/9/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,2/10/2025,"Cartagena, Spain",2/10/2025 8:00,2/10/2025 15:00,Spain,Europe/Madrid
+STAR LEGEND,2/11/2025,Gibraltar,2/11/2025 13:00,2/11/2025 22:00,British Overseas Territory,Europe/Gibraltar
+STAR LEGEND,2/12/2025,Malaga,2/12/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,2/13/2025,Malaga,,2/13/2025 18:00,Spain,Europe/Madrid
+STAR LEGEND,2/14/2025,At Sea,,,nan,UTC
+STAR LEGEND,2/15/2025,Palma de Mallorca,2/15/2025 8:00,2/15/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,2/16/2025,BARCELONA,2/16/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,2/17/2025,BARCELONA,,2/17/2025 16:00,Spain,Europe/Madrid
+STAR LEGEND,2/18/2025,Nice,2/18/2025 16:00,,France,Europe/Paris
+STAR LEGEND,2/19/2025,Nice,,2/19/2025 22:00,France,Europe/Paris
+STAR LEGEND,2/20/2025,Genova,2/20/2025 8:00,2/20/2025 22:00,Italy,Europe/Rome
+STAR LEGEND,2/21/2025,Livorno,2/21/2025 8:00,,Italy,Europe/Rome
+STAR LEGEND,2/22/2025,Livorno,,2/22/2025 18:00,Italy,Europe/Rome
+STAR LEGEND,2/23/2025,Rome / CIVITAVECCHIA,2/23/2025 8:00,2/23/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,2/24/2025,Livorno,2/24/2025 8:00,,Italy,Europe/Rome
+STAR LEGEND,2/25/2025,Livorno,,2/25/2025 22:00,Italy,Europe/Rome
+STAR LEGEND,2/26/2025,Genova,2/26/2025 8:00,2/26/2025 22:00,Italy,Europe/Rome
+STAR LEGEND,2/27/2025,Nice,2/27/2025 8:00,,France,Europe/Paris
+STAR LEGEND,2/28/2025,Nice,,2/28/2025 13:00,France,Europe/Paris
+STAR LEGEND,3/1/2025,BARCELONA,3/1/2025 13:00,,Spain,Europe/Madrid
+STAR LEGEND,3/2/2025,BARCELONA,,,Spain,Europe/Madrid
+STAR LEGEND,3/3/2025,BARCELONA,,3/3/2025 16:00,Spain,Europe/Madrid
+STAR LEGEND,3/4/2025,Valencia,3/4/2025 8:00,3/4/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,3/5/2025,"Cartagena, Spain",3/5/2025 8:00,3/5/2025 15:00,Spain,Europe/Madrid
+STAR LEGEND,3/6/2025,Malaga,3/6/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,3/7/2025,Malaga,,3/7/2025 22:00,Spain,Europe/Madrid
+STAR LEGEND,3/8/2025,Gibraltar,3/8/2025 8:00,3/8/2025 17:00,British Overseas Territory,Europe/Gibraltar
+STAR LEGEND,3/9/2025,At Sea,,,nan,UTC
+STAR LEGEND,3/10/2025,Palma de Mallorca,3/10/2025 8:00,3/10/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,3/11/2025,BARCELONA,3/11/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,3/12/2025,BARCELONA,,3/12/2025 16:00,Spain,Europe/Madrid
+STAR LEGEND,3/13/2025,Nice,3/13/2025 16:00,,France,Europe/Paris
+STAR LEGEND,3/14/2025,Nice,,3/14/2025 22:00,France,Europe/Paris
+STAR LEGEND,3/15/2025,Genova,3/15/2025 8:00,3/15/2025 22:00,Italy,Europe/Rome
+STAR LEGEND,3/16/2025,Livorno,3/16/2025 8:00,,Italy,Europe/Rome
+STAR LEGEND,3/17/2025,Livorno,,3/17/2025 18:00,Italy,Europe/Rome
+STAR LEGEND,3/18/2025,Rome / CIVITAVECCHIA,3/18/2025 8:00,3/18/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,3/19/2025,Naples,3/19/2025 9:00,3/19/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,3/20/2025,"Messina, Sicily",3/20/2025 10:00,3/20/2025 18:00,Italy,Europe/Rome
+STAR LEGEND,3/21/2025,At Sea,,,nan,UTC
+STAR LEGEND,3/22/2025,Dubrovnik,3/22/2025 8:00,,Croatia,Europe/Zagreb
+STAR LEGEND,3/23/2025,Dubrovnik,,3/23/2025 14:00,Croatia,Europe/Zagreb
+STAR LEGEND,3/24/2025,Zadar,3/24/2025 9:00,3/24/2025 18:00,Croatia,Europe/Zagreb
+STAR LEGEND,3/25/2025,VENICE,3/25/2025 10:00,,Italy,Europe/Rome
+STAR LEGEND,3/26/2025,VENICE,,,Italy,Europe/Rome
+STAR LEGEND,3/27/2025,VENICE,,3/27/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,3/28/2025,Koper,3/28/2025 7:00,3/28/2025 16:30,Slovenia,Europe/Ljubljana
+STAR LEGEND,3/29/2025,Zadar,3/29/2025 8:00,3/29/2025 15:00,Croatia,Europe/Zagreb
+STAR LEGEND,3/30/2025,Dubrovnik,3/30/2025 9:30,3/30/2025 23:00,Croatia,Europe/Zagreb
+STAR LEGEND,3/31/2025,Kotor,3/31/2025 8:00,3/31/2025 17:00,Montenegro,Europe/Podgorica
+STAR LEGEND,4/1/2025,At Sea,,,nan,UTC
+STAR LEGEND,4/2/2025,Delphi / ITEA,4/2/2025 7:00,4/2/2025 13:00,Greece,Europe/Athens
+STAR LEGEND,4/2/2025,Corinth Canal,4/2/2025 17:00,4/2/2025 19:00,Greece,UTC
+STAR LEGEND,4/3/2025,Athens / PIRAEUS,4/3/2025 0:01,4/3/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,4/4/2025,Corinth Canal,4/4/2025 8:00,4/4/2025 10:00,Greece,UTC
+STAR LEGEND,4/4/2025,Delphi / ITEA,4/4/2025 15:00,4/4/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,4/5/2025,At Sea,,,nan,UTC
+STAR LEGEND,4/6/2025,Santorini,4/6/2025 8:00,4/6/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,4/7/2025,Bodrum,4/7/2025 8:00,4/7/2025 22:00,Turkey,UTC
+STAR LEGEND,4/8/2025,Kusadasi,4/8/2025 9:00,4/8/2025 23:59,Turkey,Europe/Istanbul
+STAR LEGEND,4/9/2025,Mykonos,4/9/2025 8:00,4/9/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,4/10/2025,Lemnos,4/10/2025 7:00,4/10/2025 12:00,Greece,UTC
+STAR LEGEND,4/11/2025,ISTANBUL,4/11/2025 7:00,4/11/2025 17:00,Turkey,UTC
+STAR LEGEND,4/12/2025,Lemnos,4/12/2025 11:30,4/12/2025 18:00,Greece,UTC
+STAR LEGEND,4/13/2025,Mykonos,4/13/2025 9:00,4/13/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,4/14/2025,Kusadasi,4/14/2025 8:00,4/14/2025 23:59,Turkey,Europe/Istanbul
+STAR LEGEND,4/15/2025,Bodrum,4/15/2025 9:00,4/15/2025 19:00,Turkey,UTC
+STAR LEGEND,4/16/2025,Santorini,4/16/2025 8:00,4/16/2025 20:00,Greece,Europe/Athens
+STAR LEGEND,4/17/2025,At Sea,,,nan,UTC
+STAR LEGEND,4/18/2025,Delphi / ITEA,4/18/2025 8:00,4/18/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,4/18/2025,Corinth Canal,4/18/2025 21:00,4/18/2025 23:00,Greece,UTC
+STAR LEGEND,4/19/2025,Athens / PIRAEUS,4/19/2025 7:00,4/19/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,4/20/2025,Mystery Cruise - CONFIDENTIAL / port reservations under separate document,,,nan,UTC
+STAR LEGEND,4/21/2025,Mystery Cruise - CONFIDENTIAL / port reservations under separate document,,,nan,UTC
+STAR LEGEND,4/22/2025,Mystery Cruise - CONFIDENTIAL / port reservations under separate document,,,nan,UTC
+STAR LEGEND,4/23/2025,Mystery Cruise - CONFIDENTIAL / port reservations under separate document,,,nan,UTC
+STAR LEGEND,4/24/2025,Mystery Cruise - CONFIDENTIAL / port reservations under separate document,,,nan,UTC
+STAR LEGEND,4/25/2025,Mystery Cruise - CONFIDENTIAL / port reservations under separate document,,,nan,UTC
+STAR LEGEND,4/26/2025,Mystery Cruise - CONFIDENTIAL / port reservations under separate document,,,nan,UTC
+STAR LEGEND,4/27/2025,Athens / PIRAEUS,4/27/2025 7:00,4/27/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,4/28/2025,Patmos,4/28/2025 8:00,4/28/2025 18:00,Greece,Europe/Athens
+STAR LEGEND,4/29/2025,Kusadasi,4/29/2025 8:00,4/29/2025 23:59,Turkey,Europe/Istanbul
+STAR LEGEND,4/30/2025,Bodrum,4/30/2025 8:00,4/30/2025 20:00,Turkey,UTC
+STAR LEGEND,5/1/2025,Rhodes,5/1/2025 7:00,,Greece,Europe/Athens
+STAR LEGEND,5/2/2025,Rhodes,,5/2/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,5/3/2025,"Heraklion, Crete",5/3/2025 8:00,5/3/2025 20:00,Greece / Crete,UTC
+STAR LEGEND,5/4/2025,Mykonos,5/4/2025 9:00,5/4/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,5/5/2025,Athens / PIRAEUS,5/5/2025 7:00,5/5/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,5/6/2025,Corinth Canal,5/6/2025 8:00,5/6/2025 10:00,Greece,UTC
+STAR LEGEND,5/6/2025,Delphi / ITEA,5/6/2025 14:00,5/6/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,5/7/2025,"Kerkyra, Corfu",5/7/2025 13:00,5/7/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,5/8/2025,"Argostoli, Kephalonia",5/8/2025 7:30,5/8/2025 14:00,Greece,UTC
+STAR LEGEND,5/9/2025,"Messina, Sicily",5/9/2025 10:00,5/9/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,5/10/2025,"Trapani, Sicily",5/10/2025 8:00,5/10/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,5/11/2025,"Cagliari, Sardina",5/11/2025 8:00,5/11/2025 23:59,Italy,UTC
+STAR LEGEND,5/12/2025,At Sea,,,nan,UTC
+STAR LEGEND,5/13/2025,BARCELONA,5/13/2025 8:00,5/13/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,5/14/2025,At Sea,,,nan,UTC
+STAR LEGEND,5/15/2025,"Cartagena, Spain",5/15/2025 7:00,5/15/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,5/16/2025,Malaga - overnight,5/16/2025 9:00,,Spain,UTC
+STAR LEGEND,5/17/2025,Malaga - overnight,,5/17/2025 23:00,Spain,UTC
+STAR LEGEND,5/18/2025,Gibraltar,5/18/2025 8:00,5/18/2025 22:00,British Overseas Territory,Europe/Gibraltar
+STAR LEGEND,5/19/2025,Cadiz - overnight,5/19/2025 8:00,,Spain,UTC
+STAR LEGEND,5/20/2025,Cadiz - overnight,,5/20/2025 15:00,Spain,UTC
+STAR LEGEND,5/21/2025,Casablanca,5/21/2025 7:00,5/21/2025 22:00,Morocco,Africa/Casablanca
+STAR LEGEND,5/22/2025,At Sea,,,nan,UTC
+STAR LEGEND,5/23/2025,LISBON,5/23/2025 7:00,5/23/2025 17:00,Portugal,Europe/Lisbon
+STAR LEGEND,5/24/2025,Porto / LEIXÕES,5/24/2025 10:00,5/24/2025 16:00,Portugal,UTC
+STAR LEGEND,5/25/2025,El Ferrol,5/25/2025 10:00,5/25/2025 18:00,Spain,Europe/Madrid
+STAR LEGEND,5/26/2025,At Sea,,,nan,UTC
+STAR LEGEND,5/27/2025,Bordeaux - overnight,5/27/2025 8:45,,France,UTC
+STAR LEGEND,5/28/2025,Bordeaux - overnight,,5/28/2025 20:00,France,UTC
+STAR LEGEND,5/29/2025,Belle-Ile / LE PALAIS,5/29/2025 13:00,5/29/2025 22:00,France,UTC
+STAR LEGEND,5/30/2025,At Sea,,,nan,UTC
+STAR LEGEND,5/31/2025,St. Malo,5/31/2025 7:45,5/31/2025 20:45,France,UTC
+STAR LEGEND,6/1/2025,At Sea,,,nan,UTC
+STAR LEGEND,6/2/2025,Dublin / DÚN LAOGHAIRE,6/2/2025 7:00,6/2/2025 19:00,Ireland,UTC
+STAR LEGEND,6/3/2025,"Douglas, Isle of Man",6/3/2025 8:00,6/3/2025 16:00,Isle of Man,UTC
+STAR LEGEND,6/4/2025,"Portrush, N.Ireland",6/4/2025 8:00,6/4/2025 20:00,UK / N.Ireland,UTC
+STAR LEGEND,6/5/2025,"Tobermory, Scotland",6/5/2025 6:00,6/5/2025 16:00,UK,UTC
+STAR LEGEND,6/6/2025,"Portree, Scotland",6/6/2025 8:00,6/6/2025 22:00,UK,UTC
+STAR LEGEND,6/7/2025,"Kirkwall, Orkney Islands, Scotland",6/7/2025 9:00,6/7/2025 18:00,UK,Europe/London
+STAR LEGEND,6/8/2025,"Invergordon, Scotland",6/8/2025 8:00,6/8/2025 23:00,UK,UTC
+STAR LEGEND,6/9/2025,At Sea,,,nan,UTC
+STAR LEGEND,6/10/2025,Edinburgh / LEITH,6/10/2025 1:45,6/10/2025 20:00,UK,UTC
+STAR LEGEND,6/11/2025,At Sea,,,nan,UTC
+STAR LEGEND,6/12/2025,Bergen - overnight,6/12/2025 7:00,,Norway,UTC
+STAR LEGEND,6/13/2025,Bergen - overnight,,6/13/2025 11:00,Norway,UTC
+STAR LEGEND,6/14/2025,Geiranger,6/14/2025 7:00,6/14/2025 13:30,Norway,Europe/Oslo
+STAR LEGEND,6/14/2025,Scenic cruising Geirangerfjord,,,nan,UTC
+STAR LEGEND,6/15/2025,OldenLoen,6/15/2025 7:00,6/15/2025 13:00,Norway,Europe/Oslo
+STAR LEGEND,6/16/2025,Flam,6/16/2025 8:00,6/16/2025 14:30,Norway,Europe/Oslo
+STAR LEGEND,6/17/2025,Stavanger,6/17/2025 11:30,6/17/2025 18:00,Norway,Europe/Oslo
+STAR LEGEND,6/18/2025,Mandal,6/18/2025 8:00,6/18/2025 15:00,Norway,UTC
+STAR LEGEND,6/19/2025,Skagen,6/19/2025 9:00,6/19/2025 17:00,Denmark,UTC
+STAR LEGEND,6/20/2025,COPENHAGEN,6/20/2025 7:00,6/20/2025 19:00,Denmark,Europe/Copenhagen
+STAR LEGEND,6/21/2025,Sassnitz / MUKRAN,6/21/2025 8:00,6/21/2025 20:00,Germany,UTC
+STAR LEGEND,6/22/2025,Bornholm / RONNE,6/22/2025 7:00,6/22/2025 16:00,Denmark,UTC
+STAR LEGEND,6/23/2025,Gdansk,6/23/2025 8:00,6/23/2025 19:00,Poland,UTC
+STAR LEGEND,6/24/2025,Klaipeda,6/24/2025 7:00,6/24/2025 16:00,Lithuania,UTC
+STAR LEGEND,6/25/2025,"Visby, Gotland",6/25/2025 7:00,6/25/2025 18:00,Sweden,UTC
+STAR LEGEND,6/26/2025,Ventspils,6/26/2025 7:00,6/26/2025 16:00,Latvia,UTC
+STAR LEGEND,6/27/2025,Tallinn,6/27/2025 9:00,6/27/2025 17:30,Estonia,UTC
+STAR LEGEND,6/28/2025,Turku,6/28/2025 8:00,6/28/2025 16:30,Finland,UTC
+STAR LEGEND,6/29/2025,STOCKHOLM,6/29/2025 8:00,,Sweden,UTC
+STAR LEGEND,6/30/2025,STOCKHOLM,,6/30/2025 16:00,Sweden,UTC
+STAR LEGEND,7/1/2025,Helsinki,7/1/2025 14:00,7/1/2025 22:00,Finland,UTC
+STAR LEGEND,7/2/2025,Tallinn,7/2/2025 7:00,7/2/2025 14:00,Estonia,UTC
+STAR LEGEND,7/3/2025,Riga,7/3/2025 13:00,7/3/2025 18:00,Latvia,UTC
+STAR LEGEND,7/4/2025,"Visby, Gotland",7/4/2025 11:00,7/4/2025 18:00,Sweden,UTC
+STAR LEGEND,7/5/2025,Klaipeda,7/5/2025 11:00,7/5/2025 20:00,Lithuania,UTC
+STAR LEGEND,7/6/2025,Gdansk,7/6/2025 7:00,7/6/2025 17:00,Poland,UTC
+STAR LEGEND,7/7/2025,Sassnitz / MUKRAN,7/7/2025 10:00,7/7/2025 22:00,Germany,UTC
+STAR LEGEND,7/8/2025,Warnemunde - overnight,7/8/2025 8:00,,Germany,UTC
+STAR LEGEND,7/9/2025,Warnemunde - overnight,,7/9/2025 18:00,Germany,UTC
+STAR LEGEND,7/10/2025,COPENHAGEN,7/10/2025 7:00,7/10/2025 17:00,Denmark,Europe/Copenhagen
+STAR LEGEND,7/11/2025,Aalborg,7/11/2025 8:00,7/11/2025 16:00,Denmark,Europe/Copenhagen
+STAR LEGEND,7/12/2025,Kristiansand,7/12/2025 8:00,7/12/2025 16:00,Norway,UTC
+STAR LEGEND,7/13/2025,Stavanger,7/13/2025 8:00,7/13/2025 13:00,Norway,Europe/Oslo
+STAR LEGEND,7/14/2025,Flam,7/14/2025 10:00,7/14/2025 15:30,Norway,Europe/Oslo
+STAR LEGEND,7/15/2025,OldenLoen,7/15/2025 12:00,7/15/2025 18:00,Norway,Europe/Oslo
+STAR LEGEND,7/16/2025,Geiranger,7/16/2025 10:00,7/16/2025 17:00,Norway,Europe/Oslo
+STAR LEGEND,7/16/2025,Scenic cruising Geirangerfjord,,,nan,UTC
+STAR LEGEND,7/17/2025,Bergen - overnight,7/17/2025 13:00,,Norway,UTC
+STAR LEGEND,7/18/2025,Bergen - overnight,,7/18/2025 18:00,Norway,UTC
+STAR LEGEND,7/19/2025,At Sea,,,nan,UTC
+STAR LEGEND,7/20/2025,Edinburgh / LEITH,7/20/2025 8:00,7/20/2025 18:00,UK,UTC
+STAR LEGEND,7/21/2025,At Sea,,,nan,UTC
+STAR LEGEND,7/22/2025,"Invergordon, Scotland",7/22/2025 8:00,7/22/2025 21:00,UK,UTC
+STAR LEGEND,7/23/2025,"Kirkwall, Orkney Islands, Scotland",7/23/2025 9:00,7/23/2025 17:00,UK,Europe/London
+STAR LEGEND,7/24/2025,"Ullapool, Scotland",7/24/2025 9:00,7/24/2025 16:00,UK,UTC
+STAR LEGEND,7/25/2025,"Tobermory, Scotland",7/25/2025 6:00,7/25/2025 16:00,UK,UTC
+STAR LEGEND,7/26/2025,"Portrush, N.Ireland",7/26/2025 8:00,7/26/2025 17:00,UK / N.Ireland,UTC
+STAR LEGEND,7/27/2025,"Douglas, Isle of Man",7/27/2025 9:00,7/27/2025 17:00,Isle of Man,UTC
+STAR LEGEND,7/28/2025,Dublin / DÚN LAOGHAIRE,7/28/2025 6:30,7/28/2025 18:00,Ireland,UTC
+STAR LEGEND,7/29/2025,"Douglas, Isle of Man",7/29/2025 8:00,7/29/2025 16:00,Isle of Man,UTC
+STAR LEGEND,7/30/2025,"Portrush, N.Ireland",7/30/2025 8:00,7/30/2025 20:00,UK / N.Ireland,UTC
+STAR LEGEND,7/31/2025,"Tobermory, Scotland",7/31/2025 6:00,7/31/2025 16:00,UK,UTC
+STAR LEGEND,8/1/2025,"Portree, Scotland",8/1/2025 8:00,8/1/2025 17:00,UK,UTC
+STAR LEGEND,8/2/2025,"Kirkwall, Orkney Islands, Scotland",8/2/2025 9:00,8/2/2025 18:00,UK,Europe/London
+STAR LEGEND,8/3/2025,"Invergordon, Scotland",8/3/2025 8:00,8/3/2025 23:00,UK,UTC
+STAR LEGEND,8/4/2025,At Sea,,,nan,UTC
+STAR LEGEND,8/5/2025,Edinburgh / LEITH,8/5/2025 8:00,8/5/2025 18:00,UK,UTC
+STAR LEGEND,8/6/2025,At Sea,,,nan,UTC
+STAR LEGEND,8/7/2025,"Ullapool, Scotland",8/7/2025 8:00,8/7/2025 17:00,UK,UTC
+STAR LEGEND,8/8/2025,"Oban, Scotland",8/8/2025 7:00,8/8/2025 17:00,UK,UTC
+STAR LEGEND,8/9/2025,"Belfast, N. Ireland",8/9/2025 8:00,8/9/2025 19:00,UK / N.Ireland,UTC
+STAR LEGEND,8/10/2025,Dublin / DUN LAOGHAIRE,8/10/2025 8:30,8/10/2025 20:00,Ireland,UTC
+STAR LEGEND,8/11/2025,Isles of Scilly,8/11/2025 14:30,8/11/2025 20:00,UK,UTC
+STAR LEGEND,8/12/2025,At Sea,,,nan,UTC
+STAR LEGEND,8/13/2025,Amsterdam - overnight,8/13/2025 11:00,,Netherlands,UTC
+STAR LEGEND,8/14/2025,AMSTERDAM - overnight,,8/14/2025 18:00,Netherlands,UTC
+STAR LEGEND,8/15/2025,Bruges / ZEEBRUGGE,8/15/2025 9:30,,Belgium,Europe/Brussels
+STAR LEGEND,8/16/2025,Bruges / ZEEBRUGGE,,8/16/2025 18:00,Belgium,Europe/Brussels
+STAR LEGEND,8/17/2025,Rouen - 3 days,8/17/2025 21:00,,France,UTC
+STAR LEGEND,8/18/2025,Rouen - 3 days,,,France,UTC
+STAR LEGEND,8/19/2025,Rouen - 3 days,,8/19/2025 0:01,France,UTC
+STAR LEGEND,8/19/2025,Honfleur,8/19/2025 7:00,8/19/2025 20:00,France,UTC
+STAR LEGEND,8/20/2025,St. Malo,8/20/2025 12:01,8/20/2025 22:45,France,UTC
+STAR LEGEND,8/21/2025,At Sea,,,nan,UTC
+STAR LEGEND,8/22/2025,Lorient,8/22/2025 7:00,8/22/2025 13:00,France,UTC
+STAR LEGEND,8/23/2025,Bordeaux / City Centre - 3 day call,8/23/2025 9:00,,France,UTC
+STAR LEGEND,8/24/2025,BORDEAUX / City Centre - 3 day call,,,France,UTC
+STAR LEGEND,8/25/2025,Bordeaux / City Centre - 3 day call,,8/25/2025 22:00,France,UTC
+STAR LEGEND,8/26/2025,Bilbao / GETXO - overnight,8/26/2025 16:00,,Spain,UTC
+STAR LEGEND,8/27/2025,Bilbao / GETXO - overnight,,8/27/2025 14:00,Spain,UTC
+STAR LEGEND,8/28/2025,El Ferrol,8/28/2025 11:00,8/28/2025 18:00,Spain,Europe/Madrid
+STAR LEGEND,8/29/2025,Vigo,8/29/2025 9:30,8/29/2025 15:00,Spain,Europe/Madrid
+STAR LEGEND,8/30/2025,At Sea,,,nan,UTC
+STAR LEGEND,8/31/2025,Cadiz,8/31/2025 7:30,8/31/2025 19:00,Spain,Europe/Madrid
+STAR LEGEND,9/1/2025,Gibraltar,9/1/2025 11:00,9/1/2025 19:00,British Overseas Territory,Europe/Gibraltar
+STAR LEGEND,9/2/2025,Malaga,9/2/2025 8:00,9/2/2025 19:00,Spain,Europe/Madrid
+STAR LEGEND,9/3/2025,At Sea,,,nan,UTC
+STAR LEGEND,9/4/2025,BARCELONA,9/4/2025 8:00,9/4/2025 18:00,Spain,Europe/Madrid
+STAR LEGEND,9/5/2025,At Sea,,,nan,UTC
+STAR LEGEND,9/6/2025,"Cagliari, Sardina",9/6/2025 7:00,9/6/2025 17:00,Italy,UTC
+STAR LEGEND,9/7/2025,"Trapani, Sicily",9/7/2025 8:00,9/7/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,9/8/2025,"Messina, Sicily",9/8/2025 8:00,9/8/2025 16:00,Italy,Europe/Rome
+STAR LEGEND,9/9/2025,"Argostoli, Kephalonia",9/9/2025 13:00,9/9/2025 21:00,Greece,UTC
+STAR LEGEND,9/10/2025,"Kerkyra, Corfu",9/10/2025 8:00,9/10/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,9/11/2025,Delphi / ITEA,9/11/2025 8:00,9/11/2025 13:00,Greece,Europe/Athens
+STAR LEGEND,9/11/2025,Corinth Canal,9/11/2025 17:00,9/11/2025 19:00,Greece,UTC
+STAR LEGEND,9/12/2025,Athens / PIRAEUS,9/12/2025 0:01,9/12/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,9/13/2025,Corinth Canal,9/13/2025 8:00,9/13/2025 10:00,Greece,UTC
+STAR LEGEND,9/13/2025,Delphi / ITEA,9/13/2025 15:00,9/13/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,9/14/2025,At Sea,,,nan,UTC
+STAR LEGEND,9/15/2025,Santorini,9/15/2025 8:00,9/15/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,9/16/2025,Bodrum,9/16/2025 8:00,9/16/2025 22:00,Turkey,UTC
+STAR LEGEND,9/17/2025,Kusadasi,9/17/2025 9:00,9/17/2025 23:59,Turkey,Europe/Istanbul
+STAR LEGEND,9/18/2025,Mykonos,9/18/2025 8:00,9/18/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,9/19/2025,Lemnos,9/19/2025 7:00,9/19/2025 12:00,Greece,UTC
+STAR LEGEND,9/20/2025,ISTANBUL,9/20/2025 7:00,9/20/2025 18:00,Turkey,UTC
+STAR LEGEND,9/21/2025,Lemnos,9/21/2025 11:30,9/21/2025 18:00,Greece,UTC
+STAR LEGEND,9/22/2025,Mykonos,9/22/2025 9:00,9/22/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,9/23/2025,Kusadasi,9/23/2025 8:00,9/23/2025 23:59,Turkey,Europe/Istanbul
+STAR LEGEND,9/24/2025,Bodrum,9/24/2025 9:00,9/24/2025 19:00,Turkey,UTC
+STAR LEGEND,9/25/2025,Santorini,9/25/2025 8:00,9/25/2025 20:00,Greece,Europe/Athens
+STAR LEGEND,9/26/2025,At Sea,,,nan,UTC
+STAR LEGEND,9/27/2025,Delphi / ITEA,9/27/2025 8:00,9/27/2025 13:00,Greece,Europe/Athens
+STAR LEGEND,9/27/2025,Corinth Canal,9/27/2025 17:00,9/27/2025 19:00,Greece,UTC
+STAR LEGEND,9/28/2025,Athens / PIRAEUS,9/28/2025 0:01,9/28/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,9/29/2025,Corinth Canal,9/29/2025 8:00,9/29/2025 10:00,Greece,UTC
+STAR LEGEND,9/29/2025,Delphi / ITEA,9/29/2025 15:00,9/29/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,9/30/2025,At Sea,,,nan,UTC
+STAR LEGEND,10/1/2025,Santorini,10/1/2025 8:00,10/1/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,10/2/2025,Bodrum,10/2/2025 8:00,10/2/2025 22:00,Turkey,UTC
+STAR LEGEND,10/3/2025,Kusadasi,10/3/2025 9:00,10/3/2025 23:59,Turkey,Europe/Istanbul
+STAR LEGEND,10/4/2025,Mykonos,10/4/2025 8:00,10/4/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,10/5/2025,Lemnos,10/5/2025 7:00,10/5/2025 12:00,Greece,UTC
+STAR LEGEND,10/6/2025,ISTANBUL,10/6/2025 7:00,10/6/2025 18:00,Turkey,UTC
+STAR LEGEND,10/7/2025,Lemnos,10/7/2025 11:30,10/7/2025 18:00,Greece,UTC
+STAR LEGEND,10/8/2025,Mykonos,10/8/2025 9:00,10/8/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,10/9/2025,Kusadasi,10/9/2025 8:00,10/9/2025 23:59,Turkey,Europe/Istanbul
+STAR LEGEND,10/10/2025,Bodrum,10/10/2025 9:00,10/10/2025 19:00,Turkey,UTC
+STAR LEGEND,10/11/2025,Santorini,10/11/2025 8:00,10/11/2025 20:00,Greece,Europe/Athens
+STAR LEGEND,10/12/2025,At Sea,,,nan,UTC
+STAR LEGEND,10/13/2025,Delphi / ITEA,10/13/2025 8:00,10/13/2025 13:00,Greece,Europe/Athens
+STAR LEGEND,10/13/2025,Corinth Canal,10/13/2025 17:00,10/13/2025 19:00,Greece,UTC
+STAR LEGEND,10/14/2025,Athens / PIRAEUS,10/14/2025 0:01,10/14/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,10/15/2025,Mykonos,10/15/2025 7:00,10/15/2025 19:00,Greece,Europe/Athens
+STAR LEGEND,10/16/2025,"Heraklion, Crete",10/16/2025 8:00,10/16/2025 17:00,Greece / Crete,UTC
+STAR LEGEND,10/17/2025,Rhodes,10/17/2025 8:00,,Greece,Europe/Athens
+STAR LEGEND,10/18/2025,Rhodes,,10/18/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,10/19/2025,Kusadasi,10/19/2025 8:00,10/19/2025 23:59,Turkey,Europe/Istanbul
+STAR LEGEND,10/20/2025,Bodrum,10/20/2025 8:00,10/20/2025 22:00,Turkey,UTC
+STAR LEGEND,10/21/2025,Patmos,10/21/2025 8:00,10/21/2025 16:00,Greece,Europe/Athens
+STAR LEGEND,10/22/2025,Athens / PIRAEUS,10/22/2025 7:00,10/22/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,10/23/2025,Patmos,10/23/2025 8:00,10/23/2025 18:00,Greece,Europe/Athens
+STAR LEGEND,10/24/2025,Kusadasi,10/24/2025 8:00,10/24/2025 23:59,Turkey,Europe/Istanbul
+STAR LEGEND,10/25/2025,Bodrum,10/25/2025 8:00,10/25/2025 20:00,Turkey,UTC
+STAR LEGEND,10/26/2025,Rhodes,10/26/2025 7:00,,Greece,Europe/Athens
+STAR LEGEND,10/27/2025,Rhodes,,10/27/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,10/28/2025,"Heraklion, Crete",10/28/2025 8:00,10/28/2025 20:00,Greece / Crete,UTC
+STAR LEGEND,10/29/2025,Mykonos,10/29/2025 9:00,10/29/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,10/30/2025,Athens / PIRAEUS,10/30/2025 7:00,10/30/2025 17:00,Greece,Europe/Athens
+STAR LEGEND,10/31/2025,Corinth Canal,10/31/2025 8:00,10/31/2025 10:00,Greece,UTC
+STAR LEGEND,10/31/2025,Delphi / ITEA,10/31/2025 14:00,10/31/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,11/1/2025,"Kerkyra, Corfu",11/1/2025 13:00,11/1/2025 21:00,Greece,Europe/Athens
+STAR LEGEND,11/2/2025,"Argostoli, Kephalonia",11/2/2025 7:30,11/2/2025 14:00,Greece,UTC
+STAR LEGEND,11/3/2025,"Messina, Sicily",11/3/2025 10:00,11/3/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,11/4/2025,"Trapani, Sicily",11/4/2025 8:00,11/4/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,11/5/2025,"Cagliari, Sardina",11/5/2025 8:00,11/5/2025 23:59,Italy,UTC
+STAR LEGEND,11/6/2025,At Sea,,,nan,UTC
+STAR LEGEND,11/7/2025,BARCELONA,11/7/2025 8:00,11/7/2025 18:00,Spain,Europe/Madrid
+STAR LEGEND,11/8/2025,Palma de Mallorca,11/8/2025 9:00,11/8/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,11/9/2025,Valencia,11/9/2025 8:00,11/9/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,11/10/2025,"Cartagena, Spain",11/10/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,11/11/2025,"Cartagena, Spain",,11/11/2025 15:00,Spain,Europe/Madrid
+STAR LEGEND,11/12/2025,Gibraltar,11/12/2025 13:00,11/12/2025 22:00,British Overseas Territory,Europe/Gibraltar
+STAR LEGEND,11/13/2025,Malaga,11/13/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,11/14/2025,MALAGA,,,Spain,UTC
+STAR LEGEND,11/15/2025,Malaga,,11/15/2025 21:00,Spain,Europe/Madrid
+STAR LEGEND,11/16/2025,Gibraltar,11/16/2025 7:00,11/16/2025 14:00,British Overseas Territory,Europe/Gibraltar
+STAR LEGEND,11/17/2025,"Cartagena, Spain",11/17/2025 12:00,11/17/2025 18:00,Spain,Europe/Madrid
+STAR LEGEND,11/18/2025,Valencia,11/18/2025 9:00,11/18/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,11/19/2025,Palma de Mallorca,11/19/2025 8:00,11/19/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,11/20/2025,BARCELONA,11/20/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,11/21/2025,BARCELONA,,,Spain,Europe/Madrid
+STAR LEGEND,11/22/2025,BARCELONA,,11/22/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,11/23/2025,Palma de Mallorca,11/23/2025 8:00,11/23/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,11/24/2025,Valencia,11/24/2025 8:00,11/24/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,11/25/2025,"Cartagena, Spain",11/25/2025 8:00,11/25/2025 15:00,Spain,Europe/Madrid
+STAR LEGEND,11/26/2025,Gibraltar,11/26/2025 13:00,11/26/2025 22:00,British Overseas Territory,Europe/Gibraltar
+STAR LEGEND,11/27/2025,MALAGA,11/27/2025 8:00,,Spain,UTC
+STAR LEGEND,11/28/2025,MALAGA,,11/28/2025 13:00,Spain,UTC
+STAR LEGEND,11/29/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,11/30/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/1/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/2/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/3/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/4/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/5/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/6/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/7/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/8/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/9/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/10/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/11/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/12/2025,Dry Dock - Cadiz,,,nan,Europe/Madrid
+STAR LEGEND,12/13/2025,MALAGA,12/13/2025 8:00,,Spain,UTC
+STAR LEGEND,12/14/2025,MALAGA,,12/14/2025 21:00,Spain,UTC
+STAR LEGEND,12/15/2025,Gibraltar,12/15/2025 7:00,12/15/2025 14:00,British Overseas Territory,Europe/Gibraltar
+STAR LEGEND,12/16/2025,"Cartagena, Spain",12/16/2025 12:00,12/16/2025 18:00,Spain,Europe/Madrid
+STAR LEGEND,12/17/2025,Valencia,12/17/2025 9:00,12/17/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,12/18/2025,Palma de Mallorca,12/18/2025 8:00,12/18/2025 17:00,Spain,Europe/Madrid
+STAR LEGEND,12/19/2025,BARCELONA,12/19/2025 8:00,,Spain,Europe/Madrid
+STAR LEGEND,12/20/2025,BARCELONA,,,Spain,Europe/Madrid
+STAR LEGEND,12/21/2025,BARCELONA,,12/21/2025 16:00,Spain,Europe/Madrid
+STAR LEGEND,12/22/2025,Nice,12/22/2025 16:00,,France,Europe/Paris
+STAR LEGEND,12/23/2025,Nice,,12/23/2025 22:00,France,Europe/Paris
+STAR LEGEND,12/24/2025,Genova,12/24/2025 8:00,12/24/2025 22:00,Italy,Europe/Rome
+STAR LEGEND,12/25/2025,Livorno,12/25/2025 8:00,,Italy,Europe/Rome
+STAR LEGEND,12/26/2025,Livorno,,12/26/2025 18:00,Italy,Europe/Rome
+STAR LEGEND,12/27/2025,Rome / CIVITAVECCHIA,12/27/2025 8:00,12/27/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,12/28/2025,Naples,12/28/2025 9:00,12/28/2025 17:00,Italy,Europe/Rome
+STAR LEGEND,12/29/2025,"Messina, Sicily",12/29/2025 10:00,12/29/2025 18:00,Italy,Europe/Rome
+STAR LEGEND,12/30/2025,At Sea,,,nan,UTC
+STAR LEGEND,12/31/2025,Dubrovnik,12/31/2025 8:00,,Croatia,Europe/Zagreb
+STAR LEGEND,1/1/2026,Dubrovnik,,1/1/2026 14:00,Croatia,Europe/Zagreb
+STAR LEGEND,1/2/2026,Zadar,1/2/2026 9:00,1/2/2026 18:00,Croatia,Europe/Zagreb
+STAR LEGEND,1/3/2026,VENICE,1/3/2026 10:00,,Italy,Europe/Rome
+STAR LEGEND,1/4/2026,VENICE,,,Italy,Europe/Rome
+STAR LEGEND,1/5/2026,VENICE,,1/5/2026 16:00,Italy,Europe/Rome
