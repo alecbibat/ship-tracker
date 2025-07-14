@@ -4,6 +4,69 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const { DateTime } = require('luxon');
 
+// Port → IANA time zone map
+const portTimeZones = {
+  // Iceland
+  'akureyri': 'Atlantic/Reykjavik',
+  'isafjordur': 'Atlantic/Reykjavik',
+  'reykjavik': 'Atlantic/Reykjavik',
+  'seyðisfjörður': 'Atlantic/Reykjavik',
+  'seydisfjordur': 'Atlantic/Reykjavik',
+
+  // Panama
+  'balboa': 'America/Panama',
+  'panama city': 'America/Panama',
+  'colon': 'America/Panama',
+  'colón': 'America/Panama',
+
+  // Costa Rica
+  'puerto caldera': 'America/Costa_Rica',
+  'puntarenas': 'America/Costa_Rica',
+
+  // Colombia
+  'cartagena': 'America/Bogota',
+
+  // Aruba
+  'oranjestad': 'America/Aruba',
+
+  // Curaçao
+  'willemstad': 'America/Curacao',
+
+  // Barbados
+  'bridgetown': 'America/Barbados',
+
+  // Saint Lucia
+  'castries': 'America/St_Lucia',
+
+  // Martinique
+  'fort-de-france': 'America/Martinique',
+
+  // Antigua
+  'st johns': 'America/Antigua',
+
+  // US Virgin Islands
+  'charlotte amalie': 'America/St_Thomas',
+
+  // Dominican Republic
+  'la romana': 'America/Santo_Domingo',
+
+  // Puerto Rico
+  'san juan': 'America/Puerto_Rico',
+
+  // Bahamas
+  'nassau': 'America/Nassau',
+
+  // Mexico
+  'puerto vallarta': 'America/Mazatlan',
+  'cabo san lucas': 'America/Mazatlan',
+
+  // Greece (example)
+  'piraeus': 'Europe/Athens',
+
+  // Italy (example)
+  'civitavecchia': 'Europe/Rome'
+};
+
 const app = express();
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '..', 'views'));
@@ -87,52 +150,22 @@ app.get('/', (req, res) => {
         }
       }
 
-      // Determine local time based on the right-side port of "currentPort ➜ Destination" or just currentPort
-let zoneLookupPort = currentPort.includes('➜')
-  ? currentPort.split('➜')[1].trim()
-  : currentPort;
-let cleanZoneKey = zoneLookupPort.toLowerCase().replace(/[^\w\s]/g, '').trim();
+      // Local time determination
+      const zoneLookupPort = currentPort.includes('➜')
+        ? currentPort.split('➜')[1].trim()
+        : currentPort;
+      const cleanZoneKey = zoneLookupPort.toLowerCase().replace(/[^\w\s]/g, '').trim();
+      const localZone = portTimeZones[cleanZoneKey] || 'UTC';
+      const localTime = now.setZone(localZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
 
-const portTimeZones = {
-  'akureyri': 'Atlantic/Reykjavik',
-  'isafjordur': 'Atlantic/Reykjavik',
-  'reykjavik': 'Atlantic/Reykjavik',
-  'seyðisfjörður': 'Atlantic/Reykjavik',
-  'seydisfjordur': 'Atlantic/Reykjavik',
-  'balboa': 'America/Panama',
-  'panama city': 'America/Panama',
-  'colon': 'America/Panama',
-  'colón': 'America/Panama',
-  'puerto caldera': 'America/Costa_Rica',
-  'puntarenas': 'America/Costa_Rica',
-  'cartagena': 'America/Bogota',
-  'oranjestad': 'America/Aruba',
-  'willemstad': 'America/Curacao',
-  'bridgetown': 'America/Barbados',
-  'castries': 'America/St_Lucia',
-  'fort-de-france': 'America/Martinique',
-  'st johns': 'America/Antigua',
-  'charlotte amalie': 'America/St_Thomas',
-  'la romana': 'America/Santo_Domingo',
-  'san juan': 'America/Puerto_Rico',
-  'nassau': 'America/Nassau',
-  'puerto vallarta': 'America/Mazatlan',
-  'cabo san lucas': 'America/Mazatlan',
-  'piraeus': 'Europe/Athens',
-  'civitavecchia': 'Europe/Rome'
-};
-
-const localZone = portTimeZones[cleanZoneKey] || 'UTC';
-const localTime = now.setZone(localZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
-
-return {
-  ship,
-  currentStatus,
-  currentPort,
-  previousPort,
-  nextPorts,
-  localTime
-};
+      return {
+        ship,
+        currentStatus,
+        currentPort,
+        previousPort,
+        nextPorts,
+        localTime
+      };
     });
 
     res.render('index', { statuses, now: now.toFormat("ffff") });
