@@ -158,14 +158,24 @@ app.get('/', (req, res) => {
       const localZone = portTimeZones[cleanZoneKey] || 'UTC';
       const localTime = now.setZone(localZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
 
-      return {
-        ship,
-        currentStatus,
-        currentPort,
-        previousPort,
-        nextPorts,
-        localTime
-      };
+      // Determine local time based on the right-side port of "currentPort ➜ Destination" or just currentPort
+let zoneLookupPort = currentPort.includes('➜')
+  ? currentPort.split('➜')[1].trim()
+  : currentPort;
+let cleanZoneKey = zoneLookupPort.toLowerCase().replace(/[^\w\s]/g, '').trim();
+
+const localZone = portTimeZones[cleanZoneKey] || 'UTC';
+const localTime = now.setZone(localZone).toFormat("cccc, dd LLL yyyy, t ZZZZ");
+
+return {
+  ship,
+  currentStatus,
+  currentPort,
+  previousPort,
+  nextPorts,
+  localTime
+};
+
     });
 
     res.render('index', { statuses, now: now.toFormat("ffff") });
