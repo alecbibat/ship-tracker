@@ -148,7 +148,10 @@ if (nextIndex !== -1) {
 
   currentStatus = 'In Transit';
   previousPort = lastStop?.PORT || 'At Sea';
-  currentPort = `${previousPort} ➜ ${nextStop.PORT}`;
+  currentPort = previousPort === nextStop.PORT
+  ? previousPort
+  : `${previousPort} ➜ ${nextStop.PORT}`;
+
   nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
 }
  else {
