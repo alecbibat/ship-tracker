@@ -8,7 +8,7 @@
   <h1>Ship Status Dashboard</h1>
   <p>Updated: <%= now %></p>
 
-  <%
+  <% 
     const shipLinks = {
       'STAR PRIDE': 'https://www.windstarcruises.com/ships/star-pride/',
       'WIND SURF': 'https://www.windstarcruises.com/ships/wind-surf/',
@@ -27,7 +27,6 @@
         <th>Current Location</th>
         <th>Previous Port</th>
         <th>Next Ports</th>
-        <th>Local Time</th>
       </tr>
     </thead>
     <tbody>
@@ -64,8 +63,6 @@
               <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(p) %>" target="_blank"><%= p %></a><%= i < s.nextPorts.length - 1 ? ', ' : '' %>
             <% }) %>
           </td>
-
-          <td><%= s.localTime %></td>
         </tr>
       <% }) %>
     </tbody>
