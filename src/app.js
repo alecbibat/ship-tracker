@@ -43,18 +43,17 @@ app.get('/', (req, res) => {
       const zone = shipTimezones[ship] || "UTC";
       const now = DateTime.now().setZone(zone);
 
-      // Use correct format here
-stops.sort((a, b) => {
-  const aDate = DateTime.fromFormat(a.Arrival, "yyyy-MM-dd HH:mm:ss", { zone });
-  const bDate = DateTime.fromFormat(b.Arrival, "yyyy-MM-dd HH:mm:ss", { zone });
+      // Safe sort
+      stops.sort((a, b) => {
+        const aDate = DateTime.fromFormat(a.Arrival, "yyyy-MM-dd HH:mm:ss", { zone });
+        const bDate = DateTime.fromFormat(b.Arrival, "yyyy-MM-dd HH:mm:ss", { zone });
 
-  if (!aDate.isValid && !bDate.isValid) return 0;
-  if (!aDate.isValid) return 1;
-  if (!bDate.isValid) return -1;
+        if (!aDate.isValid && !bDate.isValid) return 0;
+        if (!aDate.isValid) return 1;
+        if (!bDate.isValid) return -1;
 
-  return aDate - bDate;
-});
-
+        return aDate - bDate;
+      });
 
       let currentStatus = 'Unknown';
       let previousStop = null;
@@ -99,7 +98,6 @@ stops.sort((a, b) => {
       nextPorts: status.nextStops.map(s => s.Port)
     }));
 
-    // Use any ship's timezone (or UTC) for display timestamp
     res.render('index', {
       statuses,
       now: DateTime.now().setZone('Etc/UTC').toFormat('yyyy-LL-dd HH:mm ZZZZ')
