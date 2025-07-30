@@ -51,13 +51,17 @@ function parseCSV() {
       .pipe(csv())
       .on('data', (row) => results.push(row))
       .on('end', () => {
-  Promise.all(results.map(async (row) => {
-    const coords = await getCoordinates(row.PORT, row.COUNTRY);
-    row.Timezone = coords ? getTimezoneFromCoords(coords.lat, coords.lon) : 'UTC';
-  })).then(() => resolve(results)).catch(reject);
-});
-
+        Promise.all(results.map(async (row) => {
+          const coords = await getCoordinates(row.PORT, row.COUNTRY);
+          row.Timezone = coords ? getTimezoneFromCoords(coords.lat, coords.lon) : 'UTC';
+        }))
+        .then(() => resolve(results))
+        .catch(reject);
+      })
+      .on('error', reject);
+  });
 }
+
 
 app.get('/', async (req, res) => {
   const data = await parseCSV();
