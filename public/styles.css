@@ -57,7 +57,7 @@ a.port-link {
   display: inline-block;
   margin: 2px 6px 2px 0;
   padding: 6px 12px;
-  background-color: #2196f3; /* Bright blue */
+  background-color: #2196f3;
   color: white;
   border-radius: 999px;
   font-weight: 500;
@@ -70,14 +70,9 @@ a.port-link:hover {
   background-color: #42a5f5;
 }
 
-/* Status text styling */
+/* Status text base */
 .status-text {
   font-weight: bold;
-}
-
-/* Fallback default status color (orange) */
-.status-text:not(.at-port):not(.in-transit) {
-  color: #ffb74d;
 }
 
 /* Purple for "At Port" */
@@ -88,4 +83,9 @@ a.port-link:hover {
 /* Aqua-green-blue for "In Transit" */
 .status-text.in-transit {
   color: #6fffe9;
+}
+
+/* Fallback for unknown statuses */
+.status-text.unknown {
+  color: #ffb74d;
 }
