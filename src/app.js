@@ -30,72 +30,73 @@ app.get('/', (req, res) => {
   parseCSV((data) => {
     const grouped = {};
 
-// Group stops by ship
-data.forEach((entry) => {
-  const ship = entry.Ship;
-  if (!grouped[ship]) grouped[ship] = [];
-  grouped[ship].push(entry);
-});
+    // Group stops by ship
+    data.forEach((entry) => {
+      const ship = entry.Ship;
+      if (!grouped[ship]) grouped[ship] = [];
+      grouped[ship].push(entry);
+    });
 
-const shipStatus = {};
+    const shipStatus = {};
 
-Object.entries(grouped).forEach(([ship, stops]) => {
-  const zone = shipTimezones[ship] || "UTC";
-  const now = DateTime.now().setZone(zone);
+    Object.entries(grouped).forEach(([ship, stops]) => {
+      const zone = shipTimezones[ship] || "UTC";
+      const now = DateTime.now().setZone(zone);
 
-  stops.sort((a, b) =>
-    DateTime.fromISO(a.Arrival, { zone }) - DateTime.fromISO(b.Arrival, { zone })
-  );
+      // Use correct format here
+      stops.sort((a, b) =>
+        DateTime.fromFormat(a.Arrival, "yyyy-MM-dd HH:mm:ss", { zone }) -
+        DateTime.fromFormat(b.Arrival, "yyyy-MM-dd HH:mm:ss", { zone })
+      );
 
-  let currentStatus = 'Unknown';
-  let previousStop = null;
-  let nextStops = [];
+      let currentStatus = 'Unknown';
+      let previousStop = null;
+      let nextStops = [];
 
-  for (let i = 0; i < stops.length; i++) {
-    const stop = stops[i];
-    const arrival = DateTime.fromISO(stop.Arrival, { zone });
-    const departure = DateTime.fromISO(stop.Departure, { zone });
+      for (let i = 0; i < stops.length; i++) {
+        const stop = stops[i];
+        const arrival = DateTime.fromFormat(stop.Arrival, "yyyy-MM-dd HH:mm:ss", { zone });
+        const departure = DateTime.fromFormat(stop.Departure, "yyyy-MM-dd HH:mm:ss", { zone });
 
-    if (now < arrival) {
-      currentStatus = `In transit from ${previousStop ? previousStop.Port : 'Unknown'} to ${stop.Port}`;
-      nextStops = stops.slice(i, i + 3);
-      break;
-    } else if (now >= arrival && now <= departure) {
-      currentStatus = `At ${stop.Port}`;
-      nextStops = stops.slice(i + 1, i + 4);
-      break;
-    }
+        if (!arrival.isValid || !departure.isValid) continue;
 
-    previousStop = stop;
-  }
+        if (now < arrival) {
+          currentStatus = `In transit from ${previousStop ? previousStop.Port : 'Unknown'} to ${stop.Port}`;
+          nextStops = stops.slice(i, i + 3);
+          break;
+        } else if (now >= arrival && now <= departure) {
+          currentStatus = `At ${stop.Port}`;
+          nextStops = stops.slice(i + 1, i + 4);
+          break;
+        }
 
-  if (currentStatus === 'Unknown') {
-    currentStatus = 'Schedule complete or unknown';
-  }
+        previousStop = stop;
+      }
 
-  shipStatus[ship] = {
-    currentStatus,
-    previousStop,
-    nextStops
-  };
-});
+      if (currentStatus === 'Unknown') {
+        currentStatus = 'Schedule complete or unknown';
+      }
 
+      shipStatus[ship] = {
+        currentStatus,
+        previousStop,
+        nextStops
+      };
+    });
 
-   const statuses = Object.entries(shipStatus).map(([ship, status]) => ({
-  ship,
-  currentStatus: status.currentStatus,
-  currentPort: status.currentStatus.startsWith('At ') ? status.currentStatus.replace('At ', '') : null,
-  previousPort: status.previousStop?.Port || null,
-  nextPorts: status.nextStops.map(s => s.Port)
-}));
+    const statuses = Object.entries(shipStatus).map(([ship, status]) => ({
+      ship,
+      currentStatus: status.currentStatus,
+      currentPort: status.currentStatus.startsWith('At ') ? status.currentStatus.replace('At ', '') : null,
+      previousPort: status.previousStop?.Port || null,
+      nextPorts: status.nextStops.map(s => s.Port)
+    }));
 
-// Use any ship's timezone (or UTC) for display timestamp
-res.render('index', {
-  statuses,
-  now: DateTime.now().setZone('Etc/UTC').toFormat('yyyy-LL-dd HH:mm ZZZZ')
-});
-
-
+    // Use any ship's timezone (or UTC) for display timestamp
+    res.render('index', {
+      statuses,
+      now: DateTime.now().setZone('Etc/UTC').toFormat('yyyy-LL-dd HH:mm ZZZZ')
+    });
   });
 });
 
