@@ -30,7 +30,10 @@
       </tr>
     </thead>
     <tbody>
-      <% statuses.forEach(s => { %>
+      <% statuses.forEach(s => { 
+           const statusClass = s.currentStatus.includes('At Port') ? 'at-port' :
+                               s.currentStatus.includes('In Transit') ? 'in-transit' : 'unknown';
+      %>
         <tr>
           <td>
             <div style="display: flex; align-items: center;">
@@ -42,7 +45,7 @@
             </div>
           </td>
 
-          <td class="status-text"><%= s.currentStatus %></td>
+          <td class="status-text <%= statusClass %>"><%= s.currentStatus %></td>
 
           <td>
             <% if (s.currentPort) { %>
