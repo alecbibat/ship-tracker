@@ -1,82 +1,131 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Ship Status Dashboard</title>
-  <link rel="stylesheet" href="/styles.css" />
-</head>
-<body>
-  <h1>Ship Status Dashboard</h1>
-  <p class="updated-time">Updated: <%= now %></p>
+const express = require('express');
+const path = require('path');
+const fs = require('fs');
+const csv = require('csv-parser');
+const { DateTime } = require('luxon');
 
-  <% 
-    const shipLinks = {
-      'STAR PRIDE': 'https://www.windstarcruises.com/ships/star-pride/',
-      'WIND SURF': 'https://www.windstarcruises.com/ships/wind-surf/',
-      'WIND STAR': 'https://www.windstarcruises.com/ships/wind-star/',
-      'WIND SPIRIT': 'https://www.windstarcruises.com/ships/wind-spirit/',
-      'STAR LEGEND': 'https://www.windstarcruises.com/ships/star-legend/',
-      'STAR BREEZE': 'https://www.windstarcruises.com/ships/star-breeze/'
-    };
-  %>
+// ⏰ Timezones per ship
+const shipTimezones = {
+  'WIND SPIRIT': 'Europe/Berlin',
+  'WIND STAR': 'Europe/Kiev',
+  'WIND SURF': 'Europe/Berlin',
+  'STAR PRIDE': 'Etc/UTC',
+  'STAR BREEZE': 'Pacific/Tahiti',
+  'STAR LEGEND': 'Etc/UTC'
+};
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ship</th>
-        <th>Status</th>
-        <th>Current Location</th>
-        <th>Previous Port</th>
-        <th>Next Ports</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% statuses.forEach(s => { %>
-        <tr>
-          <td>
-            <div style="display: flex; flex-direction: column;">
-              <div style="display: flex; align-items: center;">
-                <img class="ship-icon" src="/ships/<%= s.ship.toLowerCase().replace(/ /g, '_') %>.jpg"
-                     alt="<%= s.ship %>" />
-                <a href="<%= shipLinks[s.ship] %>" target="_blank" style="margin-left: 10px; color: #b3e5fc; font-weight: bold; text-decoration: none;">
-                  <%= s.ship %>
-                </a>
-              </div>
-              <div style="font-size: 0.75em; color: #aaa; margin-left: 70px;">
-                <%= s.localTime %> <span style="opacity: 0.6;">(<%= s.timezone %>)</span>
-              </div>
-            </div>
-          </td>
+const app = express();
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, '..', 'views'));
+app.use(express.static(path.join(__dirname, '..', 'public')));
 
-          <td class="status-text <%= s.currentStatus.includes('Transit') ? 'in-transit' : s.currentStatus.includes('At Port') ? 'at-port' : '' %>">
-            <%= s.currentStatus %>
-          </td>
+function parseCSV(callback) {
+  const results = [];
+  fs.createReadStream(path.join(__dirname, '..', 'data', 'schedules.csv'))
+    .pipe(csv())
+    .on('data', (row) => results.push(row))
+    .on('end', () => callback(results));
+}
 
-          <td>
-            <% if (s.currentPort) { %>
-              <a class="port-link" href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.currentPort) %>" target="_blank">
-                <%= s.currentPort %>
-              </a>
-            <% } %>
-          </td>
+app.get('/', (req, res) => {
+  parseCSV((data) => {
+    const grouped = {};
 
-          <td>
-            <% if (s.previousPort) { %>
-              <a class="port-link" href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.previousPort) %>" target="_blank">
-                <%= s.previousPort %>
-              </a>
-            <% } %>
-          </td>
+    data.forEach((entry) => {
+      const ship = entry.Ship.trim().toUpperCase();
+      if (!grouped[ship]) grouped[ship] = [];
+      grouped[ship].push(entry);
+    });
 
-          <td>
-            <% s.nextPorts.forEach((p) => { %>
-              <a class="port-link" href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(p) %>" target="_blank">
-                <%= p %>
-              </a>
-            <% }) %>
-          </td>
-        </tr>
-      <% }) %>
-    </tbody>
-  </table>
-</body>
-</html>
+    const statuses = Object.entries(grouped).map(([ship, rawStops]) => {
+      const zone = shipTimezones[ship] || 'UTC';
+      const now = DateTime.now().setZone(zone);
+
+      rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
+
+      const stops = rawStops.map((entry, idx, arr) => {
+        let arrival = DateTime.fromISO((entry.ARRIVAL || '').trim(), { zone });
+        let departure = DateTime.fromISO((entry.DEPARTURE || '').trim(), { zone });
+
+        if (!arrival.isValid && idx > 0) {
+          const prev = DateTime.fromISO((arr[idx - 1].DEPARTURE || '').trim(), { zone });
+          if (prev.isValid) arrival = prev;
+        }
+
+        if (!departure.isValid && idx < arr.length - 1) {
+          const next = DateTime.fromISO((arr[idx + 1].ARRIVAL || '').trim(), { zone });
+          if (next.isValid) departure = next;
+        }
+
+        if (!arrival.isValid) arrival = DateTime.fromISO((entry.DATE || '').trim(), { zone });
+        if (!departure.isValid) departure = arrival.plus({ hours: 12 });
+
+        return {
+          ...entry,
+          arrival,
+          departure
+        };
+      });
+
+      let currentStatus = 'Unknown';
+      let currentPort = '', previousPort = '', nextPorts = [];
+
+      const atPortIndex = stops.findIndex(
+        stop => stop.arrival <= now && now <= stop.departure
+      );
+
+      if (atPortIndex !== -1) {
+        const departure = stops[atPortIndex].departure;
+        const diff = departure.diff(now, ['hours', 'minutes']).toObject();
+        const eta = `${Math.floor(diff.hours)}h ${Math.round(diff.minutes)}m`;
+        currentStatus = `At Port (Departs in ${eta})`;
+        currentPort = stops[atPortIndex].PORT;
+        previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
+        nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
+      } else {
+        const nextIndex = stops.findIndex(stop => stop.arrival > now);
+        if (nextIndex !== -1) {
+          const arrival = stops[nextIndex].arrival;
+          const diff = arrival.diff(now, ['hours', 'minutes']).toObject();
+          const eta = `${Math.floor(diff.hours)}h ${Math.round(diff.minutes)}m`;
+          previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
+          const nextPort = stops[nextIndex].PORT;
+
+          if (previousPort === nextPort) {
+            const departure = stops[nextIndex - 1].departure;
+            const departDiff = departure.diff(now, ['hours', 'minutes']).toObject();
+            const departEta = `${Math.floor(departDiff.hours)}h ${Math.round(departDiff.minutes)}m`;
+            currentStatus = `At Port (Departs in ${departEta})`;
+            currentPort = previousPort;
+          } else {
+            currentStatus = `In Transit (ETA: ${eta})`;
+            currentPort = `${previousPort} ➜ ${nextPort}`;
+          }
+
+          nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
+        } else {
+          currentStatus = 'Completed';
+          previousPort = stops[stops.length - 1]?.PORT || '';
+        }
+      }
+
+      return {
+        ship,
+        currentStatus,
+        currentPort,
+        previousPort,
+        nextPorts,
+        timezone: zone,
+        localTime: now.toFormat('MM/dd HH:mm:ss')
+      };
+    });
+
+    res.render('index', {
+      statuses,
+      now: DateTime.now().toFormat("ffff")
+    });
+  });
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
