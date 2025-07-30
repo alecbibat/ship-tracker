@@ -88,9 +88,17 @@ app.get('/', (req, res) => {
           const arrival = stops[nextIndex].arrival;
           const diff = arrival.diff(now, ['hours', 'minutes']).toObject();
           const eta = `${Math.floor(diff.hours)}h ${Math.round(diff.minutes)}m`;
-          currentStatus = `In Transit (ETA: ${eta})`;
           previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
-          currentPort = `${previousPort} ➜ ${stops[nextIndex].PORT}`;
+const nextPort = stops[nextIndex].PORT;
+
+if (previousPort === nextPort) {
+  currentStatus = 'At Port (Holding)';
+  currentPort = previousPort;
+} else {
+  currentStatus = `In Transit (ETA: ${eta})`;
+  currentPort = `${previousPort} ➜ ${nextPort}`;
+}
+
           nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
         } else {
           currentStatus = 'Completed';
