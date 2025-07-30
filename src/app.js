@@ -28,57 +28,58 @@ function parseCSV(callback) {
 
 app.get('/', (req, res) => {
   parseCSV((data) => {
-    const now = DateTime.now();
-
     const grouped = {};
 
-    // Group stops by ship
-    data.forEach((entry) => {
-      const ship = entry.Ship;
-      if (!grouped[ship]) grouped[ship] = [];
-      grouped[ship].push(entry);
-    });
+// Group stops by ship
+data.forEach((entry) => {
+  const ship = entry.Ship;
+  if (!grouped[ship]) grouped[ship] = [];
+  grouped[ship].push(entry);
+});
 
-    const shipStatus = {};
+const shipStatus = {};
 
-    Object.entries(grouped).forEach(([ship, stops]) => {
-      stops.sort((a, b) =>
-        DateTime.fromISO(a.Arrival, { zone: shipTimezones[ship] || "UTC" }) -
-        DateTime.fromISO(b.Arrival, { zone: shipTimezones[ship] || "UTC" })
-      );
+Object.entries(grouped).forEach(([ship, stops]) => {
+  const zone = shipTimezones[ship] || "UTC";
+  const now = DateTime.now().setZone(zone);
 
-      let currentStatus = 'Unknown';
-      let previousStop = null;
-      let nextStops = [];
+  stops.sort((a, b) =>
+    DateTime.fromISO(a.Arrival, { zone }) - DateTime.fromISO(b.Arrival, { zone })
+  );
 
-      for (let i = 0; i < stops.length; i++) {
-        const stop = stops[i];
-        const arrival = DateTime.fromISO(stop.Arrival, { zone: shipTimezones[ship] || "UTC" });
-        const departure = DateTime.fromISO(stop.Departure, { zone: shipTimezones[ship] || "UTC" });
+  let currentStatus = 'Unknown';
+  let previousStop = null;
+  let nextStops = [];
 
-        if (now < arrival) {
-          currentStatus = `In transit from ${previousStop ? previousStop.Port : 'Unknown'} to ${stop.Port}`;
-          nextStops = stops.slice(i, i + 3);
-          break;
-        } else if (now >= arrival && now <= departure) {
-          currentStatus = `At ${stop.Port}`;
-          nextStops = stops.slice(i + 1, i + 4);
-          break;
-        }
+  for (let i = 0; i < stops.length; i++) {
+    const stop = stops[i];
+    const arrival = DateTime.fromISO(stop.Arrival, { zone });
+    const departure = DateTime.fromISO(stop.Departure, { zone });
 
-        previousStop = stop;
-      }
+    if (now < arrival) {
+      currentStatus = `In transit from ${previousStop ? previousStop.Port : 'Unknown'} to ${stop.Port}`;
+      nextStops = stops.slice(i, i + 3);
+      break;
+    } else if (now >= arrival && now <= departure) {
+      currentStatus = `At ${stop.Port}`;
+      nextStops = stops.slice(i + 1, i + 4);
+      break;
+    }
 
-      if (currentStatus === 'Unknown') {
-        currentStatus = 'Schedule complete or unknown';
-      }
+    previousStop = stop;
+  }
 
-      shipStatus[ship] = {
-        currentStatus,
-        previousStop,
-        nextStops
-      };
-    });
+  if (currentStatus === 'Unknown') {
+    currentStatus = 'Schedule complete or unknown';
+  }
+
+  shipStatus[ship] = {
+    currentStatus,
+    previousStop,
+    nextStops
+  };
+});
+
 
     const statuses = Object.entries(shipStatus).map(([ship, status]) => ({
   ship,
