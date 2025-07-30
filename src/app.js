@@ -80,7 +80,19 @@ app.get('/', (req, res) => {
       };
     });
 
-    res.render('index', { shipStatus });
+    const statuses = Object.entries(shipStatus).map(([ship, status]) => ({
+  ship,
+  currentStatus: status.currentStatus,
+  currentPort: status.currentStatus.startsWith('At ') ? status.currentStatus.replace('At ', '') : null,
+  previousPort: status.previousStop?.Port || null,
+  nextPorts: status.nextStops.map(s => s.Port)
+}));
+
+res.render('index', {
+  statuses,
+  now: now.toFormat('yyyy-LL-dd HH:mm ZZZZ')
+});
+
   });
 });
 
