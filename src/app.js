@@ -15,7 +15,12 @@ const cacheFile = path.join(__dirname, '..', 'data', 'port_timezone_cache.json')
 let portCache = {};
 
 if (fs.existsSync(cacheFile)) {
-  portCache = JSON.parse(fs.readFileSync(cacheFile));
+  try {
+    portCache = JSON.parse(fs.readFileSync(cacheFile));
+  } catch (err) {
+    console.error('Failed to parse cache file:', err);
+    portCache = {};
+  }
 }
 
 async function getCoordinates(port, country) {
@@ -25,15 +30,32 @@ async function getCoordinates(port, country) {
   }
 
   const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}`;
-  const response = await fetch(url, { headers: { 'User-Agent': 'ship-tracker' } });
-  const data = await response.json();
 
-  if (data.length === 0) return null;
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000); // 5s timeout
 
-  const { lat, lon } = data[0];
-  portCache[query] = { lat: parseFloat(lat), lon: parseFloat(lon) };
-  fs.writeFileSync(cacheFile, JSON.stringify(portCache, null, 2));
-  return portCache[query];
+    const response = await fetch(url, {
+      headers: { 'User-Agent': 'ship-tracker' },
+      signal: controller.signal
+    });
+
+    clearTimeout(timeout);
+
+    if (!response.ok) throw new Error(`Fetch failed: ${response.status}`);
+
+    const data = await response.json();
+    if (data.length === 0) return null;
+
+    const { lat, lon } = data[0];
+    portCache[query] = { lat: parseFloat(lat), lon: parseFloat(lon) };
+    fs.writeFileSync(cacheFile, JSON.stringify(portCache, null, 2));
+    return portCache[query];
+
+  } catch (err) {
+    console.error(`Error fetching coordinates for "${query}":`, err.message);
+    return null;
+  }
 }
 
 function getTimezoneFromCoords(lat, lon) {
@@ -61,8 +83,6 @@ function parseCSV() {
       .on('error', reject);
   });
 }
-
-
 
 app.get('/', async (req, res) => {
   const data = await parseCSV();
