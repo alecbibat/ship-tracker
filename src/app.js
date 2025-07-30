@@ -81,7 +81,7 @@ Object.entries(grouped).forEach(([ship, stops]) => {
 });
 
 
-    const statuses = Object.entries(shipStatus).map(([ship, status]) => ({
+   const statuses = Object.entries(shipStatus).map(([ship, status]) => ({
   ship,
   currentStatus: status.currentStatus,
   currentPort: status.currentStatus.startsWith('At ') ? status.currentStatus.replace('At ', '') : null,
@@ -89,10 +89,12 @@ Object.entries(grouped).forEach(([ship, stops]) => {
   nextPorts: status.nextStops.map(s => s.Port)
 }));
 
+// Use any ship's timezone (or UTC) for display timestamp
 res.render('index', {
   statuses,
-  now: now.toFormat('yyyy-LL-dd HH:mm ZZZZ')
+  now: DateTime.now().setZone('Etc/UTC').toFormat('yyyy-LL-dd HH:mm ZZZZ')
 });
+
 
   });
 });
