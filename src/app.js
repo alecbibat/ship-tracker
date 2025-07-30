@@ -89,18 +89,19 @@ app.get('/', (req, res) => {
           const diff = arrival.diff(now, ['hours', 'minutes']).toObject();
           const eta = `${Math.floor(diff.hours)}h ${Math.round(diff.minutes)}m`;
           previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
-          const nextPort = stops[nextIndex].PORT;
+const nextPort = stops[nextIndex].PORT;
 
-          if (previousPort === nextPort) {
-            const departure = stops[nextIndex - 1].departure;
-            const departDiff = departure.diff(now, ['hours', 'minutes']).toObject();
-            const departEta = `${Math.floor(departDiff.hours)}h ${Math.round(departDiff.minutes)}m`;
-            currentStatus = `At Port (Departs in ${departEta})`;
-            currentPort = previousPort;
-          } else {
-            currentStatus = `In Transit (ETA: ${eta})`;
-            currentPort = `${previousPort} ➜ ${nextPort}`;
-          }
+if (previousPort?.trim().toUpperCase() === nextPort?.trim().toUpperCase()) {
+  const dep = stops[nextIndex].departure;
+  const depDiff = dep.diff(now, ['hours', 'minutes']).toObject();
+  const depEta = `${Math.floor(depDiff.hours)}h ${Math.round(depDiff.minutes)}m`;
+  currentStatus = `At Port (Departs in ${depEta})`;
+  currentPort = previousPort;
+} else {
+  currentStatus = `In Transit (ETA: ${eta})`;
+  currentPort = `${previousPort} ➜ ${nextPort}`;
+}
+
 
           nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
         } else {
@@ -109,15 +110,7 @@ app.get('/', (req, res) => {
         }
       }
 
-      return {
-        ship,
-        currentStatus,
-        currentPort,
-        previousPort,
-        nextPorts,
-        timezone: zone,
-        localTime: now.toFormat('MM/dd HH:mm:ss')
-      };
+      return { ship, currentStatus, currentPort, previousPort, nextPorts };
     });
 
     res.render('index', {
