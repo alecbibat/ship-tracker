@@ -92,13 +92,16 @@ app.get('/', (req, res) => {
 const nextPort = stops[nextIndex].PORT;
 
 if (previousPort?.trim().toUpperCase() === nextPort?.trim().toUpperCase()) {
-
-  currentStatus = 'At Port (Holding)';
+  const dep = stops[nextIndex].departure;
+  const depDiff = dep.diff(now, ['hours', 'minutes']).toObject();
+  const depEta = `${Math.floor(depDiff.hours)}h ${Math.round(depDiff.minutes)}m`;
+  currentStatus = `At Port (Departs in ${depEta})`;
   currentPort = previousPort;
 } else {
   currentStatus = `In Transit (ETA: ${eta})`;
   currentPort = `${previousPort} ➜ ${nextPort}`;
 }
+
 
           nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
         } else {
