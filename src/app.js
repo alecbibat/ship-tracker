@@ -91,7 +91,8 @@ app.get('/', (req, res) => {
           previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
 const nextPort = stops[nextIndex].PORT;
 
-if (previousPort === nextPort) {
+if (previousPort?.trim().toUpperCase() === nextPort?.trim().toUpperCase()) {
+
   currentStatus = 'At Port (Holding)';
   currentPort = previousPort;
 } else {
