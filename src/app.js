@@ -31,7 +31,6 @@ app.get('/', (req, res) => {
   parseCSV((data) => {
     const grouped = {};
 
-    // Group stops by ship
     data.forEach((entry) => {
       const ship = entry.Ship.trim().toUpperCase();
       if (!grouped[ship]) grouped[ship] = [];
@@ -42,7 +41,6 @@ app.get('/', (req, res) => {
       const zone = shipTimezones[ship] || 'UTC';
       const now = DateTime.now().setZone(zone);
 
-      // Sort by DATE column
       rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
 
       const stops = rawStops.map((entry, idx, arr) => {
@@ -77,14 +75,20 @@ app.get('/', (req, res) => {
       );
 
       if (atPortIndex !== -1) {
-        currentStatus = 'At Port';
+        const departure = stops[atPortIndex].departure;
+        const diff = departure.diff(now, ['hours', 'minutes']).toObject();
+        const eta = `${Math.floor(diff.hours)}h ${Math.round(diff.minutes)}m`;
+        currentStatus = `At Port (Departs in ${eta})`;
         currentPort = stops[atPortIndex].PORT;
         previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
         nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
       } else {
         const nextIndex = stops.findIndex(stop => stop.arrival > now);
         if (nextIndex !== -1) {
-          currentStatus = 'In Transit';
+          const arrival = stops[nextIndex].arrival;
+          const diff = arrival.diff(now, ['hours', 'minutes']).toObject();
+          const eta = `${Math.floor(diff.hours)}h ${Math.round(diff.minutes)}m`;
+          currentStatus = `In Transit (ETA: ${eta})`;
           previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
           currentPort = `${previousPort} ➜ ${stops[nextIndex].PORT}`;
           nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
