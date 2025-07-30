@@ -4,6 +4,16 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const { DateTime } = require('luxon');
 
+// ⏰ Timezones per ship
+const shipTimezones = {
+  'WIND SPIRIT': 'Europe/Berlin',
+  'WIND STAR': 'Europe/Kiev',
+  'WIND SURF': 'Europe/Berlin',
+  'STAR PRIDE': 'Etc/UTC',
+  'STAR BREEZE': 'Pacific/Tahiti',
+  'STAR LEGEND': 'Etc/UTC'
+};
+
 const app = express();
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '..', 'views'));
@@ -19,49 +29,46 @@ function parseCSV(callback) {
 
 app.get('/', (req, res) => {
   parseCSV((data) => {
-    const now = DateTime.now().setZone('America/Denver');
     const grouped = {};
 
     // Group stops by ship
     data.forEach((entry) => {
-      const ship = entry.Ship;
+      const ship = entry.Ship.trim().toUpperCase();
       if (!grouped[ship]) grouped[ship] = [];
       grouped[ship].push(entry);
     });
 
     const statuses = Object.entries(grouped).map(([ship, rawStops]) => {
-      // Sort by schedule date first
+      const zone = shipTimezones[ship] || 'UTC';
+      const now = DateTime.now().setZone(zone);
+
+      // Sort by DATE column
       rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
 
-      // Fill in arrival/departure values
       const stops = rawStops.map((entry, idx, arr) => {
-        let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
-        let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
+        let arrival = DateTime.fromISO((entry.ARRIVAL || '').trim(), { zone });
+        let departure = DateTime.fromISO((entry.DEPARTURE || '').trim(), { zone });
 
-        // If arrival is missing, use previous departure
         if (!arrival.isValid && idx > 0) {
-          const prev = DateTime.fromISO(arr[idx - 1].DEPARTURE || '', { setZone: true });
+          const prev = DateTime.fromISO((arr[idx - 1].DEPARTURE || '').trim(), { zone });
           if (prev.isValid) arrival = prev;
         }
 
-        // If departure is missing, use next arrival
         if (!departure.isValid && idx < arr.length - 1) {
-          const next = DateTime.fromISO(arr[idx + 1].ARRIVAL || '', { setZone: true });
+          const next = DateTime.fromISO((arr[idx + 1].ARRIVAL || '').trim(), { zone });
           if (next.isValid) departure = next;
         }
 
-        // Fallback for missing both
-        if (!arrival.isValid) arrival = DateTime.fromISO(entry.DATE || '', { setZone: true });
+        if (!arrival.isValid) arrival = DateTime.fromISO((entry.DATE || '').trim(), { zone });
         if (!departure.isValid) departure = arrival.plus({ hours: 12 });
 
         return {
           ...entry,
-          arrival: arrival.setZone('America/Denver'),
-          departure: departure.setZone('America/Denver'),
+          arrival,
+          departure
         };
       });
 
-      // Determine current ship status
       let currentStatus = 'Unknown';
       let currentPort = '', previousPort = '', nextPorts = [];
 
@@ -90,7 +97,10 @@ app.get('/', (req, res) => {
       return { ship, currentStatus, currentPort, previousPort, nextPorts };
     });
 
-    res.render('index', { statuses, now: now.toFormat("ffff") });
+    res.render('index', {
+      statuses,
+      now: DateTime.now().toFormat("ffff")
+    });
   });
 });
 
