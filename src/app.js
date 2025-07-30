@@ -30,7 +30,6 @@ app.get('/', (req, res) => {
   parseCSV((data) => {
     const grouped = {};
 
-    // Group stops by ship
     data.forEach((entry) => {
       const ship = entry.Ship;
       if (!grouped[ship]) grouped[ship] = [];
@@ -43,10 +42,10 @@ app.get('/', (req, res) => {
       const zone = shipTimezones[ship] || "UTC";
       const now = DateTime.now().setZone(zone);
 
-      // Safe sort
+      // Safe sort using fromFormat
       stops.sort((a, b) => {
-        const aDate = DateTime.fromFormat(a.Arrival, "yyyy-MM-dd HH:mm:ss", { zone });
-        const bDate = DateTime.fromFormat(b.Arrival, "yyyy-MM-dd HH:mm:ss", { zone });
+        const aDate = DateTime.fromFormat(a.Arrival || '', "yyyy-MM-dd HH:mm:ss", { zone });
+        const bDate = DateTime.fromFormat(b.Arrival || '', "yyyy-MM-dd HH:mm:ss", { zone });
 
         if (!aDate.isValid && !bDate.isValid) return 0;
         if (!aDate.isValid) return 1;
@@ -61,8 +60,8 @@ app.get('/', (req, res) => {
 
       for (let i = 0; i < stops.length; i++) {
         const stop = stops[i];
-        const arrival = DateTime.fromFormat(stop.Arrival, "yyyy-MM-dd HH:mm:ss", { zone });
-        const departure = DateTime.fromFormat(stop.Departure, "yyyy-MM-dd HH:mm:ss", { zone });
+        const arrival = DateTime.fromFormat(stop.Arrival || '', "yyyy-MM-dd HH:mm:ss", { zone });
+        const departure = DateTime.fromFormat(stop.Departure || '', "yyyy-MM-dd HH:mm:ss", { zone });
 
         if (!arrival.isValid || !departure.isValid) continue;
 
