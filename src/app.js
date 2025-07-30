@@ -50,15 +50,13 @@ function parseCSV() {
     fs.createReadStream(path.join(__dirname, '..', 'data', 'schedules.csv'))
       .pipe(csv())
       .on('data', (row) => results.push(row))
-      .on('end', async () => {
-        for (let row of results) {
-          const coords = await getCoordinates(row.PORT, row.COUNTRY);
-          row.Timezone = coords ? getTimezoneFromCoords(coords.lat, coords.lon) : 'UTC';
-        }
-        resolve(results);
-      })
-      .on('error', reject);
-  });
+      .on('end', () => {
+  Promise.all(results.map(async (row) => {
+    const coords = await getCoordinates(row.PORT, row.COUNTRY);
+    row.Timezone = coords ? getTimezoneFromCoords(coords.lat, coords.lon) : 'UTC';
+  })).then(() => resolve(results)).catch(reject);
+});
+
 }
 
 app.get('/', async (req, res) => {
