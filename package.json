@@ -1,24 +1,14 @@
 {
-  "name": "ship-tracker",
+  "name": "ship-status-app",
   "version": "1.0.0",
-  "description": "",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "engines": {
-    "node": "22.x",
-    "npm": "10.x"
-  },
   "dependencies": {
     "csv-parser": "^3.0.0",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "luxon": "^3.4.3",
-    "node-fetch": "^2.6.7",
-    "tz-lookup": "^6.1.25"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "luxon": "^3.0.0"
   }
 }
