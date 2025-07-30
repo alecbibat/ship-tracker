@@ -4,15 +4,6 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const { DateTime } = require('luxon');
 
-const shipTimezones = {
-  'Wind Surf': 'Europe/Berlin',
-  'Wind Star': 'Europe/Kiev',
-  'Wind Spirit': 'Europe/Berlin',
-  'Star Pride': 'Etc/UTC',
-  'Star Breeze': 'Pacific/Tahiti',
-  'Star Legend': 'Etc/UTC'
-};
-
 const app = express();
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '..', 'views'));
@@ -28,83 +19,80 @@ function parseCSV(callback) {
 
 app.get('/', (req, res) => {
   parseCSV((data) => {
+    const now = DateTime.now().setZone('America/Denver');
     const grouped = {};
 
+    // Group stops by ship
     data.forEach((entry) => {
       const ship = entry.Ship;
       if (!grouped[ship]) grouped[ship] = [];
       grouped[ship].push(entry);
     });
 
-    const shipStatus = {};
+    const statuses = Object.entries(grouped).map(([ship, rawStops]) => {
+      // Sort by schedule date first
+      rawStops.sort((a, b) => new Date(a.DATE) - new Date(b.DATE));
 
-    Object.entries(grouped).forEach(([ship, stops]) => {
-      const zone = shipTimezones[ship] || "UTC";
-      const now = DateTime.now().setZone(zone);
+      // Fill in arrival/departure values
+      const stops = rawStops.map((entry, idx, arr) => {
+        let arrival = DateTime.fromISO(entry.ARRIVAL || '', { setZone: true });
+        let departure = DateTime.fromISO(entry.DEPARTURE || '', { setZone: true });
 
-      // Safe sort using fromFormat
-      stops.sort((a, b) => {
-        const aDate = DateTime.fromFormat(a.Arrival || '', "yyyy-MM-dd HH:mm:ss", { zone });
-        const bDate = DateTime.fromFormat(b.Arrival || '', "yyyy-MM-dd HH:mm:ss", { zone });
-
-        if (!aDate.isValid && !bDate.isValid) return 0;
-        if (!aDate.isValid) return 1;
-        if (!bDate.isValid) return -1;
-
-        return aDate - bDate;
-      });
-
-      let currentStatus = 'Unknown';
-      let previousStop = null;
-      let nextStops = [];
-
-      for (let i = 0; i < stops.length; i++) {
-        const stop = stops[i];
-        const arrival = DateTime.fromFormat(stop.Arrival || '', "yyyy-MM-dd HH:mm:ss", { zone });
-        const departure = DateTime.fromFormat(stop.Departure || '', "yyyy-MM-dd HH:mm:ss", { zone });
-
-        if (!arrival.isValid || !departure.isValid) continue;
-
-        if (now < arrival) {
-          currentStatus = `In transit from ${previousStop ? previousStop.Port : 'Unknown'} to ${stop.Port}`;
-          nextStops = stops.slice(i, i + 3);
-          break;
-        } else if (now >= arrival && now <= departure) {
-          currentStatus = `At ${stop.Port}`;
-          nextStops = stops.slice(i + 1, i + 4);
-          break;
+        // If arrival is missing, use previous departure
+        if (!arrival.isValid && idx > 0) {
+          const prev = DateTime.fromISO(arr[idx - 1].DEPARTURE || '', { setZone: true });
+          if (prev.isValid) arrival = prev;
         }
 
-        previousStop = stop;
+        // If departure is missing, use next arrival
+        if (!departure.isValid && idx < arr.length - 1) {
+          const next = DateTime.fromISO(arr[idx + 1].ARRIVAL || '', { setZone: true });
+          if (next.isValid) departure = next;
+        }
+
+        // Fallback for missing both
+        if (!arrival.isValid) arrival = DateTime.fromISO(entry.DATE || '', { setZone: true });
+        if (!departure.isValid) departure = arrival.plus({ hours: 12 });
+
+        return {
+          ...entry,
+          arrival: arrival.setZone('America/Denver'),
+          departure: departure.setZone('America/Denver'),
+        };
+      });
+
+      // Determine current ship status
+      let currentStatus = 'Unknown';
+      let currentPort = '', previousPort = '', nextPorts = [];
+
+      const atPortIndex = stops.findIndex(
+        stop => stop.arrival <= now && now <= stop.departure
+      );
+
+      if (atPortIndex !== -1) {
+        currentStatus = 'At Port';
+        currentPort = stops[atPortIndex].PORT;
+        previousPort = atPortIndex > 0 ? stops[atPortIndex - 1].PORT : '';
+        nextPorts = stops.slice(atPortIndex + 1, atPortIndex + 4).map(s => s.PORT);
+      } else {
+        const nextIndex = stops.findIndex(stop => stop.arrival > now);
+        if (nextIndex !== -1) {
+          currentStatus = 'In Transit';
+          previousPort = nextIndex > 0 ? stops[nextIndex - 1].PORT : '';
+          currentPort = `${previousPort} ➜ ${stops[nextIndex].PORT}`;
+          nextPorts = stops.slice(nextIndex, nextIndex + 3).map(s => s.PORT);
+        } else {
+          currentStatus = 'Completed';
+          previousPort = stops[stops.length - 1]?.PORT || '';
+        }
       }
 
-      if (currentStatus === 'Unknown') {
-        currentStatus = 'Schedule complete or unknown';
-      }
-
-      shipStatus[ship] = {
-        currentStatus,
-        previousStop,
-        nextStops
-      };
+      return { ship, currentStatus, currentPort, previousPort, nextPorts };
     });
 
-    const statuses = Object.entries(shipStatus).map(([ship, status]) => ({
-      ship,
-      currentStatus: status.currentStatus,
-      currentPort: status.currentStatus.startsWith('At ') ? status.currentStatus.replace('At ', '') : null,
-      previousPort: status.previousStop?.Port || null,
-      nextPorts: status.nextStops.map(s => s.Port)
-    }));
-
-    res.render('index', {
-      statuses,
-      now: DateTime.now().setZone('Etc/UTC').toFormat('yyyy-LL-dd HH:mm ZZZZ')
-    });
+    res.render('index', { statuses, now: now.toFormat("ffff") });
   });
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
