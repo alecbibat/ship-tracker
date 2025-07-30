@@ -63,6 +63,7 @@ function parseCSV() {
 }
 
 
+
 app.get('/', async (req, res) => {
   const data = await parseCSV();
 
