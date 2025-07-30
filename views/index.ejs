@@ -6,7 +6,7 @@
 </head>
 <body>
   <h1>Ship Status Dashboard</h1>
-  <p>Updated: <%= now %></p>
+  <p class="updated-time">Updated: <%= now %></p>
 
   <% 
     const shipLinks = {
@@ -32,19 +32,21 @@
     <tbody>
       <% statuses.forEach(s => { %>
         <tr>
-          <td style="display: flex; align-items: center;">
-            <img src="/ships/<%= s.ship.toLowerCase().replace(/ /g, '_') %>.jpg"
-                 alt="<%= s.ship %>" style="height: 40px; margin-right: 10px; border-radius: 4px;" />
-            <a href="<%= shipLinks[s.ship] %>" target="_blank" style="text-decoration: none; font-weight: bold;">
-              <%= s.ship %>
-            </a>
+          <td>
+            <div style="display: flex; align-items: center;">
+              <img class="ship-icon" src="/ships/<%= s.ship.toLowerCase().replace(/ /g, '_') %>.jpg"
+                   alt="<%= s.ship %>" />
+              <a href="<%= shipLinks[s.ship] %>" target="_blank" style="margin-left: 10px; color: #b3e5fc; font-weight: bold; text-decoration: none;">
+                <%= s.ship %>
+              </a>
+            </div>
           </td>
 
-          <td><%= s.currentStatus %></td>
+          <td class="status-text"><%= s.currentStatus %></td>
 
           <td>
             <% if (s.currentPort) { %>
-              <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.currentPort) %>" target="_blank">
+              <a class="port-link" href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.currentPort) %>" target="_blank">
                 <%= s.currentPort %>
               </a>
             <% } %>
@@ -52,15 +54,17 @@
 
           <td>
             <% if (s.previousPort) { %>
-              <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.previousPort) %>" target="_blank">
+              <a class="port-link" href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(s.previousPort) %>" target="_blank">
                 <%= s.previousPort %>
               </a>
             <% } %>
           </td>
 
           <td>
-            <% s.nextPorts.forEach((p, i) => { %>
-              <a href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(p) %>" target="_blank"><%= p %></a><%= i < s.nextPorts.length - 1 ? ', ' : '' %>
+            <% s.nextPorts.forEach((p) => { %>
+              <a class="port-link" href="https://www.google.com/maps/search/?q=<%= encodeURIComponent(p) %>" target="_blank">
+                <%= p %>
+              </a>
             <% }) %>
           </td>
         </tr>
