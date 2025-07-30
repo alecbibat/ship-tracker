@@ -74,3 +74,17 @@ a.port-link:hover {
   font-weight: bold;
   color: #ffb74d;
 }
+.status-text {
+  font-weight: bold;
+  color: #ccc;
+}
+
+/* Purple for "At Port" */
+.status-text.at-port {
+  color: #c792ea;
+}
+
+/* Light aqua-green-blue for "In Transit" */
+.status-text.in-transit {
+  color: #6fffe9;
+}
